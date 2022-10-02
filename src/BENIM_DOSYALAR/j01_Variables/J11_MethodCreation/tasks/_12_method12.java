@@ -43,14 +43,14 @@ public class _12_method12 {
 
     }// main sonu
 
-   //public static boolean powerOfThree (int i) {
-   //    while (i > 3) {
-   //        i /= 3;
-   //    }
+   public static boolean powerOfThree1 (int i) {
+       while (i > 3) {
+           i /= 3;
+       }
 
-   //    return i % 3 == 0;
+       return i % 3 == 0;
 
-   //}
+   }
 
 
     public static boolean powerOfThree (int a) {
