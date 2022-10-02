@@ -17,37 +17,33 @@ public class _01_method1 {
 
         Scanner scan = new Scanner(System.in);
 //Rastgele max sayıya kadar sayı oluşturma
-        System.out.print("Rastgele oluşturulacak sayıların maximum değerini giriniz ");
+        System.out.print("Please enter random number");
         int max = scan.nextInt();
         System.out.println(randomNum(max));
-
-
-
-
 
 
     }// main sonu
 
     public static int randomNum(int max) {
+
         return max = (int) (Math.random() * max);
     }
 
 
-
-    }
+}
 
 // bir sayinin tersi
 
-  // public static void main(String[] args) {
-  //     int sayi = 1234, tersi = 0;
-  //     int yedek=sayi;
+// public static void main(String[] args) {
+//     int sayi = 1234, tersi = 0;
+//     int yedek=sayi;
 
-  //     while(sayi != 0) {
-  //         int basamak = sayi % 10;
-  //         tersi = tersi * 10 + basamak;
-  //         sayi /= 10;
-  //     }
-  //     System.out.println("Sayının      : " + yedek);
-  //     System.out.println("Sayının Tersi: " + tersi);
-  // }
+//     while(sayi != 0) {
+//         int basamak = sayi % 10;
+//         tersi = tersi * 10 + basamak;
+//         sayi /= 10;
+//     }
+//     System.out.println("Sayının      : " + yedek);
+//     System.out.println("Sayının Tersi: " + tersi);
+// }
 

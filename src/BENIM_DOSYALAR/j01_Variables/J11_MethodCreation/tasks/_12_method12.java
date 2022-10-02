@@ -27,7 +27,7 @@ public class _12_method12 {
         Örnek 4:
         Girdi: 45
         Çıktı:: false
-        Açıklama: 3*3*3*3 =81
+         : 3*3*3*3 =81
         Sonuç= false
         45, 3ün üssü (kuvveti) değildir.
      */
@@ -36,21 +36,21 @@ public class _12_method12 {
 
 //Tam sayının 3 üssü olup olmadığını bulma
         Scanner scan = new Scanner(System.in);
-        System.out.print("Bir sayı giriniz : ");
+        System.out.print("Please enter number : ");
         int ucUs = scan.nextInt();
         System.out.println(powerOfThree(ucUs));
 
 
     }// main sonu
 
-   //public static boolean powerOfThree (int i) {
-   //    while (i > 3) {
-   //        i /= 3;
-   //    }
+   public static boolean powerOfThree1 (int i) {
+       while (i > 3) {
+           i /= 3;
+       }
 
-   //    return i % 3 == 0;
+       return i % 3 == 0;
 
-   //}
+   }
 
 
     public static boolean powerOfThree (int a) {
