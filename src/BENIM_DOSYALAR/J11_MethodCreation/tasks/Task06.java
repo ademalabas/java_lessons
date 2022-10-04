@@ -1,50 +1,88 @@
 package BENIM_DOSYALAR.J11_MethodCreation.tasks;
 
-import java.util.Locale;
+
 import java.util.Scanner;
 
-public class Task06 {
 
+
+public class Task06 {
+	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
 		/*
-		 Kullanıcıya paralelkenar, dikdörtgen ve üçgen kelimelerinden birini 
+		 Kullanıcıya kare, dikdörtgen ve üçgen kelimelerinden birini
 		 ve iki sayı seçmesini söyleyin. 
          Hangi şekli seçerse, o şeklin alanını ve çevresini ekrana yazdıran programı yazınız.
-		 */
+	 */
+		System.out.println("kare, dikdörtgen,üçgen birini seçiniz : ");
+		String secim = sc.next().toLowerCase();
+		System.out.println("1. sayıyı giriniz : ");
+		int sayi1 = sc.nextInt();
+		System.out.println("2. sayıyı giriniz : ");
+		int sayi2 = sc.nextInt();
 
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Please type \n1 for parallelogram   \n2 for rectangle \n3 for triangle \n");
-		int ch =scan.nextInt();
-		System.out.println("Enter first number");
-		int num =scan.nextInt();
-		System.out.println("Enter second number");
-		int num2 =scan.nextInt();
+		secim(secim, sayi1, sayi2);
+	}
 
+	public static void secim(String str, int sayi1, int sayi2) {
+		switch (str) {
+			case "kare":
+				sayi2 = sayi1;
+				kareAlan(sayi1);
+				kareCevre(sayi2);
+				break;
 
-		switch (ch){
-			case 1:parallelogramAreaPerimeter(num,num2);break;
-			case 2:rectangle(num,num2);break;
-			case 3:triangle(num,num2);break;
-			default: System.out.println("Wrong entry");
+			case "dikdörtgen":
+				dikdortgenAlan(sayi1, sayi2);
+				dikdortgenCevre(sayi2,sayi1);
+				break;
+
+			case "üçgen":
+				sayi2=sayi1;
+				ucgenAlani(sayi1);
+				üçgenCevre(sayi2);
+
+				break;
+			default:
+				System.out.println("hatalı seçin yaptınız");
+				secim(str, sayi1, sayi2);
 		}
 
-
-	}// main ends
-	private static void triangle(int num, int num2) {
-		System.out.println("triangle perimeter : "+((num + num2+Math.sqrt(num * num + num2 * num2))
-				      +"\n"+" triangle area : "+(num + num2 +(Math.sqrt(num * num + num2 * num2)))/2));
-	}
-	private static void rectangle(int num, int num2) {
-		System.out.println("Rectangle perimeter : "+(2 * (num + num2))+"\n"
-						+("Rectangle Area : "+(num * num2)));
-	}
-	private static void parallelogramAreaPerimeter(int num, int num2) {
-		System.out.println("parallelogram perimeter : "+( 2* num * num2)+"\n"
-						+(" Area calculation height is needed"));
-
 	}
 
+	private static void üçgenCevre(int sayi1) {
 
+		System.out.println("ucgen cevre :"+(sayi1*3));
+	}
+
+	private static void ucgenAlani( int sayi1) {
+
+		System.out.println("üçgn yukeskliği giriniz : ");
+		int yksklk=sc.nextInt();
+		System.out.println("ucgen alanı :"+((yksklk*sayi1)/2));
+
+	}
+
+	private static void dikdortgenCevre(int sayi2, int sayi1) {
+
+		System.out.println("dikdortgen cevresi :"+((sayi2+sayi1)*2));
+	}
+
+	private static void dikdortgenAlan(int sayi1, int sayi2) {
+
+		System.out.println("dikdortgen Alanı : "+(sayi2*sayi1));
+	}
+
+	private static void kareAlan(int sayi1) {
+
+
+		System.out.println("kare alan :" + (sayi1 * sayi1));
+
+	}
+
+	private static void kareCevre(int sayi1) {
+
+		System.out.println("kare cevre :" + (sayi1 * 4));
+	}
 
 
 } //class end

@@ -24,6 +24,8 @@ public class Task04_AtmMetod { //amele köyü
                 break;
             default:
                 System.out.println("agam daha seçim yapamirsen bi de para istirsen ...");
+                secim();
+
         }
 
     }
@@ -61,6 +63,7 @@ public class Task04_AtmMetod { //amele köyü
         System.out.println("agam işleme \ndewamkeee -> 1\nyeter ->0");
         int karar = scan.nextInt();
         if (karar == 1) {
+            System.out.println("MÖNÜÜÜ :-)\nBakiye öğrenme -> 1\nPara yatırma -> 2\nPara Çeke -> 3\nÇıkış -> 4\nGiriniz : ");
             secim();
         } else if (karar ==0)cıkısYap();
         else System.out.println("agam adam gibi karar gir ");
