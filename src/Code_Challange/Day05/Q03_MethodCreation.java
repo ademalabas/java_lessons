@@ -5,48 +5,33 @@ import java.util.Scanner;
 public class Q03_MethodCreation {
 
     public static void main(String[] args) {
-        /*
-         * girilen String icinde "xyz" dizimi var ise true degilse false return eden metod yaziniz
-         *
-         * input      output
-         * axyzm  ==   true
-         * xyz    ==   true
-         * x.yz   ==   false
-         * xyaz   ==   false
-         */
-
+/*
+     cm olarak verilen bir sayiyi, metre ve kilometreye donusturen bir method yaziniz
+      */
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("bir string giriniz : ");
-        String str = scan.nextLine().toLowerCase();
-        System.out.println(xyzVarMi(str));
-        xyzVarMiVoid(str);
-    }
-    private static void xyzVarMiVoid(String str) {
-        System.out.println(str.contains("xyz") ? "true xyz var": "false yok");
-    }
-    private static boolean xyzVarMi(String str) {
-        if(str.contains("xyz")) {
-            return true;
-        }else
-            return false;
-    }
-
-    /*
-     private static String xyzVarMi(String str) {
-        String sonuc = "";
-        if (str.contains("xyz")) {
-            sonuc = "var";
-        } else
-            sonuc = "yok";
-        return sonuc;
-    }
-     */
+        System.out.println("Enter any Number as cm");
+        double d = scan.nextDouble();
+        System.out.println(mconvert(d) + " meter");
+        System.out.println(kmconvert(d) + " kilometer");
 
     }
 
+    private static double mconvert(double d) {
+        return d / 100;
+    }
 
+    private static double kmconvert(double d) {
 
+        return d / 1000;
+
+    }
+
+    public static void convertFromSM(double sayi) {
+        System.out.println("girilen santimeter degeri : " + sayi / 100 + " metre\n" + sayi / 100000 + " kilometredir");
+
+    }
+}
 
 
 

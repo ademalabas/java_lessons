@@ -1,6 +1,10 @@
 package Code_Challange.Day04.day04;
 
+import java.util.Scanner;
+
 public class Q08_StringManipulation {
+    public static void main(String[] args) {
+
 
     /*
 		name1 ve name2 degiskenlerini olusturun.
@@ -12,16 +16,29 @@ public class Q08_StringManipulation {
 		         Print ==> mehahmetmet
 		*/
 
-  //  Scanner scan = new Scanner(System.in);
-  //  String name1 = scan.nextLine().toLowerCase();
-  //  String name2 = scan.nextLine().toLowerCase();
-  //      if(name1.length()%2==0){
-  //      System.out.println(name1.substring(0, name1.length() / 2).concat(name2).concat(name1.substring(name1.length() / 2)));
-  //  }else
-//
-//
-  //      System.out.println("name1 cift sayili olmadigi icin ortasina yerlestiremedik");
-  //  }
-//
+         Scanner scan = new Scanner(System.in);
+         String name1 = scan.nextLine().toLowerCase();
+         String name2 = scan.nextLine().toLowerCase();
+             if((name1.length()%2==0)){
+             System.out.println(name1.substring(0, name1.length() / 2)
+                     .concat(name2).concat(name1.substring(name1.length() / 2)));
+         }else
 
-}
+
+                 System.out.println(("name1 cift sayili olmadigi icin ortasina yerlestiremedik"));
+         }
+
+    public static void test(String str) {
+
+        Scanner scan = new Scanner(System.in);
+        String name1 = scan.nextLine().toLowerCase();
+        String name2 = scan.nextLine().toLowerCase();
+
+        if((name1.length()%2==0)){
+            System.out.println(name1.substring(0,name1.length()/2).concat(name2).concat(name1.substring(name1.length()/2)));
+        }else {
+            System.out.println("Name 1 cift haneli olmadigi icin yerlestiremedik");
+        }
+        }
+    }
+
