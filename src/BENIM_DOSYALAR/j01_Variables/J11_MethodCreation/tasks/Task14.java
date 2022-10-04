@@ -1,5 +1,7 @@
 package BENIM_DOSYALAR.j01_Variables.J11_MethodCreation.tasks;
 
+import java.util.Scanner;
+
 public class Task14 {
 
     public static void main(String[] args) {
@@ -26,6 +28,28 @@ public class Task14 {
 
     toplam = 536.0
     */
+        Scanner scan =new Scanner(System.in);
+        System.out.print("Start time of your work : ");
+        int start = scan.nextInt();
+        System.out.print("Finis time of your work : ");
+        int end = scan.nextInt();
+        System.out.print("Payment for an hour : ");
+        int payment = scan.nextInt();
+        System.out.print("Extra work hour proportion : ");
+        double extra = scan.nextDouble();
+        double totalPayment = totalPayment(start, payment, extra, end);
+        System.out.println("Total daily Payment = " + totalPayment+"$");
+
+
+    }//main ends
+
+    private static double totalPayment(int start, int payment, double extra, int end) {
+        double totalPayment = ((end - start-8)*extra*payment) + (8*payment);
+        return totalPayment;
+
+
+
+
 
 
     }

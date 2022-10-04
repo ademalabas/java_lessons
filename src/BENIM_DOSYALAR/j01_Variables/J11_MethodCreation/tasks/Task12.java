@@ -1,5 +1,7 @@
 package BENIM_DOSYALAR.j01_Variables.J11_MethodCreation.tasks;
 
+import java.util.Scanner;
+
 public class Task12 {
 
     public static void main(String[] args) {
@@ -24,10 +26,20 @@ public class Task12 {
     validateEmail("hello@edabit.com")
     Çıktı : true
     */
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your email address;");
+        String email = scan.nextLine();
+        System.out.println(emailControl(email));
 
+    }//main ends
+    private static boolean emailControl(String email) {
+        boolean  valid;
+        if ((email.contains("@")) && (email.contains(".")) && (email.indexOf("@")>0)){
+            valid = true;
+        }else { valid= false;}
+        return valid;
 
     }
-
 
 
 }

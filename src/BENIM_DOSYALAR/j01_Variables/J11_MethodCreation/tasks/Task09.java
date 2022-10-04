@@ -1,5 +1,7 @@
 package BENIM_DOSYALAR.j01_Variables.J11_MethodCreation.tasks;
 
+import java.util.Scanner;
+
 public class Task09 {
 
     public static void main(String[] args) {
@@ -12,10 +14,11 @@ public class Task09 {
     Beklenen çıktı:
      7200
     */
+
         System.out.println(howManySecond(3));
 
 
-    }/// main sonu
+    }/// main end
 
     private static int howManySecond(int h) {
         int min = 60*h;

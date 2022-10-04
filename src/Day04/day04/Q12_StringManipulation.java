@@ -14,6 +14,13 @@ public class Q12_StringManipulation {
         System.out.println(str.contains(" "));//true
         System.out.println(str.isEmpty()); //False
 
+     //   Scanner scan = new Scanner(System.in);
+     //   String str = scan.nextLine();
+     //   int bosluk = str.indexOf(" ");
+     //   if(bosluk ==-1  && !str.isEmpty())  //bosluk karakteri yoksa ve string ifadem bos degilse
+     //       System.out.println("sartlara uygun");
+     //   else System.out.println("sartlara uygun degildir");
+     //
 
     }
 }

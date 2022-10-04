@@ -1,5 +1,7 @@
 package BENIM_DOSYALAR.j01_Variables.J11_MethodCreation.tasks;
 
+import java.util.Scanner;
+
 public class Task11 {
 
     public static void main(String[] args) {
@@ -20,9 +22,22 @@ public class Task11 {
 
     İpucu harfleri değiştirin ve ekrana yazdırın.
     */
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Please type some statement");//I like only java
+        String str = scan.nextLine();
+        statement(str);//I l1k3 0nly j4v4
 
+
+    }// main ends
+
+    private static void statement(String str) {
+        str =str.replace("s", "5");
+        str =str.replace("a", "4");
+        str =str.replace("e", "3");
+        str =str.replace("i", "1");
+        str =str.replace("o", "0");
+        System.out.println(str);
     }
-
 
 
 }
