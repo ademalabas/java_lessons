@@ -1,5 +1,7 @@
 package BENIM_DOSYALAR.J11_MethodCreation.tasks;
 
+import java.util.Scanner;
+
 public class Task10_KelimeOyunu {
 
     /* Iki kisinin oynayacagi bir kelime oyunu uretelim
@@ -22,8 +24,43 @@ public class Task10_KelimeOyunu {
      *          kullanicilarin puanlarini ve kazanan oyuncuyu yazdirin
      */
 
-
+      static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
+        System.out.println( "Oyuncu 1 Lutfen kelime giriniz");
+        String oyuncu1 = scan.nextLine();
+        System.out.println( "Oyuncu 2 Lutfen kelime giriniz");
+        String oyuncu2 = scan.nextLine();
+        System.out.println("lutfen bir kelime giriniz");
+        String kelime = scan.nextLine();
+        System.out.println("kelimeyi kabul ediyormusunuz <E>vet  <H>ayir ");
+        String cevap1 = scan.nextLine();
+        String cevap2 = scan.nextLine();
+
+        int puan1 =0;
+        int puan2 =0;
+
+
+        if(cevap1.equals("E")){
+            System.out.println("puaniniz = " + (puan1 +=kelime.length()));
+        }else if(cevap1.equals("H")){
+        System.out.println("Kaybettiniz " );
+        }else {
+            System.out.println("gecersiz kelime");
+            System.out.println("Oyuna devam etmek istiyormusunuz <E>vet  <H>ayir ");
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
 
 
 
