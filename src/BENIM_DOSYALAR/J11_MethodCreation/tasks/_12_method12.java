@@ -37,28 +37,26 @@ public class _12_method12 {
 //Tam sayının 3 üssü olup olmadığını bulma
         Scanner scan = new Scanner(System.in);
         System.out.print("Please enter number : ");
-        int ucUs = scan.nextInt();
-        System.out.println(powerOfThree(ucUs));
+        int power = scan.nextInt();
+        System.out.println(powerOfThree(power));
 
 
     }// main sonu
 
-   public static boolean powerOfThree1 (int i) {
-       while (i > 3) {
-           i /= 3;
-       }
-
-       return i % 3 == 0;
-
-   }
-
-
     public static boolean powerOfThree (int a) {
-        if ( a%3 ==0) {
 
-            return true;
-        } else {return false;}
+        if (a % 6 == 0) {
+            return false;
+        } else {
+            int count =0;
+          for (int i=3; i<a;i*=3){
+              if (a % i != 0);
+              count++;
+            }
+            return count == 0;
 
+        }
     }
+
 
 }

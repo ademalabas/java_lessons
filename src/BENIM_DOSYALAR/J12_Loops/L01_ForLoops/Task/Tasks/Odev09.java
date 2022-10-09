@@ -17,16 +17,16 @@ public class Odev09 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Bir tamsayı giriniz: ");
-        int sayi = scanner.nextInt();
-        int toplam = 0;
+        System.out.print("ENTER INTEGER: ");
+        int number = scanner.nextInt();
+        int total = 0;
 
-        for (int i = 1; i < sayi; i++) {
+        for (int i = 1; i < number; i++) {
 
-            toplam = (i * i) + toplam;
+            total = (i * i) + total;
 
         }
-        System.out.println("Sayıların kareleri toplamı: " + toplam);
+        System.out.println("Power of integers 1 to input number    : " + total);
 
     }
 }
