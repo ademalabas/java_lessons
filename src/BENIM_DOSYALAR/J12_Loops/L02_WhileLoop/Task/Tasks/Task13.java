@@ -8,6 +8,13 @@ public class Task13 {
         task -> x karakteri girilene kadar "javaCAN" x karakteri girildiğinde "jAVATAR" print eden code create ediniz.
         do-while lopp
          */
+        Scanner scan = new Scanner(System.in);
+        char character;
+        do {
+            System.out.print("Enter character : ");
+            character = scan.next().toLowerCase().charAt(0);
+            System.out.println(character== 'x'?"jAVATAR":"javaCAN");
+        } while (character != 'x');
 
 
 
