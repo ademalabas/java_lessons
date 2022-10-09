@@ -21,12 +21,12 @@ public class Odev09 {
         int number = scanner.nextInt();
         int total = 0;
 
-        for (int i = 1; i < number; i++) {
+        for (int i = 1; i <= number; i++) {
 
             total = (i * i) + total;
 
         }
-        System.out.println("Power of integers 1 to input number    : " + total);
+        System.out.println("Total Power of integers 1 to input number    : " + total);
 
     }
 }
