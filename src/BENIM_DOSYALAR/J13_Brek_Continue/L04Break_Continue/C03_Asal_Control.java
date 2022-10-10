@@ -39,7 +39,7 @@ public class C03_Asal_Control {
                 prime= false;
                 break;}
         }
-        if (prime) {
+        if (prime && number!=1) {
             System.out.println(number+"  is prime");
         }else
         System.out.println(number + ": is not prime number.");
