@@ -18,7 +18,7 @@ import java.util.Scanner;
         }
         ​
         }
-        if (asalMı){
+        if (asalMı && !=1){
         System.out.println("girilen sayı ASAL");
         }else System.out.println("girlen sayı asal DEGİL ");
         ​
