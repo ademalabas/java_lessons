@@ -20,7 +20,9 @@ public class Q07_ForLoop {
         }
      */
 
-
-
+for (int i = 'b'-'c'; i<='d'; i++) {
+    System.out.print(i+" ");
+}
+        System.out.println();//dummy
     }// main end
 }
