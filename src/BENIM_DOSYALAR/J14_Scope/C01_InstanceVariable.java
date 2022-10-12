@@ -3,7 +3,7 @@ package BENIM_DOSYALAR.J14_Scope;
 public class C01_InstanceVariable {
     static String kurs = "clarus";
     /*												INSTANCE VARIABLE
-​
+
 	 	1) Main method'un ve urettiginiz diger methodlarin disinda  disinda(ustunde veya altinda), class'in icinde
 	 		olusturulan variable'lara "instance variable" denir.
 	 	2) Instance variable'lar object olusturulurken olusturulur ve her obje'ye bu variable'lar monte edilir.
