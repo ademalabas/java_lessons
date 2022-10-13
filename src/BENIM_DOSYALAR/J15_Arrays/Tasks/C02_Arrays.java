@@ -1,6 +1,5 @@
-package BENIM_DOSYALAR.J15_Arrays;
+package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class C02_Arrays {
@@ -31,13 +30,5 @@ public class C02_Arrays {
         System.out.println(Arrays.binarySearch(arr, 21));//-5 binarySearch(arr,34); -> method aranan elemanı arrayda arayıp index return eder
         // trick-> binarySearch() methodu arrayde olmayan elemanı çalışırsa sonuç olarak: eğer bu eleman arrayde olsaydı kacıncı SIRA'da olurdu cevabını verir
         System.out.println(Arrays.binarySearch(arr, 99));//-13 binarySearch(arr,34); -> method aranan elemanı arrayda arayıp index return eder
-
-      //
-        //   if (Arrays.binarySearch(arr, 54) <0) {
-      //
-        //       System.out.println("Arrayde yok");
-      //
-        //
-
-    }// main
+    }
 }
