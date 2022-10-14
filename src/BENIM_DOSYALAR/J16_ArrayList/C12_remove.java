@@ -21,6 +21,7 @@ public class C12_remove {
         System.out.println("listSehir = " + listSehir);//[Münih, Stockholm, Münih, Angara, Münih]
         listSehir.remove("Münih");//tekrarlı elelman varsa ilk index elelman silinir diğerlerine dokunulmaz
         System.out.println("listSehir = " + listSehir);//[Münih, Stockholm, Münih, Angara, Münih]
+        System.out.println("listSehir = " + listSehir);//[Münih, Stockholm, Münih, Angara, Münih]
 
 
 
