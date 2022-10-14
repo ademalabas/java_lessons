@@ -18,13 +18,13 @@ public class T05 {
 		
 		do {
 			
-			System.out.println("Sayi giriniz");
+			System.out.print("Sayi giriniz= ");
 			num = scan.nextInt();
 			sum = sum + num;
 			
 		}while(num!=0);
 		
-		System.out.println(sum);
+		System.out.println("total numbers= "+sum);
 		
         scan.close();
 	}
