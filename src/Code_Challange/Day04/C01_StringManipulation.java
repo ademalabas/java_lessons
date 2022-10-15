@@ -12,6 +12,8 @@ public class C01_StringManipulation {
         String name = scan.nextLine(), surname = scan.nextLine();
         String fullName = name.concat(" "+ surname).toUpperCase();
         System.out.println("fullName = " + fullName);
+        System.out.println("fullName = " + fullName);
+        System.out.println("fullName = " + fullName);
 
 
 
