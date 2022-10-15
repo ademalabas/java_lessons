@@ -11,6 +11,15 @@ public class _21_Array_reverse {
         Output(çıktı): 321
          */
 
+int a=123;
+String b[]=Integer.toString(a).split("");
+for(int i=b.length-1;i>=0;i--){
+
+            System.out.print(b[i]);
+        }
+
+
+
 
     }
 }
