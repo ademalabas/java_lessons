@@ -1,9 +1,8 @@
 package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
-import java.util.ArrayList;
-import java.util.List;
 
-import static jdk.internal.org.jline.reader.impl.LineReaderImpl.CompletionType.List;
+
+
 
 public class Task03 {
 	
