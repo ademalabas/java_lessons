@@ -18,6 +18,11 @@ public class _13_Advance_zeroFront {
 
        */
 
+int arr [] = {1,2,4,0,4,0,2,0};
+        System.out.println(Arrays.toString(arr));
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+
 
     }
 }
