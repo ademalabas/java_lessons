@@ -1,8 +1,10 @@
 package BENIM_DOSYALAR.J16_ArrayList;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Tasks1 {
-    public static void main(String[] args) {
-/* TASK :
+    /* TASK :
      * Bir bakkalın 7 günlük tüm kazançlarını günlük olarak gösteren bir program yazınız.
      * Ayrıca bakkalın bu hafta ortalama kazandığı miktarı gösteren bir method yazınız.
      * Ayrıca bakkalın hangi günler ortalamanın üstüne kazandığını gösteren bir method yazınız.
@@ -19,7 +21,34 @@ public class Tasks1 {
      * 			 for döngüsü ile tüm günleri ortalama kazanç ile karşılaştır
      * 			 ortalama kazançtan aşağıysa o günleri return yap.
 
-*/
+     */
+    static ArrayList<String> DayList = new ArrayList<>(java.util.List.of("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday, Sunday"));
+    static ArrayList<Integer> GunlukKazancclar   = new ArrayList<>();
+
+    public static void main(String[] args) {
+        int i = 0;
+        while (i<DayList.size()) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Gunluk kazancinizi giriniz");
+            double kazanc = scanner.nextDouble();
+            GunlukKazancclar.add((int)kazanc);
+            i++;
+
+
+        }
+        System.out.println("GunlukKazancclar = " + GunlukKazancclar);
+     //   getOrtalamaKazanc(toplam);
+
+
 
     }
+
+  // private static double getOrtalamaKazanc(ArrayList<String>gun , ArrayList<Integer>kazanc) {
+  //     double toplam = 0;
+  //     for (int i = 0; i < gun.size(); i++) {
+  //         toplam += kazanc.get(i);
+  //     }
+  // }return toplam;
+
+
 }
