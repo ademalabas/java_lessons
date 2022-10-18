@@ -21,7 +21,7 @@ public class HW_StrManp_27sept {
                     +"\n"+"Lastname and Length= "+Lastname+ " "+ (Lastname.length()) );//Lastname and Length= Alabas 6
 
 
-            //***************  Task12  ****************//
+            //***************  Task12_ElemanlarinKaresi  ****************//
 
         // Kullanicidan alacaginiz bir stringde bosluk karakterinin olup olmadigini kontrol ediniz.
         // Kullanicidan alacaginiz bir stringin bos olup olmadigini kontrol ediniz.
@@ -32,7 +32,7 @@ public class HW_StrManp_27sept {
         System.out.println(str.contains(" "));//true
         System.out.println(str.isEmpty()); //False
 
-            //***************  Task13  ****************//
+            //***************  Task13_UceBolunebilenlriBulma  ****************//
 
 
         // Kullanicidan 4 harfli bir kelime isteyin

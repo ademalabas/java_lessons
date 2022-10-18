@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
 import java.util.Arrays;
 
-public class Task14 {
+public class Task14HarfleriAyitveTopla {
     public static void main(String[] args) {
         /*  TASK :
         Write a method which accepts  string as parameter and prints the sum of digits

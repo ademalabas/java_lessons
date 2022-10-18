@@ -3,7 +3,7 @@ package BENIM_DOSYALAR.J16_ArrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Tasks1 {
+public class Tasks01_BakkalHaftalikKazanc {
     /* TASK :
      * Bir bakkalın 7 günlük tüm kazançlarını günlük olarak gösteren bir program yazınız.
      * Ayrıca bakkalın bu hafta ortalama kazandığı miktarı gösteren bir method yazınız.

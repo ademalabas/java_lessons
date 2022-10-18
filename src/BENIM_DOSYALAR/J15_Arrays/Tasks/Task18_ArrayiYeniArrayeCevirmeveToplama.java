@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
 import java.util.Arrays;
 
-public class Task18 {
+public class Task18_ArrayiYeniArrayeCevirmeveToplama {
     public static void main(String[] args) {
 
         // task-> sayi arr'deki iç arr'lerin toplamını yeni bir arr'ya atayıp print eden code create ediniz

@@ -61,7 +61,7 @@ public class Homwork_21_sept {
         } else if ((d%10==5 && d%9 == 0)){
             System.out.println( "able to divide by 9 and divide by 10 reminder is 5");
         }
-        //**** Task16 *****//
+        //**** Task16_ArraydekiSonElemanCarpimi *****//
         System.out.println("Please enter first number");
         int n1 = scan.nextInt();
         System.out.println("Please enter second number");

@@ -3,7 +3,7 @@ package BENIM_DOSYALAR.J15_Arrays.Tasks;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task01 {
+public class Task01_BkSiralama {
     public static void main(String[] args) {
         //Task-> kullanıcdan alınan değerlerle bir int array elemanlarını bukukten kucuge   print eden code create ediniz.
 

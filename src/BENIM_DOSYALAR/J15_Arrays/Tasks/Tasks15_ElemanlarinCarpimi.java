@@ -1,6 +1,6 @@
 package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
-public class Tasks15 {
+public class Tasks15_ElemanlarinCarpimi {
 
     public static void main(String[] args) {
       // task arr tum elemanlari carpimini print eden code create ediniz

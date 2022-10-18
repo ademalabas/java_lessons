@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
 import java.util.Scanner;
 
-public class Task13 {
+public class Task13_UceBolunebilenlriBulma {
 
     public static void main(String[] args) {
         /* TASK :

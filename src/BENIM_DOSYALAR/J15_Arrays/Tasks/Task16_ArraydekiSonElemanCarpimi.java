@@ -1,6 +1,6 @@
 package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
-public class Task16 {
+public class Task16_ArraydekiSonElemanCarpimi {
     public static void main(String[] args) {
         // task sayi arrayindeki son elemanlarin carpimini prin eden code yaziniz
 
@@ -20,7 +20,7 @@ public class Task16 {
         /*
         package j15_Arrays;
 
-public class Task16 {
+public class Task16_ArraydekiSonElemanCarpimi {
     public static void main(String[] args) {
         // task-> sayi arr'deki son elemanların çarpımını print eden code create ediniz
         int sayi[][]={{1,2,3},{9,8},{24,0,4}};

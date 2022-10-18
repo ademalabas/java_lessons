@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
 import java.util.Arrays;
 
-public class Task11 {
+public class Task11_AyriAyriToplama {
     public static void main(String[] args) {
         /*
 		 TASK :

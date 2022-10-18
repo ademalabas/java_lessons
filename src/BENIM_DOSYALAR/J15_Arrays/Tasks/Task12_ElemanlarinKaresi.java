@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
 import java.util.Arrays;
 
-public class Task12 {
+public class Task12_ElemanlarinKaresi {
 
     public static void main(String[] args) {
 		/* TASK :

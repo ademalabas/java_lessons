@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
 import java.util.Arrays;
 
-public class Task10 {
+public class Task10_IsaretDegistirme {
 
     public static void main(String[] args) {
         /* TASK :

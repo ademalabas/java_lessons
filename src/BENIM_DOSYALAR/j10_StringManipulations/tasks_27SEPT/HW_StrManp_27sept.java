@@ -24,7 +24,7 @@ public class HW_StrManp_27sept {
         // Name= Adem
         // Lastname = Alabas
 
-        //***************  Task12  ****************//
+        //***************  Task12_ElemanlarinKaresi  ****************//
         /*  TASK :
         Kullanıcıdan alacağınız, 3 kelimelik  ismi
          Örn. Ali Mert Yılmaz -> A.M.Y.  şeklinde print eden code create ediniz.

@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
 import java.util.Scanner;
 
-public class Task05 {
+public class Task05_TerstenYazdirma {
 
 
     public static void main(String[] args) {

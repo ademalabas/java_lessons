@@ -1,6 +1,6 @@
 package BENIM_DOSYALAR.J15_Arrays.Tasks;
 
-public class Tasks17 {
+public class Tasks17_EnBuyukDegeer {
     public static void main(String[] args) {
 // elemanlardan en buyuk daire yi ver
 int arr[][] = {{1,2,3},{19,-8},{24,10,-41}};//24

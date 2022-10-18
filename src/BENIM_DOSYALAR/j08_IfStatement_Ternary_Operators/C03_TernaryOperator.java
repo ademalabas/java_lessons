@@ -49,7 +49,7 @@ public class C03_TernaryOperator {
 
         // TASK02 -> girilen bir tamsayının negatif olmasını kontrol eden code create ediniz.
 
-        System.out.println("******** Task02*********");
+        System.out.println("******** Task02_T0plamBulma*********");
         System.out.println(agaSayisi < 0 ? "agam sayı NEGATİF" : "agam sayı nagatif değil");
 
 

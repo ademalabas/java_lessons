@@ -3,7 +3,7 @@ package BENIM_DOSYALAR.J15_Arrays.Tasks;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task02 {
+public class Task02_T0plamBulma {
     public static void main(String[] args) {
         //task-> girilen int array elemanları toplamını print eden code create ediniz.
         Scanner sc = new Scanner(System.in);
