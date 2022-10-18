@@ -21,28 +21,26 @@ public class Task12_Manav {
          *
          * */
 
-        ArrayList<Integer> priceList = new ArrayList<>(Arrays.asList(10, 5, 23, 15, 19));
-        Scanner scan = new Scanner(System.in);
-        int urun;
-        double kilo, sum = 0;
-        int daha = 1;
+        ArrayList<String>manav = new ArrayList<>(Arrays.asList("Elma (0)","Armut(1)","Çilek(2)","Erik(3)","Patlıcan(4)"));
+        ArrayList<Integer>fiyat= new ArrayList<>(Arrays.asList(15,20,30,60,15));
 
-        while (daha == 1) {
-            System.out.print("Almak istediğiniz ürünü seçiniz: Portakal:0 , Elma:1 , Muz:2 , Kivi:3 , Ananas:4 ");
-            urun = scan.nextInt();
-            System.out.print("Kaç kilo aldınız? ");
-            kilo = scan.nextDouble();
-            sum += priceList.get(urun) * kilo;
-            System.out.print("Başka bir ürün almak istiyor musunuz? Evet:1 , Hayır:2 ");
-            daha = scan.nextInt();
-            if (daha == 2) {
-                System.out.println("Ödemeniz gereken tutar= " + sum);
-
-
+        int toplam=0;
+        while (true){
+            Scanner sc = new Scanner(System.in);
+            System.out.println("\"Elma (0)\",\"Armut(1)\",\"Çilek(2)\",\"Erik(3)\",\"Patlıcan(4)\"lütfen ürün seçiniz");
+            int ürün=sc.nextInt();
+            System.out.println("kaç kg istersiniz");
+            double kg=sc.nextDouble();
+            toplam+=fiyat.get(ürün)*kg;
+            System.out.println("Alışverişe devam etmek istiyorsanız (1) çıkış yapmak istiyorsanız(0) giriniz");
+            int karar = sc.nextInt();
+            if (karar==0)
+                break;
+        }System.out.println("toplam ödemeniz gereken tutar"+toplam);
             }
 
 
         }
-    }
-}
+
+
 

@@ -47,4 +47,21 @@ System.out.print("Fibonacci serisinin kaçıncı elemanına kadar yazdıralım? 
 		}
 		System.out.println(fibo);
 
+
+
+Scanner sc = new Scanner(System.in);
+System.out.println("Bir tamsayı  giriniz :");
+int sayı= sc.nextInt();
+// F(n) = F(n - 1) + F(n - 2)
+ArrayList<Integer>fibonacci = new ArrayList<>(Arrays.asList(1,1));
+int i = 2;
+while ((fibonacci.get(i - 1) + fibonacci.get(i - 2)) <= sayı) {
+    fibonacci.add(fibonacci.get(i - 1) + fibonacci.get(i - 2));
+    i++;
+}
+System.out.println("fibonacci = " + fibonacci);
+
+
+
+
  */
