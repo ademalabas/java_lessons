@@ -19,6 +19,12 @@ public class Task10_IsaretDegistirme {
             Arr[i]*=-1;
         }
         System.out.println("After  :"+Arrays.toString(Arr));
+// 2. yoll for each ile
+
+        for (int i:Arr) {
+            i=i*(-1);
+        }
+        System.out.println(Arrays.toString(Arr));
 
 
     }

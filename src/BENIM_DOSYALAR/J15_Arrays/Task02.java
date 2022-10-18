@@ -22,11 +22,16 @@ public class Task02 {
         System.out.println("agam istedgin array : " + Arrays.toString(arr));
         int arrToplam = 0;//local var.
 
-        for (int i = 0; i < arr.length; i++) {
-            arrToplam += arr[i];
-        }
-        System.out.println("array eleman toplamları : "+arrToplam);
+     //   for (int i = 0; i < arr.length; i++) {
+     //       arrToplam += arr[i];
+     //   }
+     //   System.out.println("array eleman toplamları : "+arrToplam);
 
+        int arrToplam1 =0;
+        for (int a : arr) {
+            arrToplam +=a;
+        }
+        System.out.println("array eleman toplamları : "+arrToplam1);
 
 
 
