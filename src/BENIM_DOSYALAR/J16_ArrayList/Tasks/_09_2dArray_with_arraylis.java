@@ -19,7 +19,13 @@ public class _09_2dArray_with_arraylis {
      */
 
     public static void main(String[] args) {
-
-
+        int num[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i[] : num) {
+            for (int j : i) {
+                list.add(j);
+            }
+        }
+        System.out.println("list = " + list);
     }
 }

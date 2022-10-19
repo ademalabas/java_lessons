@@ -1,7 +1,6 @@
 package BENIM_DOSYALAR.J16_ArrayList.Tasks;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 public class _08_arraylist8 {
 
@@ -16,8 +15,15 @@ public class _08_arraylist8 {
      */
 
     public static void main(String[] args) {
+ArrayList<Integer> num = new ArrayList<Integer>(List.of(5,3,4,6,7,8));
+        System.out.println("secondMax(num) = " + secondMax(num));
 
+    }
 
+    private static Integer secondMax(ArrayList<Integer> num) {
+        Collections.sort(num);
+        int secondmax =(num.get(num.size() - 2));
+        return secondmax;
     }
 }
 

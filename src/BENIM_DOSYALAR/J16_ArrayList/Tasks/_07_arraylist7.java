@@ -2,6 +2,7 @@ package BENIM_DOSYALAR.J16_ArrayList.Tasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class _07_arraylist7 {
 
@@ -22,6 +23,21 @@ public class _07_arraylist7 {
      */
 
     public static void main(String[] args) {
+
+        ArrayList<Integer> num1 = new ArrayList<>(List.of(8,7,9,6,7));
+        ArrayList<Integer> num2 = new ArrayList<>(List.of(6,7,12,3,1));
+        common_values(num1, num2);
+
+    }private static void common_values(ArrayList<Integer> num1, ArrayList<Integer> num2) {
+
+        ArrayList<Integer>a = new ArrayList<>(List.of());
+
+        for (int i:num1) {
+            for (int j:num2) {
+                if (i==j&& !a.contains(i)){
+                    a.add(i);
+                }}
+        }System.out.println(a);
 
 
     }

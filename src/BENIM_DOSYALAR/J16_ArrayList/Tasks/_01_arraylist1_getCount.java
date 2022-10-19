@@ -2,8 +2,9 @@ package BENIM_DOSYALAR.J16_ArrayList.Tasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
-public class _01_arraylist1 {
+public class _01_arraylist1_getCount {
 
     /*
         ismi getCount() olan bir method oluşturun.
@@ -19,7 +20,20 @@ public class _01_arraylist1 {
          */
 
     public static void main(String[] args) {
-
+        List<String> meyveList = new ArrayList<>(Arrays.asList("Orange","Kuvi","Peach","Banana","Orange"));
+        String meyve = "Orange";
+        System.out.println("getCount(meyveList,meyve) = " + getCount(meyveList, meyve));
 
     }
+    public static int getCount(List<String>meyveList,String meyve) {
+int count=0;
+for(String value : meyveList) {
+    if (meyve.equalsIgnoreCase(value))
+count++;
+}  return count;
+    }
+
+
+
+
 }

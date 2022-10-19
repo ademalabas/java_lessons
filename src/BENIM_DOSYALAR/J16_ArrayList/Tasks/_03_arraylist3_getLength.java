@@ -1,9 +1,9 @@
 package BENIM_DOSYALAR.J16_ArrayList.Tasks;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.List;
 
-public class _03_arraylist3 {
+public class _03_arraylist3_getLength {
 
     /*
         getLength() isminde bir method oluşturun.
@@ -20,7 +20,14 @@ public class _03_arraylist3 {
      */
 
     public static void main(String[] args) {
+    ArrayList<String> strLength= new ArrayList<>(List.of("New jersey", "New york", "Ohio", "Florida", "Boston"));
+        System.out.println("getLength(strLength) = " + getLength(strLength));
+    }
 
-
+    private static ArrayList<Integer> getLength(ArrayList<String> strLength) {
+        ArrayList<Integer> cityLength = new ArrayList<>();
+        for(String str : strLength)
+            cityLength.add(str.length());
+        return cityLength;
     }
 }
