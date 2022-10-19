@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Tasks01_BakkalHaftalikKazanc {
+public class Task01_BakkalHaftalikKazanc {
     /* TASK :
      * Bir bakkalın 7 günlük tüm kazançlarını günlük olarak gösteren bir program yazınız.
      * Ayrıca bakkalın bu hafta ortalama kazandığı miktarı gösteren bir method yazınız.

@@ -1,6 +1,6 @@
 package BENIM_DOSYALAR.J16_ArrayList;
 
-public class Tasks02_OgretmenNot {
+public class Task02_OgretmenNot {
     public static void main(String[] args) {
  /* TASK :
          Bir öğretmenden girmek istediği kadar notu alınız, ve
