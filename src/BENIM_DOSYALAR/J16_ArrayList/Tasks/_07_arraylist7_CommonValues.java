@@ -1,10 +1,9 @@
 package BENIM_DOSYALAR.J16_ArrayList.Tasks;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class _07_arraylist7 {
+public class _07_arraylist7_CommonValues {
 
     /*
         common_values() isminde bir method oluşturun.

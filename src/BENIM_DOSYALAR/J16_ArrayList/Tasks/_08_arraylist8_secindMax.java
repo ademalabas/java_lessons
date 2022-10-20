@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.J16_ArrayList.Tasks;
 
 import java.util.*;
 
-public class _08_arraylist8 {
+public class _08_arraylist8_secindMax {
 
     /*
         secondMax()  isminde bir method oluşturun.

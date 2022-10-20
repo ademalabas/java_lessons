@@ -1,6 +1,6 @@
 package BENIM_DOSYALAR.J16_ArrayList.Tasks;
 
-public class _12_array1 {
+public class _12_array1_duplicate {
 
     /*
     dupicate() isminde bir method oluşturun.
@@ -22,5 +22,29 @@ public class _12_array1 {
 
      int[] arr = {1,2,3,1};
 
+        System.out.println("duplicate(arr) = " + duplicate(arr));
+
+
     }
-}
+
+    private static boolean duplicate(int[] arr) {
+boolean flag =false;
+int counter;
+for ( int i :arr) {
+    counter=0;
+    for (int j:arr) {
+        if(j==i) {counter++;}
+    }if (counter>1){flag=true; break;}
+}return flag;
+
+
+
+
+
+
+
+
+    }
+
+
+    }

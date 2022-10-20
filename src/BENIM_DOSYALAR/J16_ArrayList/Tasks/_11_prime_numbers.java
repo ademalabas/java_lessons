@@ -1,5 +1,7 @@
 package BENIM_DOSYALAR.J16_ArrayList.Tasks;
 
+import java.util.Scanner;
+
 public class _11_prime_numbers {
 
     /*
@@ -16,6 +18,42 @@ public class _11_prime_numbers {
      */
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Prime numbers up to : ");
+        int lastNum =scan.nextInt();
+        int count=0;
+        boolean flag = false;
+        for (int i=2 ; i<=lastNum ; i++) {
+            int j;
+            for ( j=2 ; j<= i ;j++) {
+                if (i%j==0){break;}
+            } if (i==j){
+                System.out.print(i + "  ");
+                count++;
+            }
+        }
+        System.out.println("are prime and  total  " + count + "  numbers are prime ");
+
+
 
     }
 }
+/*
+ArrayList<Integer> asals = new ArrayList<Integer>();
+        int a=20;
+        int counter;
+        for (int i=2; i<=a; i++) {
+            counter=0;
+            for (int j=2 ; j<i ; j++) {
+                if (j!=i) {
+                    if (i%j == 0){
+                        counter++;
+                        break;
+                    }
+                }
+            }
+            if(counter==0)asals.add(i);
+        }
+        System.out.println(asals);
+
+ */

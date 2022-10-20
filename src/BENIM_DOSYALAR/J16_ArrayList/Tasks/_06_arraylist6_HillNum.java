@@ -1,10 +1,9 @@
 package BENIM_DOSYALAR.J16_ArrayList.Tasks;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class _06_arraylist6 {
+public class _06_arraylist6_HillNum {
 
     /*
     hillNum() isminde bir method oluşturun.

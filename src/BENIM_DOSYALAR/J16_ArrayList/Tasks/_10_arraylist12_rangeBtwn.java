@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class _10_arraylist12 {
+public class _10_arraylist12_rangeBtwn {
 
     /*
     rangeBtw() isminde bir method oluşturun.
