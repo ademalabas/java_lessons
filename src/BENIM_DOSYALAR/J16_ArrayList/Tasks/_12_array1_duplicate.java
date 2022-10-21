@@ -20,13 +20,9 @@ public class _12_array1_duplicate {
 
     public static void main(String[] args) {
 
-     int[] arr = {1,2,3,1};
-
+     int[] arr = {4,2,3,3,5,6,8,8};
         System.out.println("duplicate(arr) = " + duplicate(arr));
-
-
     }
-
     private static boolean duplicate(int[] arr) {
 boolean flag =false;
 int counter;
@@ -34,6 +30,7 @@ for ( int i :arr) {
     counter=0;
     for (int j:arr) {
         if(j==i) {counter++;}
+
     }if (counter>1){flag=true; break;}
 }return flag;
 

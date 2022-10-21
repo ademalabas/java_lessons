@@ -22,7 +22,7 @@ public class _11_prime_numbers {
         System.out.print("Prime numbers up to : ");
         int lastNum =scan.nextInt();
         int count=0;
-        boolean flag = false;
+       // boolean flag = false;
         for (int i=2 ; i<=lastNum ; i++) {
             int j;
             for ( j=2 ; j<= i ;j++) {
