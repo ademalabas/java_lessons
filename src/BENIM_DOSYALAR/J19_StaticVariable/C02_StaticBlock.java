@@ -11,9 +11,10 @@ public class C02_StaticBlock {
 
 
 
-        static String isim = "sefil haluk";//gns -> static var.
 
-        static {//ilk çalışacak static block
+    static String isim = "sefil haluk";//gns -> static var.
+
+        static{//ilk çalışacak static block
             System.out.println("isim = " + isim);//sefil haluk
             System.out.println("agam 2. static block çalıştı :) ");
             isim = "UGUR JavaCAN";
@@ -28,7 +29,7 @@ public class C02_StaticBlock {
 
         }
 
-        public static void main(String[] args) {//main bası
+    public static void main(String[] args) {//main bası
             System.out.println("main method başladı :) ");
             isim = "Kerim Bey";
             System.out.println("isim = " + isim);

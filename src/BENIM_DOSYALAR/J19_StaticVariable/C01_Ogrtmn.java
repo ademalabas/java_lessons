@@ -24,7 +24,7 @@ public class C01_Ogrtmn {
     //fields
     String isim;//inst. var.
     int tecrube;//inst. var.
-    static String okul;
+    static String okul;// kabatas
 
     public C01_Ogrtmn(String isim, int tecrube) {//full p'li cons.
         this.isim = isim;

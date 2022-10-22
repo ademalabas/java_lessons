@@ -8,7 +8,7 @@ public class C01_OgrtmnRunner {
         System.out.println("hc1.tecrube = " + hc1.tecrube);//11
         System.out.println("hc1.isim = " + hc1.isim);//cuneyit
         // hc1.okul = "kabadaş";//static var. obj ile call edilmezzz
-        System.out.println("hc1.okul = " + hc1.okul);//
+        System.out.println("hc1.okul = " + hc1.okul);// kabatas
 
         C01_Ogrtmn.okul = "KABATAŞ ERKEK LİSESİ";//güns değeri update
 
