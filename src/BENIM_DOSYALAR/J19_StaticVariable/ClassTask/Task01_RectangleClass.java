@@ -1,6 +1,6 @@
-package BENIM_DOSYALAR.J19_StaticVariable;
+package BENIM_DOSYALAR.J19_StaticVariable.ClassTask;
 
-public class Task01 {
+public class Task01_RectangleClass {
 /*
      Task 01 >
      fields: width, length ve cevre ve alan hesaplayaan methodolan Rectangle isminde Class create ediniz.

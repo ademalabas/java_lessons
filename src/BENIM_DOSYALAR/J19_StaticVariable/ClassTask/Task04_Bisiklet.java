@@ -1,6 +1,6 @@
-package BENIM_DOSYALAR.J19_StaticVariable;
+package BENIM_DOSYALAR.J19_StaticVariable.ClassTask;
 
-public class Task04 {
+public class Task04_Bisiklet {
  /*
     Task 04->
      Bisiklet Class :Properties(fields) : hiz, vites

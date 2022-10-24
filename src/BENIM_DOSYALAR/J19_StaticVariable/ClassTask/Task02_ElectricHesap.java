@@ -1,6 +1,6 @@
-package BENIM_DOSYALAR.J19_StaticVariable;
+package BENIM_DOSYALAR.J19_StaticVariable.ClassTask;
 
-public class Task02 {
+public class Task02_ElectricHesap {
 /*
     Task 02 ->
     ElektirikHesap Class:  fields : toplamTuketim(int), oran(double), fatura(double)

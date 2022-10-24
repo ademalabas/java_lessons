@@ -1,6 +1,6 @@
-package BENIM_DOSYALAR.J19_StaticVariable;
+package BENIM_DOSYALAR.J19_StaticVariable.ClassTask;
 
-public class Task03 {
+public class Task03_StudentClass {
  /*
     Task 03 ->
     Lesson Class :  fields : name, credit (1-10 arasında değer almalı)
