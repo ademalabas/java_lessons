@@ -26,4 +26,18 @@ public class C02_PassByValue {
     private static double indir33(double fiyat) {
         return  fiyat*=67;
     }
+/*
+ private static void indir33(double fiyat) {
+        fiyat*=0.67;
+        System.out.println(fiyat);
+        fiyat+=200;
+        System.out.println("fiyat = " + fiyat);
+
+ */
+
+
+
+
+
+
 }
