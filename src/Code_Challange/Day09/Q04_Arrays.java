@@ -1,4 +1,4 @@
-package Code_Challange.Days09;
+package Code_Challange.Day09;
 
 import java.util.ArrayList;
 import java.util.Arrays;

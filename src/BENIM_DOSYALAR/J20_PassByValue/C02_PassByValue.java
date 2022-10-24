@@ -15,7 +15,7 @@ public class C02_PassByValue {
         System.out.println("metod sonrasi fiyat degeri = " + fiyat);//100
     }//main sonu
 
-    private static double indir11(double fiyat) {
+    private static double indir11(double fiyat) {//girilen fiyatın %11 indirimli hali=fiyatın %89 return eden method
        return  fiyat*=89;
     }
 

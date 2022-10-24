@@ -6,16 +6,17 @@ public class C01_PassByValue {
 
     public static void main(String[] args) {
         /*
-        Java Pass by value programlama dilidir
-        Bir primitive variable argument olarak bir metoda call edildiginde
-
+         Java Pass By Value bir programlama dilidir.
+        Bir  primitive  variable  argument olarak bşr methoda call edildiğinde variable
+        değil bir copy clone (vesikalık) (pointer)değeri gönderilir.
          */
         // Task--> Verilen fiyat icin %24 artirilmis fiyati print eden method create ediniz
 
-        double fiyat =100;
+        double fiyat =100;//primitive double type variable
+
         System.out.println("metod oncesi fiyat degeri = " + fiyat);//100
 
-        fiyatArtir(fiyat); //metod call edildi // 124
+        fiyatArtir(fiyat); //fiyat variable method'a parametre call edildi
         System.out.println("metod sonrasi fiyat degeri = " + fiyat);//100
 
 

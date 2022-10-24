@@ -1,7 +1,4 @@
-package Code_Challange.Days09;
-
-import java.util.Arrays;
-import java.util.List;
+package Code_Challange.Day09;
 
 public class Q09_Arraylist {
     /*

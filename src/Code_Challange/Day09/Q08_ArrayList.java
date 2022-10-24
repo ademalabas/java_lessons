@@ -1,9 +1,4 @@
-package Code_Challange.Days09;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
+package Code_Challange.Day09;
 
 public class Q08_ArrayList {
 

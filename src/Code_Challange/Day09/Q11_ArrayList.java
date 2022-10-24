@@ -1,4 +1,4 @@
-package Code_Challange.Days09;
+package Code_Challange.Day09;
 
 public class Q11_ArrayList {
     public static void main(String[] args) {
