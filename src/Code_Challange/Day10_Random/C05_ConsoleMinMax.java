@@ -22,7 +22,9 @@ public class C05_ConsoleMinMax {
             int random =  (int) (Math.random() * sayi2);
             System.out.println("random = " + random);
         }
-
+        //2.yol
+        int randomNum =(int) (Math.random() * ((Math.max(sayi1,sayi2) - Math.min(sayi1,sayi2)) + 1)) + Math.min(sayi1,sayi2);
+        System.out.println("randomNum = " + randomNum);
     }
 
 }
