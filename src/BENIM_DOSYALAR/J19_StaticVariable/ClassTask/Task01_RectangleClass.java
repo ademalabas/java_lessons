@@ -7,7 +7,26 @@ public class Task01_RectangleClass {
      Runeer class'da obj ile cevre ve alan değerelrini print eden code create ediniz.
     */
 
-    public static void main(String[] args) {
+    int width ;
+    int length ;
+
+
+    public Task01_RectangleClass(int width, int length) {
+        this.width = width ;
+        this.length = length ;
 
     }
+
+    public double perimeter(   ) {
+        double perimeter= (width+length)*2;
+        return perimeter;
+    }
+
+    public double area () {
+        double area= (width*length)/2;
+        return area;
+    }
+
+
+
 }
