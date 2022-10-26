@@ -1,6 +1,6 @@
-package BENIM_DOSYALAR.J19_StaticVariable.ClassTask;
+package BENIM_DOSYALAR.J19_StaticVariable.ClassTask.Electricity;
 
-public class Task02_Customer {
+public class Electricty_Customer {
 /*
     Task 02 ->
     ElektirikHesap Class:  fields : toplamTuketim(int), oran(double), fatura(double)
@@ -13,11 +13,11 @@ public class Task02_Customer {
      */
 
    String name;
-   Object ElectricityCalculation;
+   ElectrictyCalculation electricityCalculation;
 
-   Task02_Customer (String name, Object ElectricityCalculation){
+   Electricty_Customer(String name,  ElectrictyCalculation electricityCalculation){
        this.name = name;
-       this.ElectricityCalculation = ElectricityCalculation ;
+       this.electricityCalculation = electricityCalculation ;
    }
 
 

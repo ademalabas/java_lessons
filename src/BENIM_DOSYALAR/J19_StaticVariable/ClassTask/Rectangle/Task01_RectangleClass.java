@@ -1,4 +1,4 @@
-package BENIM_DOSYALAR.J19_StaticVariable.ClassTask;
+package BENIM_DOSYALAR.J19_StaticVariable.ClassTask.Rectangle;
 
 public class Task01_RectangleClass {
 /*

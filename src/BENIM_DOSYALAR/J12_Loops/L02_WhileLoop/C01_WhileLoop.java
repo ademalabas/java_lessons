@@ -34,7 +34,7 @@ while (b < 8) { //b
 
     }
 
-// Task03_StudentClass   Iki basamakli tek sayilari yanyana yazan code create ediniz
+// Task03_Student   Iki basamakli tek sayilari yanyana yazan code create ediniz
 
         int i = 11;
 

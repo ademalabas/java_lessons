@@ -1,6 +1,6 @@
-package BENIM_DOSYALAR.J19_StaticVariable.ClassTask;
+package BENIM_DOSYALAR.J19_StaticVariable.ClassTask.Electricity;
 
-public class Task02_ElectrictyCalculation {
+public class ElectrictyCalculation {
 /*
     Task 02 ->
     ElektirikHesap Class:  fields : toplamTuketim(int), oran(double), fatura(double)
@@ -13,11 +13,13 @@ public class Task02_ElectrictyCalculation {
      */
 
     int totalConsumptions;
-    final static double ratio =0.7;
-    double bill;
-   public  int consumption (int consumption) {
-       return totalConsumptions +=consumption ;
+    static double ratio =0.7;
+     double bill;
+
+   public  int consumption (int consumed) {
+       return totalConsumptions +=consumed ;
    }
+
     public double recordedBill (){
     bill +=totalConsumptions*ratio;
     return bill;

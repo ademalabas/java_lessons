@@ -1,6 +1,6 @@
-package BENIM_DOSYALAR.J19_StaticVariable.ClassTask;
+package BENIM_DOSYALAR.J19_StaticVariable.ClassTask.OGRENCI;
 
-public class Task03_StudentClass {
+public class Task03_Lesson {
  /*
     Task 03 ->
     Lesson Class :  fields : name, credit (1-10 arasında değer almalı)
@@ -11,7 +11,14 @@ public class Task03_StudentClass {
 
      */
 
-    public static void main(String[] args) {
+    public int credi;
+    String dersİsmi;
+    int credit;
+
+    public Task03_Lesson(String dersİsmi) {
+        this.dersİsmi = dersİsmi;
+    }
+
         
     }
-}
+
