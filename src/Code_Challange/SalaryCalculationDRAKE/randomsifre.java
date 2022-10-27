@@ -1,4 +1,4 @@
-package Code_Challange.SalaryCalculation;
+package Code_Challange.SalaryCalculationDRAKE;
 
 /*
 İşe yeni başlayan arkadaşlarımızın kullanımı için arkadaşlara şirket maili ve şifresi create edilip
