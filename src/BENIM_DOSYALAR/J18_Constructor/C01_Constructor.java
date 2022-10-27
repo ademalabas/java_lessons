@@ -23,10 +23,11 @@ public class C01_Constructor {
 
         obj1.str="javacan";
         obj2.str="javatar'";
-        System.out.println(obj3.selam);// guzel insan
+        obj4.selam="Nasilsiniz";
+        System.out.println(obj1.selam);// guzel insan
         System.out.println("obj1.str = " + obj1.str);//javacan
         System.out.println("obj2.str = " + obj2.str);//javatar
-        System.out.println("obj4.str = " + obj4.str);//null
+        System.out.println("obj4.str = " + obj4.selam);//null
 
 obj3.aga();/// Agaya Selaamke
 obj2.aga();/// Agaya Selaamke

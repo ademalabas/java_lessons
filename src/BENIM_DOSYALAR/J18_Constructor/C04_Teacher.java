@@ -17,6 +17,12 @@ public class C04_Teacher {
     public C04_Teacher() {
     }
 
+    public C04_Teacher(String ad, String soyad, String brans) {
+        this.ad = ad;
+        this.soyad = soyad;
+        this.brans = brans;
+    }
+
     public C04_Teacher(String ad, String soyad, String brans, double maas, boolean emeklimi, int tecrube, int id) {
         this.ad = ad;
         this.soyad = soyad;

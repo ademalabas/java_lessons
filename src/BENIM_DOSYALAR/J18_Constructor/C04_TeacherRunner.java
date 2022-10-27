@@ -14,7 +14,8 @@ ogrt.emeklimi=false;
 ogrt.maas=230000;
 ogrt.tecrube=11;
 
-
+C04_Teacher ogrt2 = new C04_Teacher("Adem","Alabas","QA",70000,false,22,1234567
+);
     }
 
 
