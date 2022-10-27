@@ -12,6 +12,7 @@ public class Runner {
 GirisPanali girisObj = new GirisPanali();
 girisObj.giris();
 
+
     }
 
 
