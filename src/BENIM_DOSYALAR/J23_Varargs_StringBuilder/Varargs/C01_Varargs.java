@@ -34,6 +34,15 @@ public class C01_Varargs {
         toplaVaraargs(sayi1,63, sayi2, sayi3, sayi4);
         toplaVaraargs(sayi1,6, sayi2, sayi3);
 
+        // Task -> verilen String' lerin en fazla  karaktere sahip olani print eden METHOD create ediniz,
+
+        enUzunKelime( "aga","Ademalabas","cekoslovakya");
+
+
+
+
+
+
     }// main sonu
 
 
@@ -56,7 +65,25 @@ public class C01_Varargs {
 
         }
 
+    public static void enUzunKelime(String...str){
+        String enuzun="";
+        for (String value:str){
+            if(value.length()>enuzun.length())
+                enuzun=value;
+        }
+        System.out.println("enuzun kelime = " + enuzun);
     }
+
+    public static void enFazlaKar(String ... str) {
+        String strMax ="";
+        for(String value : str) {
+            strMax = (str.length > strMax.length() ? strMax = value : strMax);
+        }
+        System.out.println("En uzun kelimenın uzunluğu " +strMax.length());
+
+
+
+    }}
 
 /*
   // Task -> verilen iki sayı toplamını print eden METHOD create ediniz

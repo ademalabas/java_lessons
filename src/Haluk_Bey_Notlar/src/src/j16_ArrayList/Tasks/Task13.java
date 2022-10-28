@@ -1,5 +1,7 @@
 package Haluk_Bey_Notlar.src.src.j16_ArrayList.Tasks;
 
+import java.util.ArrayList;
+
 public class Task13 {
     /* TASK :
      * If the array is { 3, 5, 1, 2, 7, 9, 2, 3, 5, 7 }

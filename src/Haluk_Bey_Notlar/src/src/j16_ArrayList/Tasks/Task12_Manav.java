@@ -1,5 +1,10 @@
 package Haluk_Bey_Notlar.src.src.j16_ArrayList.Tasks;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
 public class Task12_Manav {
 
 

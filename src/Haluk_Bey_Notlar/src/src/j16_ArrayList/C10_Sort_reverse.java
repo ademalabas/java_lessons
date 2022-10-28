@@ -15,14 +15,15 @@ public class C10_Sort_reverse {
 
         System.out.println("listSehir = " + listSehir);// sırlama sonrası->[Londra, LosAngeles, Münih, Stockholm]
 
+        //****ÇOOOK ÖNEMLİ....Collections.reverse()--> methodu listteki elemanları index sırasına göre tersten sıralar.
         Collections.reverse(listSehir);
 
         System.out.println("listSehir = " + listSehir);//ters sıra sonrası ->[Stockholm, Münih, LosAngeles, Londra]
 
 
-        ArrayList<String> listUlke = new ArrayList<>(List.of("Alamanya", "Amerigonya", "Ingiltere", "isvec"));
-        System.out.println("listUlke = " + listUlke);//ters sıra öncesi->[Alamanya, Amerigonya, Ingiltere, isvec]
+        ArrayList<String> listUlke = new ArrayList<>(List.of("Alamanya", "Ingiltere", "isvec", "Amerigonya"));
+        System.out.println("listUlke = " + listUlke);//ters sıra öncesi->[Alamanya, Ingiltere, isvec, Amerigonya]
         Collections.reverse(listUlke);
-        System.out.println("listUlke = " + listUlke);//ters sıra sonrası->[isvec, Ingiltere, Amerigonya, Alamanya]
+        System.out.println("listUlke = " + listUlke);//ters sıra sonrası->[Amerigonya, isvec, Ingiltere, Alamanya]
     }
 }

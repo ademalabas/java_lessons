@@ -11,8 +11,17 @@ public class Task10 {
         output :-1,-2,3,-4,5,6
 
          */
+        int arr[] = {1, 2, -3, 4, -5, -6};
 
+        syınınTersi(arr);
+    }
 
+    private static void syınınTersi(int[] arr) {
+
+        for (int a:arr){
+            a*=-1;
+            System.out.print(a+" ");
+        }
     }
 
 

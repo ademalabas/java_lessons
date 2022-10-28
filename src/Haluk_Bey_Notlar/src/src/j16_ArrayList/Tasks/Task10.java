@@ -1,6 +1,11 @@
 package Haluk_Bey_Notlar.src.src.j16_ArrayList.Tasks;
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class Task10 {
 
     public static void main(String[] args) {

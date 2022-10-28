@@ -1,5 +1,7 @@
 package Haluk_Bey_Notlar.src.src.j16_ArrayList.Tasks;
 
+import java.util.ArrayList;
+
 public class _09_2dArray_with_arraylis {
 
     /*

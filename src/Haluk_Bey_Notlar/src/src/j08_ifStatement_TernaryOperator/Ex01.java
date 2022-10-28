@@ -6,7 +6,7 @@ public class Ex01 {
 
     public static void main(String[] args) {
         /*
-        Task01_BkSiralama
+        Task01
            girilen bir sayının negatif ve pozitifliğini kontrol eden code create ediniz..
          */
 

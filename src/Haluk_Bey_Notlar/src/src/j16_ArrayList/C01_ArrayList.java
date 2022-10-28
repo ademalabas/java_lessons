@@ -74,7 +74,18 @@ public class C01_ArrayList {
         listSayi.add(2,14);//listde index 2 'ye 14 değerini eklendi 2. idexdeki eski eleman bir index ileri kaydırıldı
         System.out.println("listSayi = " + listSayi);//[10, 39, 14, 72, 61, 41, 41]
 
+        // list print etme...
+        // ArrayList listRakam2 tanimlanip, initializer icinde initialize ediliyor
+        ArrayList<Integer> listRakam = new ArrayList<>() {
+            {
+                for (int i = 0; i < 10; i++) {
+                    add(i);
+                }
+            }
+        };
 
+        // listRakam yazdirliliyor
+        System.out.println("listRakam : " + listRakam);
 
 
     }
