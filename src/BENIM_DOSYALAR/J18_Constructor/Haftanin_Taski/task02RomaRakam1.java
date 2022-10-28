@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.J18_Constructor.Haftanin_Taski;
 
 import java.util.Scanner;
 
-public class task02 {
+public class task02RomaRakam1 {
 
 
 

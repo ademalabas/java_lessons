@@ -1,0 +1,48 @@
+Stringbuilder hafıza yönetimi açısından önemlidir.
+Stringbuilder lengthi belirlenmezse defaul olarak 16 birimlik yer açıyor.16yı geçerse (birim*2)+2 kadar daha yer açar
+
+
+String = > daha yavas ,Immutable==> degisemez,
+String'lerde method kullanarak String'i degistirmek atama yapmadan mumkun degildir.
+
+1) Java pass-by-value kullanir
+2) String Class'i immutable Class'dir.
+
+ StringBuffer =mutable==>degisebilir,less efficient/ daha yavas ,
+ StringBuffer synchronized,thread safe.
+
+StringBuilders = mutable==>degisebilir ,
+not senkronized/not thread safe,fakat more efficient(daha etkili,ve hizli )
+
+1) String Class'i immutable(Degistirilemez)dir. Java mutable Stringler uretebilmemiz icin
+StringBuilder isimli bir class uretmistir.
+2) Java'da StringBuilder ile hemen hemen ayni isi yapan birde StringBuffer classi vardir.
+"StringBuffer" Class'i StringBuilder Class'indan daha once uretilmistir.
+"StringBuffer" yavas calisan bir class'dir, "StringBuilder" ise hizli calisir.
+"StringBuffer"  "synchronize" islemlerini yapabilir, ama "StringBuilder" yapamaz.
+3) Ayni anda bir cok isin yapilmasina "multi threading" denir. "multi" = Cok, "thread"= Yapilan islerin herbiri
+Multi threading varsa, bu islerin siraya konulmasi lazim.Islerin siraya konulmasina "synchronization" denir.
+
+
+
+appent(String) --> Verilen StringBuilder sonuna girilen String
+appent(String, index , index ) --> Verilen StringBuilder sonuna girilen String’in index (dahil) index (hariç) arasındaki parçasını ekler.
+lenght() --> Verilen StringBuilder uzunluğunu return eder.
+capacity() --> Verilen StringBuilder kapasitesini return eder. Parametre olarak ilk uzunluk atamazsa default olarak capacity 16 atanır.
+charAt(index ) --> Girilen index’teki karakteri return eder.
+delete(index,index ) --> Girilen index’ler dahil,hariç ) arasındaki String parçayı delete eder.
+deleteChartAt(index ) --> Girilen index’deki karakteri delete eder.
+indexOf(String) --> Girilen String’in index’ini return eder StrinBuilder’da olmayan String girilirse 1 return eder.
+indexOf(String,index ) --> Girilen String’in verilen index’den sonraki index’ini return eder StrinBuilder’da olmayan String girilirse 1 return eder.
+lasIndexOf(String) --> Girilen String’in kullanıldığı son index’ini return eder. StrinBuilder’da olmayan String girilirse 1 returneder.
+lasIndexOf(String,index ) --> Girilen String’in verilen index’den öncekiindex’ini return eder. StrinBuilder’da olmayan Stringgirilirse 1 return eder.
+insert(index,String ) --> Girilen String’i verilen index’den itibaren ekler.
+insert(index,String,offset,len ) --> Verilen index’den itibarengirilen String’in offset index’inden len index’ine kadar ekler.
+replace(index,index,String ) --> Verilen başlangıç ve bitiş index’leri arasındaki kısmı girilen String ile değiştirir.
+reverse(StringBuilder) --> Verilen StringBuilder ters cevirir
+setCharAt(index,char ) --> Verilen karakteri girilen index’deki karakter ile değiştirir.
+subSequence(index,index ) --> Verilen StringBuilder’in girilen index ’ ler arasındaki bölümünü return eder.
+subString(index ) --> Verilen StringBuilder’in girilen index’den sonraki bölümünü return eder.
+toString() --> Verilen StringBuilder’in String’e çevirir. StringBuilder String method’ları call edecek duruma getirilir.
+trimToSize() --> Verilen StringBuilder’in capacity’deki fazlalıkları siler ve length ile capacity eşitlenir.
+compareTo(StringBuilder) --> Verilen StringBuilder’in girilen StringBuilder ile karakterlernin eşitliğini kontrol eder eşitse 0return eder.

@@ -118,8 +118,8 @@ while (sayi > 0 ){// sayi bir olana dek
         System.out.print(basla + " ");
         basla++;//while dongü değişim komutu basla+=1;
         }
-        //task02-> 7 kere javaCAN print eden code create ediniz...
-        System.out.println("   *** task02 ***   ");
+        //task02RomaRakam1-> 7 kere javaCAN print eden code create ediniz...
+        System.out.println("   *** task02RomaRakam1 ***   ");
         int b = 1;
         while (b < 8) {
         System.out.println(b + ". javaCAN");

@@ -7,23 +7,35 @@ public class Task02 {
         Girilen ilk sayı hariç diğerlerini toplayan ve toplam ile ilk sayıyı çarpan METHOD create ediniz.
 
          */
-        System.out.println("toplaCarp(2,24,23,38,33,21,59,26,10) = " + toplaCarp(2, 24, 23, 38, 33, 21, 59, 26, 10));
-        int arrTop[] = {24, 23, 38, 33, 21, 59, 26, 10};
-        System.out.println("toplaCarp(3,arrTop) = " + toplaCarp(2, arrTop));
+        int arr[] = {3, 6, 85, 2, 1, 0};
+
+        System.out.println("ilk method ile toplam : " + topla(arr));
+        System.out.println("ikinci method ile toplam : " + topla1(6, 5, 8, 4, 2));
 
     }//main sonu
 
-
-    public static int toplaCarp(int carpilacakSayi, int... toplanacakSayılar) {
+    //1.yol
+    public static int topla(int... num) {
         int toplam = 0;
-        for (int a : toplanacakSayılar) {
-            toplam += a;
+
+        for (int i = 1; i < num.length; i++) {
+            toplam += num[i];
         }
-        return carpilacakSayi * toplam;
+        toplam = toplam * num[0];
+        return toplam;
+    }
+
+    //2.yol
+    public static int topla1(int a, int... b) {
+        int toplam = 0;
+        for (int w : b) {
+            toplam += w;
+        }
+        toplam = toplam * a;
+        return toplam;
+
     }
 
 }
-
-
 
 
