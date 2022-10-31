@@ -1,0 +1,57 @@
+package BENIM_DOSYALAR.J24_AccessModifier;
+
+public class C01_AccessModifier {
+    private int privateYas=24;
+    int defaultYas=33;// Access modifier yazilmazsa defoult olarak tanimlanir
+    protected int protectedYas=40;
+    public  int publicYas =48;
+
+    private C01_AccessModifier() {//private  p'siz cons. kendi class'dan erişilir
+        System.out.println("agama private cons. selam :)");
+    }
+    public C01_AccessModifier(int privateYas, int defaultYas) {//public 2p'li cos.
+        System.out.println("agama public cons. selam :)");
+
+
+    }
+
+    private void privateMethod(){
+        System.out.println("private method'dan agaya selam");
+    }
+    protected void protectedMethod(){
+        System.out.println("protected method'dan agaya selam");
+
+    }
+    C01_AccessModifier obj3=new C01_AccessModifier();//private cons call edilid aynı class
+}
+
+
+
+
+/*
+     1) "private" class member'lar sadece icinde bulunduklari class'larda kullanilabilirler.
+     Diğer class'lardan "private" class memler'lari kullanamaz.
+
+         2) Diğer package'lerden   olusturulan object için class'i import edilmeli
+
+         3) Diğer package'lerden default class memberlara erişilemez.
+          "default" ile "package private" es anlamlidir.
+
+         4) public class member'lara herkes her yerden erişebilir.(farkli java projesi disinda).
+
+          5) "protected" class member'lara ayni package'dan erişilebilir. Farkli package
+         için : a)Child class erişebilir.  b)Child class degil ise erişilemez.
+
+          6) Class'lar için  sadece "public" ve "default" access modifier kullanilir.
+          Class tanımlanırken "private" veya "protected" access modifier kullanilmaz.
+
+ */
+
+
+
+
+
+
+
+
+
