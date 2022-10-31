@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.j08_IfStatement_Ternary_Operators;
 
 import java.util.Scanner;
 
-public class Ex05 {
+public class Ex05SecilenSayiyiDortIslemeSokma {
     public static void main(String[] args) {
        /*
        Task ->girilen iki sayiyi seçilen dört işlemden birine uygulayıp sonucu print eden code crate ediniz

@@ -11,11 +11,11 @@ public class Electricty_Runner {
     bill1.consumption(500);
     bill2.consumption(600);
     bill2.consumption(700);
-        System.out.println(customer1.name + "Total consumption: " + bill1.totalConsumptions);
-        System.out.println(customer1.name + "Bill amaunt : " + bill1.recordedBill());
+        System.out.println(customer1.name + "Total consumption 1: " + bill1.totalConsumptions);
+        System.out.println(customer1.name + "Bill 1 amaunt : " + bill1.recordedBill());
 
-        System.out.println(customer2.name + "Total consumption: " + bill2.totalConsumptions);
-        System.out.println(customer2.name + "Bill amaunt : " + bill2.recordedBill());
+        System.out.println(customer2.name + "Total consumption 2: " + bill2.totalConsumptions);
+        System.out.println(customer2.name + "Bill 2 amaunt : " + bill2.recordedBill());
 
 
     }

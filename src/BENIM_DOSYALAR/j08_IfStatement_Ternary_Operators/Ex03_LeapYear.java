@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.j08_IfStatement_Ternary_Operators;
 
 import java.util.Scanner;
 
-public class Ex03 {
+public class Ex03_LeapYear {
     public static void main(String[] args) {
 
         /*

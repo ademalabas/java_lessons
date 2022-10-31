@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.j08_IfStatement_Ternary_Operators;
 
 import java.util.Scanner;
 
-public class Ex07 {
+public class Ex07_EhliyetTecrube {
     public static void main(String[] args) {
        /*
        Task ->   Kuualanıcının ehliyetinin varlığını kontrol ediniz.

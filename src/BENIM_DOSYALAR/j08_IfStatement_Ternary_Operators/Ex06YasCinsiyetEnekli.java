@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.j08_IfStatement_Ternary_Operators;
 
 import java.util.Scanner;
 
-public class Ex066 {
+public class Ex06YasCinsiyetEnekli {
     public static void main(String[] args) {
        /*
        Task ->  Kullanicini cinsiyeti Kadin ise 60 yasindan buyuk ve pirim gunu 6000 den fazla ise emekliligini

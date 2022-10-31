@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.j08_IfStatement_Ternary_Operators;
 
 import java.util.Scanner;
 
-public class Ex04 {
+public class Ex04GirilencharakterinHAFOLUPoLMADIGINIaNLAM {
     public static void main(String[] args) {
        /*
        Task -> girilen bir karakterin harf  olup olmadığını  kontrol eden code create ediniz..

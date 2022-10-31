@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.j08_IfStatement_Ternary_Operators;
 
 import java.util.Scanner;
 
-public class Ex01 {
+public class Ex01gIRILENsAYININnEGATIFLIGINIkONTROL {
     public static void main(String[] args) {
 
         /*

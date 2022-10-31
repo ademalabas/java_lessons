@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.j08_IfStatement_Ternary_Operators;
 
 import java.util.Scanner;
 
-public class Ex08 {
+public class Ex08_Pozitif_BuyuklukKucuklukDurumu {
     public static void main(String[] args) {
        /* // Task0
         Kullanicidan bir sayi alin

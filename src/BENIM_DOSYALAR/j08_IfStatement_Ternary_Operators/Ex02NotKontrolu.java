@@ -2,7 +2,7 @@ package BENIM_DOSYALAR.j08_IfStatement_Ternary_Operators;
 
 import java.util.Scanner;
 
-public class Ex02 {
+public class Ex02NotKontrolu {
     public static void main(String[] args) {
 /*
         Kullanicidan 100 uzerinden notunu isteyin.
