@@ -37,7 +37,10 @@ public class C01_AccessModifier {
     private void privateMethod(){
         System.out.println("private method'dan agaya selam");
     }
-    protected void protectedMethod(){
+
+
+   // protected void protectedMethod(){
+        public void protectedMethod(){
         System.out.println("protected method'dan agaya selam");
 
     }
