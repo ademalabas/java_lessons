@@ -27,7 +27,7 @@ public class C02_StringBuilder {
         // 2. yol
         StringBuilder sb2=new StringBuilder("Kevser hanıma selamlar");//ilk değer atamsı yapılmış sb1 STBuil obj
         System.out.println("sb2 = " + sb2);
-        System.out.println("sb2.capacity() = " + sb2.capacity());//38-> 22 karakter ilk değer atamısnda olustu + 16 default hafız yeri atandı
+        System.out.println("sb2.capacity() = " + sb2.capacity());//38-> 22 karakter ilk değer atamısnda olustu + 16 default hafıza yeri atandı
 
         // trimToSize()->  fazladan ayrılan capcity silinir
 

@@ -1,4 +1,6 @@
-package Code_Challange.SalaryCalculationDRAKE;
+package Code_Challange.SalaryCalculationDRAKE.W01Employee;
+
+import Code_Challange.SalaryCalculationDRAKE.W01Employee.Employee;
 
 public class EmployeeRunner {
 

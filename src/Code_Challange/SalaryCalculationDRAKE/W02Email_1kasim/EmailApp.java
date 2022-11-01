@@ -1,4 +1,4 @@
-package Code_Challange.SalaryCalculationDRAKE;
+package Code_Challange.SalaryCalculationDRAKE.W02Email_1kasim;
 
 /*
 İşe yeni başlayan arkadaşlarımızın kullanımı için arkadaşlara şirket maili ve şifresi create edilip
@@ -33,16 +33,80 @@ white_check_mark
 eyes
 raised_hands
 
+*/
+
+
+import java.util.Scanner;
+
+public class EmailApp {
+
+    String passWord;
+    String department;
+    String email;
+    String emailSuffix = "clarusway.com"; //Sirket Domaini dr@clarusway.com
+    int mailBoCapacity = 1000;
+    int defaultPaawordLenght=12;
+    String firstName;
+    String lastName;
+
+    public  EmailApp(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+
+        /*
+        testautomation.
+        fullstackdeveloper.
+        salesforce.
+        hicbiri --> ekleme yapılmayacak.
+         */
+
+    public String setDepartment(){
+
+        System.out.print("Lütfen Aşağıda Belirtilen Departmanlardan Herhangi Birini Seçiniz...\n" +
+                "\n1 Test Automation \n2 Full Stack Developer \n3 Salesforce \n0 Hicbiri");
+
+        Scanner scanner  =new Scanner(System.in);
+        int options = scanner.nextInt();
+
+
+        if (options == 1){
+            return  "testautomation.";
+        } else if (options == 2) {
+            return "fullstackdeveloper.";
+        } else if (options == 3) {
+            return "salesforce.";
+        }else {
+            return "";
+        }
+
+
+    }
 
 
 
 
 
 
- */
 
 
-public class randomsifre {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public String randomSifre(int lenght){
         String sifreBelirleme = "AbCdEfGhiJKlMnOrRStUvYZ!@#$%";
         char sifre [] =new char[lenght];
@@ -52,5 +116,13 @@ public class randomsifre {
         }
         return new String(sifre);
     }
+
+
+
+
+
+
+
+
 
 }

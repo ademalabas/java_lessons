@@ -1,4 +1,4 @@
-package Code_Challange.SalaryCalculationDRAKE;
+package Code_Challange.SalaryCalculationDRAKE.W01Employee;
 
 public class Employee {
 
