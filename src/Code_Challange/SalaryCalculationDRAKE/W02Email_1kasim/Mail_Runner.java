@@ -1,4 +1,4 @@
-package Code_Challange.SalaryCalculationDRAKE.W02Email_1kasim;
+package Code_Challange.DRAKE.W02Email_1kasim;
 
 public class Mail_Runner {
 

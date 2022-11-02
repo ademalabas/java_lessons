@@ -1,4 +1,4 @@
-package Code_Challange.SalaryCalculationDRAKE.W02Email_1kasim;
+package Code_Challange.DRAKE.W02Email_1kasim;
 
 /*
 İşe yeni başlayan arkadaşlarımızın kullanımı için arkadaşlara şirket maili ve şifresi create edilip

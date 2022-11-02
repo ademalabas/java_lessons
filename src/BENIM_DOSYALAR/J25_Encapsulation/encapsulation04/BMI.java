@@ -10,6 +10,7 @@ package BENIM_DOSYALAR.J25_Encapsulation.encapsulation04;
      */
     public class BMI {
 
+
         private String name;
         private int age;
         private double weight;
@@ -23,6 +24,7 @@ package BENIM_DOSYALAR.J25_Encapsulation.encapsulation04;
             } else if (getBMI() < 30) {
                 return "kilolu";
             } else return " morbit obezzzz :( ";
+
         }
 
         public BMI(String name, int age, double weight, double height) {// full p cons
