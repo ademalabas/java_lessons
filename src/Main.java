@@ -1,16 +1,25 @@
+import java.time.LocalDate;
+
 public class Main {
     public static void main(String[] args) {
+        StringBuilder strB1 = new StringBuilder("AVATAR");
 
-        int a = 20, b = 10;
-        if ((a < b) && (b++ < 25)){
-            System.out.println(a);
-        }else{
-            System.out.print(a);
-        }
-        System.out.println(b);
+        strB1.subSequence(1,5);
+
+        strB1.reverse();
+
+        strB1.deleteCharAt(2);
+
+        System.out.println(strB1);
 
 
 
-        System.out.println("Hello world!");
     }
+
+
+
+
+
+
+
 }
