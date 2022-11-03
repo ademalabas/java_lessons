@@ -22,6 +22,7 @@ public class Hayvancik {// Grand paret Super class
 
         System.out.println("mM - Hayvancik class danmetod call..");
     }
+
        int a;
         int m =3;
 

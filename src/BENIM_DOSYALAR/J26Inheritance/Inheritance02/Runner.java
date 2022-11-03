@@ -30,10 +30,12 @@ public class Runner {
         k1.mM();
 
 
+
         Mammal k2 =new Kedi();
         k2.mA();
         k2.mC();
         k2.mM();
+
         Mammal k3 =new Kedi();
         Hayvancik  k4 =new Kedi();
         Mammal  m1 =new Mammal();
