@@ -18,10 +18,16 @@ public void my_method(){
 
 
 }
-    @Override
+
     public void goster() {
         System.out.println("Bu method Sub classsın görüntülenme methodudur.");
     }
+
+
+  //  @Override
+  //  public void goster() {
+  //      System.out.println("Bu method Sub classsın görüntülenme methodudur.");
+  //  }
 
 
 
