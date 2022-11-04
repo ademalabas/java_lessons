@@ -1,49 +1,62 @@
 package BENIM_DOSYALAR.J26Inheritance.Inheritance02;
-
 import BENIM_DOSYALAR.J26Inheritance.Inheritance01.Koyun;
 import BENIM_DOSYALAR.J26Inheritance.Inheritance01.Paluk;
-
 public class Runner {
-/*
- 1)Java'da class'lar arasinda parent(Aile)-child(Cocuk)  relationship(iliski) tanımlanmıştır.
- 2)Parent Class'a "super class"   Child Class'a "sub class"  denir.
- 3)Ortak ozellikler parent class'a, specific ozellikler child class'a tanımlanır.
- 4)Parent Child Relationship "reusability", "maintenance",  "less code", "well organization" avantajları içim kullanılır.
- 5)Child classlar parent'lardaki her methodu ve variable'i  kullanabilir ama parent class child'dakileri kullanamaz.
- 6)Java "Multiple Inheritance"'i desteklemez. Yani; Java'da  bir Child Class'in 1'den fazla parent'i olamaz.
- 7)Bir parent class, 1'den fazla child class ile olusturulan  parent child relationship'e "Hierarchical Inheritance"
-   denir.
- 8)Child-Parent-Grandparent... seklinde olusturulan cok katli  parent child relationshipe'e multi-level inheritance denir.
- 9)"Object Class" -> Hz.Adem Class :) butun classlarin parent class'idir. Java'da parent class'i olmayan tek class "Object Class"dir
-
-*/
 
     public static void main(String[] args) {
-       Kedi k1 = new Kedi();
-        System.out.println("k1.a = " + k1.a);
-        System.out.println("k1.c = " + k1.c);
-        System.out.println("k1.d = " + k1.d);
-        System.out.println("k1.m = " + k1.m);
 
-        k1.mA();
-        k1.mC();
-        k1.mM();
+       // data type        obje          constructure
+       Kedi                 k1 =         new Kedi();
+        System.out.println("k1.a = " + k1.a);// hayvancik
+        System.out.println("k1.c = " + k1.c);// kedi
+        System.out.println("k1.d = " + k1.d);// kedi
+        System.out.println("k1.m = " + k1.m);// mammal
 
 
 
-        Mammal k2 =new Kedi();
-        k2.mA();
-        k2.mC();
-        k2.mM();
+/*
+  Ayni isimli variable'lardan hangisinin kullanildi
+olusturulan object'in data type'ina göre bilinir
+Variable'i arastirmaya data type'i classindan baslanır.
+*/
 
-        Mammal k3 =new Kedi();
-        Hayvancik  k4 =new Kedi();
-        Mammal  m1 =new Mammal();
-
-
-
+        k1.mA();// hayvanxcik klass dan call edilir
+        k1.mC();// kedi class dan
+        k1.mM();// mammal class call edecek
 
 
+          /*
+ Method cagirilirken ayni isimli methodlardan
+ hangisinin kullanilacagina Constructor karar verir.
+ Methodlari arastirmaya Consctuctor ismini tasiyan
+ class'dan baslayin ve parentlarda arastirmaya devam edin.
+ */
+        System.out.println("********************************");
+        Mammal k2 =new Kedi("Kevser");
+        System.out.println("k2.c = " + k2.c);// DatatYPE mAMMAL cONS p'LI kEDI
+        System.out.println("k2.a = " + k2.a);//// DatatYPE mAMMAL cONS p'LI kEDI
+        System.out.println("k2.m = " + k2.m);//
+     // k2.d ->  CTE verir  obje dt Mammalclass  d variable call edilemez
+        k2.mA();//hayvancik
+        k2.mC();//kedi
+        k2.mM();//mammal
+
+
+        Hayvancik  k3 =new Kedi();
+     System.out.println("k3.m = " + k3.m);//
+     System.out.println("k3.a = " + k3.a);//
+     // k3.c -> dt hayvancik class oldugu icin c var call edilemez
+   k3.mA();
+   k3.mM();
+
+     Mammal  m1 =new Mammal('$');
+     System.out.println("m1.m = " + m1.m);//1
+     System.out.println("m1.a = " + m1.a);//0
+     System.out.println("m1.c = " + m1.c);//4
+     // m1.d -> parent mammal child kediden  variable call edemezsiniz
+   m1.mA();// hayvancik class
+   m1.mM();// mammal
+   m1.mC();// mamal
 
     }
 

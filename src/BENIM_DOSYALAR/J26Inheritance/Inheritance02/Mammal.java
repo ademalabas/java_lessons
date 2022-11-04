@@ -3,19 +3,13 @@ package BENIM_DOSYALAR.J26Inheritance.Inheritance02;
 public class Mammal extends Hayvancik {
 
     public Mammal() {// p'siz cons
-        this('Y');
+        this('Y');// bu klassin p'li cons call edildi
         System.out.println(" Agam ahanda MAMAL p'siz cons..");
-
-
     }
-
     public Mammal(char c) {// p'li cons
-      super(17);
-        System.out.println(" Agam ahanda MAMAL p'siz cons..");
-
-
+      super(17);// parenten p'li cons call edildi
+        System.out.println(" Agam ahanda MAMAL p'li cons..");
     }
-
     public void mC() {// ezilen metod
 
         System.out.println("mC - Mammal class danmetod call..");
@@ -25,6 +19,6 @@ public class Mammal extends Hayvancik {
 
     @Override
     public void mM() {// ezen metod yani parentten
-        System.out.println("mC - Mammal class danmetod call..");
+        System.out.println("mM - Mammal class danmetod call..");
     }
 }// class sonu
