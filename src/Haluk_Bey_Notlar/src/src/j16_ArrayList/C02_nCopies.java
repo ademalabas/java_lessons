@@ -13,7 +13,7 @@ public class C02_nCopies {
        ArrayList<String> yenilist = new ArrayList<>(Collections.nCopies(7,"javaCAN"));
         System.out.println(yenilist);
 
-        //addAll();->bir liste diğer şisti oldugu gibi ekler
+        //addAll();->bir liste diğer listi oldugu gibi ekler
 
         listUlke.addAll(listSehir);//ülke list sonuna sehir list tamamane eklendi
 
@@ -31,3 +31,31 @@ public class C02_nCopies {
         System.out.println("listSayi = " + listSayi);//[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

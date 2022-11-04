@@ -37,7 +37,7 @@ public class C01_StringBuilder {
 
     // task -> 50000 tekrarlı bir loop ile String ve StringBuilder obj run time surelerini karsılatırın
 
-        String  str1="";
+        String  str1="a";
         StringBuilder sb1=new StringBuilder("");
 
         LocalTime str1basla=LocalTime.now();//str1 döngü baslama zamanı

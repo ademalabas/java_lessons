@@ -2,7 +2,7 @@ package Haluk_Bey_Notlar.src.src.HaftanınTaskiii;
 
 import java.util.ArrayList;
 
-public class TD_ArrayList {
+public class T09_ArrayList {
 
     /*
       Task:
