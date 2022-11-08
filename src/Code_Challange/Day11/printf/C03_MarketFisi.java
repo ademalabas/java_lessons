@@ -11,7 +11,7 @@ public class C03_MarketFisi {
     miktarlar= 1,2,3.5,2.5,6
     birim fiyatlari= 2.3,2.29,4.1,2,3
     satis fisi
-    Urun     miktar   br_fiyat urun_top
+    Code_Challange.SalaryCalculationDRAKE.W04.Urun     miktar   br_fiyat urun_top
     ===================================
     Domates    1.00    €2.30   € 2.30
     biber      2.00    €2.29   € 4.58

@@ -1,10 +1,10 @@
 Gelen talebe göre müşterimizin kullanmış olduğu yiyecek-içecek makinesinin yazılım alt yapısı yapılacaktır.  Müşterimizin talepleri doğrultusunda user makineden yiyecek-içeçek alabilmeli, para üstü alabilmeli, bakiyesine para ekleyebilmelidir.
 Üç farklı class oluşturulmalıdır.
 Class:
-1	Urun
+1	Code_Challange.SalaryCalculationDRAKE.W04.Urun
 2	Options
 3	Runner
-Urun Class ı Nitelikler:
+Code_Challange.SalaryCalculationDRAKE.W04.Urun Class ı Nitelikler:
 •	1kraker=2.5;
 •	2cips=2.2;
 •	3cocaCola=2.2;
@@ -15,13 +15,13 @@ Urun Class ı Nitelikler:
 •	8productNum;
 •	9price;
 •
-Urun Class ı Metotları:
+Code_Challange.SalaryCalculationDRAKE.W04.Urun Class ı Metotları:
 •	toString()  → Konsola ilgili ürünlerin fiyatları ile birlikte gösterebilecek bir metot oluşturunuz.
 
 Options Class ı Metotları
-•	select(Urun product) →  Parametre olarak Urun classından oluşturulan bir obje alınarak, ilgili ürünlere göre seçim yapması beklenir. Kullanıcı seçim yapabilmek için öncelikle ürünleri görmelidir.
-•	balance(double price, double accountBalance, Urun product) → Parametre olarak, urunun fiyatı, mevcut bakiye, Urun classından oluşturulmuş bir obje alınarak satın alınmak istenen ürünün fiyatı kullanıcının bakiyesinden az ise ekleme yapmasına olanak sağlayan ve ya ekleme yapmak istemiyorsa programdan çıkışını sağlayabilecek bir metot oluşturunuz.
-•	purchase(double price, double accountBalance, Urun product)-->  Parametre olarak, urunun fiyatı, mevcut bakiye, Urun classından oluşturulmuş bir obje alınarak, bakiye satın alınmak istenen üründen daha fazla ve ya eşit ise satın alınma işlemi yapılmalı, kullanıcıya kalan bakiye gösterilmeli ve başka bir ürün alınıp alınmak istenmediği sorularak ilgili aksiyonlar alınmalıdır.  Kullanıcı başka bir ürün satın almak istiyorsa tekrardan ürünlerin gösterildiği metoda gitmelidir.
+•	select(Code_Challange.SalaryCalculationDRAKE.W04.Urun product) →  Parametre olarak Code_Challange.SalaryCalculationDRAKE.W04.Urun classından oluşturulan bir obje alınarak, ilgili ürünlere göre seçim yapması beklenir. Kullanıcı seçim yapabilmek için öncelikle ürünleri görmelidir.
+•	balance(double price, double accountBalance, Code_Challange.SalaryCalculationDRAKE.W04.Urun product) → Parametre olarak, urunun fiyatı, mevcut bakiye, Code_Challange.SalaryCalculationDRAKE.W04.Urun classından oluşturulmuş bir obje alınarak satın alınmak istenen ürünün fiyatı kullanıcının bakiyesinden az ise ekleme yapmasına olanak sağlayan ve ya ekleme yapmak istemiyorsa programdan çıkışını sağlayabilecek bir metot oluşturunuz.
+•	purchase(double price, double accountBalance, Code_Challange.SalaryCalculationDRAKE.W04.Urun product)-->  Parametre olarak, urunun fiyatı, mevcut bakiye, Code_Challange.SalaryCalculationDRAKE.W04.Urun classından oluşturulmuş bir obje alınarak, bakiye satın alınmak istenen üründen daha fazla ve ya eşit ise satın alınma işlemi yapılmalı, kullanıcıya kalan bakiye gösterilmeli ve başka bir ürün alınıp alınmak istenmediği sorularak ilgili aksiyonlar alınmalıdır.  Kullanıcı başka bir ürün satın almak istiyorsa tekrardan ürünlerin gösterildiği metoda gitmelidir.
 Runner Class ı Nitelikleri;
 
 accountBalance = 3

@@ -20,6 +20,7 @@ public class Odev03 {
 
     private static boolean checkPrimeNumber(int number) {
         boolean prime= true;
+
         for(int i =2 ; i< number; i++){
             if (number%i==0){
                 prime=false;}
