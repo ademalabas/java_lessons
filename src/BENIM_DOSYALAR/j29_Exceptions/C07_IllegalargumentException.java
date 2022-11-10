@@ -12,6 +12,13 @@ public class C07_IllegalargumentException {
         System.out.print(" agam yasını giresen : ");
 
         int age = sc.nextInt();
+
+        // if (age<18){
+        //     System.out.println("yasınız : "+age+" ehliyet için uygun değil ");
+        //     throw new IllegalArgumentException();//throw komutu try-catch block olmadan da istenen method body'de tanımlanabilir.
+        // }
+        // else System.out.println("yasınız : "+age+" ehliyet için uygun");
+
         try {
             if (age < 18) {
                 throw new IllegalArgumentException();//throw keyword ile Excp obj olusturularak hata tanımlanır ve fırlatırlır
@@ -25,5 +32,4 @@ public class C07_IllegalargumentException {
         }
         System.out.println("agam sorun handle edildi DEWAMKEEE :)");//bu kod çalışmıssa pr sorunsuz kırılmadan run olmuştur
     }
-
 }
