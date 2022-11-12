@@ -56,7 +56,7 @@ public class BankingSystem {
         do {
             System.out.println("*********İşlem Menüsü********");
             System.out.println("1-Para Yatır\n2-Para Çek\n3-Kredi Talep\n" +
-                    "4-Bakiye görüntüleme\n5-Hesap Kapat\n6-Çıkış");
+                    "4-Bakiye görüntüleme\n5-HesapMakinesi Kapat\n6-Çıkış");
             System.out.print("Seçiminz=");
             secim = oku.nextInt();
             ;

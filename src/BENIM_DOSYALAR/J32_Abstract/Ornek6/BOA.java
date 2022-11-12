@@ -9,12 +9,12 @@ public class BOA extends Bank {
     @Override
     public void openAccount() {
         System.out.println("Adınız ve adres bilgilerininz alındı.");
-        System.out.println(this.getClass().getSimpleName() + " Hesap açılışınız yapıldı.");
+        System.out.println(this.getClass().getSimpleName() + " HesapMakinesi açılışınız yapıldı.");
     }
 
     @Override
     public void closeAccount() {
-        System.out.println("Hesap kapatma için talebiniz alındı");
+        System.out.println("HesapMakinesi kapatma için talebiniz alındı");
         System.out.println(this.getClass().getSimpleName() + " Hesabınız kapatıldı..");
     }
 }

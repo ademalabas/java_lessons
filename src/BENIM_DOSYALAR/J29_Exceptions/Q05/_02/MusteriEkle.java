@@ -36,7 +36,7 @@ public class MusteriEkle {
 
             while (true) {
                 try {
-                    System.out.print("Hesap bakiyesi : ");
+                    System.out.print("HesapMakinesi bakiyesi : ");
                     account.setBakiye(scan.nextInt());
                     scan.nextLine(); //dummy scan
                     break;
