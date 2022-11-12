@@ -2,11 +2,13 @@ package Code_Challange.StudentPractice.W05Ebubekir.HesapMakinesi;
 
 import java.util.Scanner;
 
+
 public class HesapMakinesi {
 
     double x;
     double y;
     char secim;
+
 
     public HesapMakinesi(double x, double y, char secim) {
         this.x = x;
