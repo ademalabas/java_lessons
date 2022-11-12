@@ -1,8 +1,8 @@
 package BENIM_DOSYALAR.J29_Exceptions.Q05._02;
 
 
-import static j28_Exception.Q05._02.Account.accountList;
-import static j28_Exception.Q05._02.Account.scan;
+import static BENIM_DOSYALAR.J29_Exceptions.Q05._02.Account.accountList;
+import static BENIM_DOSYALAR.J29_Exceptions.Q05._02.Account.scan;
 
 public class Islemler {
     Islemler(){

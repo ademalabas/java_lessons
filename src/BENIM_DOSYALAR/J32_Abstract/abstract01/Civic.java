@@ -39,5 +39,5 @@ public class Civic extends Lastik {//Honda parent abs Class extend child concret
 
     }
   // Honda obj = new Civic();//honda oğlu civic
-  // Civic obj1 = new Civic();//civic oğlu civic
+ // Civic obj1 = new Civic();//civic oğlu civic
 }

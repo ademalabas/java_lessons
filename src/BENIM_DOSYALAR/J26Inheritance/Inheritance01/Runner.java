@@ -37,6 +37,7 @@ Paluk hamsi = new Paluk();//
         hamsi.haraket();//parent Hayvancik call edildi
 
 
+
         System.out.println("    *******    ");
         Kedi kd = new Kedi();// parent Hayvancik call edildi
         kd.cirmalar();// kendisi

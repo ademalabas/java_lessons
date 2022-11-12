@@ -31,8 +31,9 @@ public class OkulMain {
                         throw new Exception();
                     else break;
                 } catch (Exception e) {
-                    System.out.println("Ogrenci yasi 8 ile 15 arasında olmalıdır. Tekrar giriniz.");
-                    //break;//AHAN DA TRICK....bu komut olmazsa code sonsuz loop ...
+                    System.out.println("Ogrenci yasi 8 ile 15 arasında olmalıdır ve sayi girmelisiniz. Tekrar giriniz.");
+                    scan.nextInt(); // inte yerine string girdiyse duzeltmesiicin de while i dondurur
+
                 }
             }
             Ogrenci ogrenci = new Ogrenci(ogrenci1.getAd(), ogrenci1.getSoyad(), ogrenci1.getYas());

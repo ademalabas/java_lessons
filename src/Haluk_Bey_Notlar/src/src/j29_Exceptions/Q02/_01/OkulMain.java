@@ -2,8 +2,9 @@ package Haluk_Bey_Notlar.src.src.j29_Exceptions.Q02._01;
 
 import java.util.Scanner;
 
-import static j28_Exception.Q02._01.Ogrenci.ogrenciList;
-import static j28_Exception.Q02._01.Okul.okulList;
+import static Haluk_Bey_Notlar.src.src.j29_Exceptions.Q02._01.Ogrenci.ogrenciList;
+import static Haluk_Bey_Notlar.src.src.j29_Exceptions.Q02._01.Okul.okulList;
+
 
 
 public class OkulMain {

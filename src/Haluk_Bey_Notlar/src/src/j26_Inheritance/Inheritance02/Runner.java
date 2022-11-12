@@ -1,7 +1,6 @@
 package Haluk_Bey_Notlar.src.src.j26_Inheritance.Inheritance02;
 
-import j26_Inheritance.Inheritance01.Koyun;
-import j26_Inheritance.Inheritance01.Paluk;
+
 
 public class Runner {
 

@@ -3,7 +3,7 @@ package Haluk_Bey_Notlar.src.src.j29_Exceptions.Q05._02;
 import java.util.Random;
 import java.util.Scanner;
 
-import static j28_Exception.Q05._02.Account.accountList;
+import static Haluk_Bey_Notlar.src.src.j29_Exceptions.Q05._02.Account.accountList;
 
 
 public class MusteriEkle {
