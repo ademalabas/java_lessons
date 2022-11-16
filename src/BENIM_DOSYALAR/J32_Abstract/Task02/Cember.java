@@ -1,4 +1,4 @@
-package j32_Abstract.Task02;
+package BENIM_DOSYALAR.J32_Abstract.Task02;
 
 public class Cember extends Sekil {
 

@@ -1,4 +1,4 @@
-package j32_Abstract.Ornek2;
+package BENIM_DOSYALAR.J32_Abstract.Ornek2;
 
 public class Dikdortgen extends Sekil{
 

@@ -1,4 +1,4 @@
-package j32_Abstract.Ornek2;
+package BENIM_DOSYALAR.J32_Abstract.Ornek2;
 
 public abstract class Sekil {
     private String name;

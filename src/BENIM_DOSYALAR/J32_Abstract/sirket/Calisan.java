@@ -1,4 +1,4 @@
-package j32_Abstract.sirket;
+package BENIM_DOSYALAR.J32_Abstract.sirket;
 
 public class Calisan extends insan {
     private int calisanId;

@@ -1,4 +1,4 @@
-package j32_Abstract.Task03;
+package BENIM_DOSYALAR.J32_Abstract.Task03;
 
 public class YemekDunyasiMain {
     public static void main(String[] args) {

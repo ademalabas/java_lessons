@@ -1,4 +1,4 @@
-package j32_Abstract.Ornek3;
+package BENIM_DOSYALAR.J32_Abstract.Ornek3;
 
 public class Runner {
     public static void main(String[] args) {

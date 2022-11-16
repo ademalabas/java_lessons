@@ -1,4 +1,4 @@
-package j32_Abstract.Ornek4;
+package BENIM_DOSYALAR.J32_Abstract.Ornek4;
 
 import java.time.LocalDate;
 

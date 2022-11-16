@@ -1,4 +1,4 @@
-package j32_Abstract.Ornek6;
+package BENIM_DOSYALAR.J32_Abstract.Ornek6;
 
 public class ChaseBank extends Bank {
     public ChaseBank(String name, String phoneNUmber, String adress, int numEmployee) {

@@ -1,4 +1,4 @@
-package j32_Abstract.abstract02;
+package BENIM_DOSYALAR.J32_Abstract.abstract02;
 
 public class IdariPersonel extends Personel{
     @Override//mecbur implemen edilemli
