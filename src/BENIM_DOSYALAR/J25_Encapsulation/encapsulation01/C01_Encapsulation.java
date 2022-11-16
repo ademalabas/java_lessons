@@ -3,13 +3,13 @@ package BENIM_DOSYALAR.J25_Encapsulation.encapsulation01;
    1) Encapsulation kisaca "data hiding" demektir
 
    2) Basarili bir Encapsulation için :
-      a)Nasil kullanilacagi ve hedefi net iolmalidir.(Direksiyon gibi)
+      Test01)Nasil kullanilacagi ve hedefi net iolmalidir.(Direksiyon gibi)
       b)Kodun karmasikligi kullanimin karmasikligina sebep olmamalidir.Yani cok
        karmasik kodlardan olusan bir yapi basit bir sekilde kullanilabilmelidir.
       c)Bir bolumun hata vermesi diger bolumlerin hatasına sebep olmamalidir.
 
    3) Encapsulation yapısı  tanımlanması için
-      a)Access modifier'lari private tanımlanmalı
+      Test01)Access modifier'lari private tanımlanmalı
       b) istenilen field'lar için  getter ve setter methodlari ile "encapsulated" datalar okunmalı (getter) ve
        update edilebilmeli(setter)    .
        c) uygun constructor tanımlanmalı.
@@ -17,7 +17,7 @@ package BENIM_DOSYALAR.J25_Encapsulation.encapsulation01;
 
 
    4) Encapsulation'in faydalari
-      a) Esneklik(Flexibility). Field'lar setter() methodunu ile istenildiği kadar update edilebilir
+      Test01) Esneklik(Flexibility). Field'lar setter() methodunu ile istenildiği kadar update edilebilir
       b) Reusability-> Field'lar  getter ve setter method'lari bir kere tanımlanıp proje icindeki
         tum classlar'dan istenildiği kadar kullanabiliri.
       c) Istenilen field  okunabilir(getter() olustur), istenilen field okunamaz(getter() olusturma)

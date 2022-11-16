@@ -3,8 +3,12 @@ package Haluk_Bey_Notlar.src.src;
 import java.util.Scanner;
 
 public class a {
+    /*
+
+     */
+
     static Scanner scan = new Scanner(System.in);
-   // static double ucret;
+    // static double ucret;
     static double yasKatsayi;
     static double yonKatsayi;
 

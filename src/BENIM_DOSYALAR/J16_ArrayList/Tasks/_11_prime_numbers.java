@@ -40,9 +40,9 @@ public class _11_prime_numbers {
 }
 /*
 ArrayList<Integer> asals = new ArrayList<Integer>();
-        int a=20;
+        int Test01=20;
         int counter;
-        for (int i=2; i<=a; i++) {
+        for (int i=2; i<=Test01; i++) {
             counter=0;
             for (int j=2 ; j<i ; j++) {
                 if (j!=i) {

@@ -12,7 +12,7 @@ public class C06_IfStatement {
               D => 60 ~ 69
               F =>  0 ~ 59
               sartlari aralik belirterek yaziniz
-     write a program that:
+     write Test01 program that:
         1. 0 ~12 ==> good morning
         2. 12 ~ 15 ==> good afternoon
         3. 15 ~ 23 ==> good night

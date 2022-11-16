@@ -7,7 +7,7 @@ public class Swap_Task_13_Sept {
         BENIM_DOSYALAR.j01_Variables.j09_SwitchStatement.TASK :
         Verilen sayi1 ve sayi2 variable’larinin degerlerini degistiren (SWAP)
         code create edip print ediniz.
-        a) 3. bir variable kulanarak
+        Test01) 3. bir variable kulanarak
         b) 3. bir variable kullanmadan
 
 	     input	: sayi1=20 ve sayi2=34;
@@ -19,8 +19,8 @@ public class Swap_Task_13_Sept {
         int sayi1=20;
         int sayi2=34;
 
-        // a)
-        System.out.println("*** a çözümü ***");
+        // Test01)
+        System.out.println("*** Test01 çözümü ***");
         System.out.println("Swaptan once sayi1->" + sayi1 +","+ "Swaptan Onceki sayi2->" + sayi2 );
 
     // Once gecici bir ucuncu variable olusturup  sayi 1 oraya atariz

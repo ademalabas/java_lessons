@@ -13,7 +13,7 @@ public class C15_ArrayConvertList {
         System.out.println("listJavaTar = " + listJavaTar);//[Akif, Gamze, Musty, SevdeNur]
         System.out.println("listJavaTar.size() = " + listJavaTar.size());// 4
 
-        //  listJavaTar.add("sefilCan Haluk");//arraya'a elelman eklenmeeezzzz  :(
+        //  listJavaTar.add("sefilCan Haluk");//arraya'Test01 elelman eklenmeeezzzz  :(
         //RTE-> UnsupportedOperationException
         // ahan da kral Trickyyy -> list data type ArrayList tanımlanırsa Rte vermez
         // kaynagı array de olsa list davranır boyut esnekliği yapar.

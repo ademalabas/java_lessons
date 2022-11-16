@@ -4,7 +4,7 @@ public class task02RomaRakam3 {
 
     public static void main(String[] args) {
       /*  TASK :
-		 	Create a method to convert Roman numerals to numbers
+		 	Create Test01 method to convert Roman numerals to numbers
 		 	Romen rakamlarını sayılara dönüştürmek için bir method create ediniz
 		 	Input:
 		 		System.out.println(romanNumbers(805));

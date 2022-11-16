@@ -8,10 +8,10 @@ public class C09_equals {
     public static void main(String[] args) {
         //equals(); -> iki listin index ve elelman eşitliğini montrol eder true/false return
 
-        ArrayList<String> lis1=new ArrayList<>(Arrays.asList("a","b"));
+        ArrayList<String> lis1=new ArrayList<>(Arrays.asList("Test01","b"));
         ArrayList<String> lis2=new ArrayList<>(Arrays.asList("A","b"));
-        ArrayList<String> lis3=new ArrayList<>(Arrays.asList("a","b"));
-        ArrayList<String> lis4=new ArrayList<>(Arrays.asList("b","a"));
+        ArrayList<String> lis3=new ArrayList<>(Arrays.asList("Test01","b"));
+        ArrayList<String> lis4=new ArrayList<>(Arrays.asList("b","Test01"));
 
         System.out.println("lis1.equals(lis3) = " + lis1.equals(lis3));//true
         System.out.println("lis2.equals(lis3) = " + lis2.equals(lis3));//false

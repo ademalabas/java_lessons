@@ -5,11 +5,11 @@ public class C02_IncrementDecrement {
     public static void main(String[] args) {
 
      //   System.out.println(" **** Arttirma******   ");
-     //   int a =7;
-     //   System.out.println(++a);// 8  a=8
-     //   System.out.println(a++);  //8 a=9
-     //   System.out.println(a); // a=9
-     //   System.out.println(a++ + ++a);// a= 20
+     //   int Test01 =7;
+     //   System.out.println(++Test01);// 8  Test01=8
+     //   System.out.println(Test01++);  //8 Test01=9
+     //   System.out.println(Test01); // Test01=9
+     //   System.out.println(Test01++ + ++Test01);// Test01= 20
 
 
         // BENIM_DOSYALAR.j01_Variables.j09_SwitchStatement.TASK ->

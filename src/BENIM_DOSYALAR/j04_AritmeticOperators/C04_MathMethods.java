@@ -4,28 +4,28 @@ public class C04_MathMethods {
     public static void main(String[] args) {
 
         /*
-          Math.abs(a)
+          Math.abs(Test01)
           Girilen degerin mutlak degerini verir.
 
-         Math.max(a, b)
+         Math.max(Test01, b)
          Girilen iki degerden buyuk olani verir.
 
-         Math.min(a, b)
+         Math.min(Test01, b)
          Girilen iki degerden kucuk olani verir.
 
-         Math.round(a)
+         Math.round(Test01)
          Girilen degerin en yakin tamsayiya yuvarlar.
 
-         Math.sqrt(a)
+         Math.sqrt(Test01)
          Girilen degerin karekokunu verir.
 
-         Math.pow(a, b)
-         Girilen a ve b degerini a uzeri b olarak verir.
+         Math.pow(Test01, b)
+         Girilen Test01 ve b degerini Test01 uzeri b olarak verir.
 
-         Math.ceil(a) 3.1 => 4
+         Math.ceil(Test01) 3.1 => 4
          Girilen bir ondalikli sayiyi bir sonraki en yakin tam sayiya yukseltir.
 
-         Math.floor(a) 3.7 => 3
+         Math.floor(Test01) 3.7 => 3
          Girilen bir ondalikli sayiyi bir onceki en yakin tam sayiya indirger.
 
      */

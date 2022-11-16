@@ -54,13 +54,13 @@ while (i<100){
         String metin = scan.nextLine();
        int kelimeUzunluk = metin.length();
 
-        while (kelimeUzunluk >= 1){// metin uzunlugu 0 a esit ve buyuk iken calisir
+        while (kelimeUzunluk >= 1){// metin uzunlugu 0 Test01 esit ve buyuk iken calisir
 
             System.out.print(metin.charAt(kelimeUzunluk-1)+" ");
             kelimeUzunluk--;
         }
 
-//for (int a=kelimeUzunluk-1; a>0  ;a--){
+//for (int Test01=kelimeUzunluk-1; Test01>0  ;Test01--){
 //            System.out.println( );
 //        }
 
@@ -142,7 +142,7 @@ while (sayi > 0 ){// sayi bir olana dek
         //String metin = sc.nextLine();
         //int metinUzunluk = metin.length();
 
-        //while (metinUzunluk >= 1) {//metnin uzunlugu 1'e a eşit ve buyuk iken
+        //while (metinUzunluk >= 1) {//metnin uzunlugu 1'e Test01 eşit ve buyuk iken
         //    System.out.print(metin.charAt(metinUzunluk - 1));//
         //    metinUzunluk--;
         //}

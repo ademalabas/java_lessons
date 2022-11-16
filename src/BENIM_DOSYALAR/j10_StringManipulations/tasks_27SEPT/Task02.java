@@ -6,7 +6,7 @@ public class Task02 {
     public static void main(String[] args) {
         /*
 		 	Girilen passwordun aşagıdaki şartları sağlamasını kontrol eden coden create ediniz
-		 	 a)Ilk karakteri buyuk harf olmalı
+		 	 Test01)Ilk karakteri buyuk harf olmalı
 		 	 b)Son karakteri sayi olamlı
 		 	 c)en az 6 karakter uzunlugunda olmalı
 
@@ -16,7 +16,7 @@ public class Task02 {
         String password = sc.nextLine();
 
         if (
-             (password.charAt(0)>='A'&&password.charAt(0)<='Z') && //a şartı
+             (password.charAt(0)>='A'&&password.charAt(0)<='Z') && //Test01 şartı
              (password.charAt(password.length()-1)>='0'&&password.charAt(password.length()-1)<='9')&&//b şartı
              (password.length()>=6)//c şartı
         ) {

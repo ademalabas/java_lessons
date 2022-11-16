@@ -9,7 +9,7 @@ public class T02_IkininKuvveti {
          * ve datanın 2'nin kuvveti olup olmadığını kontrol eden PowersofTwo(num) methodu create ediniz.
          */
         Scanner scan = new Scanner(System.in);
-       System.out.print("Enter a number: ");
+       System.out.print("Enter Test01 number: ");
         double num = scan.nextInt();
        System.out.println(powerOfTwo(num));
 
@@ -23,10 +23,10 @@ public class T02_IkininKuvveti {
 }
 
         /*
-             private static boolean powerOfTwo(int a) {
+             private static boolean powerOfTwo(int Test01) {
              boolean power = true;
-                for (int i =2; i <a ; i*=2){
-                 if (a%i!=0) {power=false;}
+                for (int i =2; i <Test01 ; i*=2){
+                 if (Test01%i!=0) {power=false;}
                 }
                 return power;
         }*/

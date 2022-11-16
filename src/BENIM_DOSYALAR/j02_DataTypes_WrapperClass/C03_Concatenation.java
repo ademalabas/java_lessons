@@ -13,7 +13,7 @@ public class C03_Concatenation {
         // java birlestirme yaparak yeni bir string olusturur
 
         // TRICK :) Bir aritmetik işlem içinde String kullanılırsa, aritmetik işlem önceliğine göre
-        // işlem yapılıp String variable'a Concatenation yapılır.
+        // işlem yapılıp String variable'Test01 Concatenation yapılır.
 
 
         System.out.println(a+ad+soyad+b);

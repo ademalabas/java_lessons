@@ -10,7 +10,7 @@ public class C09_Replace_ReplaceAllHoca {
          */
 
         String str = "javaCAN'lara selam olsun java ile bolcana offer";
-        System.out.println(str.replace('a', '@'));//j@v@CAN'l@r@ sel@m olsun j@v@ ile bolc@n@ offer
+       // System.out.println(str.replace('Test01', '@'));//j@v@CAN'l@r@ sel@m olsun j@v@ ile bolc@n@ offer
         System.out.println(str.replace("can", "kan"));//javaCAN'lara selam olsun java ile bolkana offer
         /** ReplaceFirst
          * Replace ile aynı sadece ilk bulunanı değiştirir
@@ -25,7 +25,7 @@ public class C09_Replace_ReplaceAllHoca {
         //(Regular Expressions)
         //   \\s bosluk (
         //   \\S bosluk disindaki tum karakterler
-        //   \\w harfler ve rakamlar (a z A Z, 0 9)
+        //   \\w harfler ve rakamlar (Test01 z A Z, 0 9)
         //   \\W harfler ve rakamlar disindaki tum karakterler
         //   \\d rakamlar 0 9
         //   \\D rakamlar disindaki tum karakterler

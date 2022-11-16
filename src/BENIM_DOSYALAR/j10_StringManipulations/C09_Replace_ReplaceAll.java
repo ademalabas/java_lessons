@@ -25,7 +25,7 @@ String str ="javaCAN'lara selam olsun java ile bolcana offer";
 //(Regular Expressions)
 //   \\s bosluk (
 //   \\S bosluk disindaki tum karakterler
-//   \\w harfler ve rakamlar (a z A Z, 0 9)
+//   \\w harfler ve rakamlar (Test01 z A Z, 0 9)
 //   \\W harfler ve rakamlar disindaki tum karakterler
 //   \\d rakamlar 0 9
 //   \\D rakamlar disindaki tum karakterler

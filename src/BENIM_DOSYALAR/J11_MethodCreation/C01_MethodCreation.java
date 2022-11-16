@@ -4,7 +4,7 @@ public class C01_MethodCreation {
     public static void main(String[] args) {//main method basi acilis
  /*
  code okunabilirliği ve sadeliği için sürekli kullanılan aksiynlar için method create edip
-    main method'a call edip run etmek uygulamanın test edilmesi mantanance ve reusable açısından tracih edilir
+    main method'Test01 call edip run etmek uygulamanın test edilmesi mantanance ve reusable açısından tracih edilir
     1) Java method'larin sadece name  değil  name + parametre'lere göre run eder
     parametre sayisi, parametre'lerin data tiplerin ve parametrelerin sırası methodu belirler.
 

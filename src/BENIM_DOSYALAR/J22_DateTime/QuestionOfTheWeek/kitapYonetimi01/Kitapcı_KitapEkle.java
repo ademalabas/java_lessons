@@ -17,7 +17,7 @@ public class Kitapcı_KitapEkle {
 			Scanner scan = new Scanner(System.in);
 
 			System.out.println("Lütfen Kitap adını, yazarını ve fiyatını giriniz\n"
-					+ "Kitap Ekleden Çıkmak için 0'a basınız:");
+					+ "Kitap Ekleden Çıkmak için 0'Test01 basınız:");
 			String kitapAd = scan.nextLine();
 			if (kitapAd.equals("0")) {
 				flag=false;
@@ -44,14 +44,14 @@ public class Kitapcı_KitapEkle {
 		do {
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Lütfen Kitap No giriniz: \n\"Kitap No ile Sorgulamdan çıkmak için 0'a basınız: ");
+		System.out.println("Lütfen Kitap No giriniz: \n\"Kitap No ile Sorgulamdan çıkmak için 0'Test01 basınız: ");
 		int kitapNu = scan.nextInt();
 
 		if (kitapNu==0) {
 			flag=false;
 			break;				
 		}
-		//String a = scan.nextLine(); // DUMMY
+		//String Test01 = scan.nextLine(); // DUMMY
 
 		boolean kitapVarMi=false;
 		for (EklenenKitaplar kitap : liste) {

@@ -31,19 +31,19 @@ public class Task03 {
 
 
     public static void topla( int a, int b) {
-        System.out.println("a*b="+ (a*b));
+        System.out.println("Test01*b="+ (a*b));
     }
 
     public static void carpma( int a, int b) {
-        System.out.println("a+b="+ (a+b));
+        System.out.println("Test01+b="+ (a+b));
     }
 
     public static void bolme( int a, int b) {
-        System.out.println("a+b="+ (a+b));
+        System.out.println("Test01+b="+ (a+b));
     }
 
     public static void cikarma( int a, int b) {
-        System.out.println("a+b="+ (a+b));
+        System.out.println("Test01+b="+ (a+b));
     }
 
 
@@ -83,20 +83,20 @@ public class Task03 {
 
     }
 
-    public static void topla(int a, int b) {
-        System.out.println("a+b = " + (a + b));
+    public static void topla(int Test01, int b) {
+        System.out.println("Test01+b = " + (Test01 + b));
     }
 
-    public static void carp(int a, int b) {
-        System.out.println("a*b = " + (a * b));
+    public static void carp(int Test01, int b) {
+        System.out.println("Test01*b = " + (Test01 * b));
     }
 
-    public static void cıkar(int a, int b) {
-        System.out.println("a-b = " + (a - b));
+    public static void cıkar(int Test01, int b) {
+        System.out.println("Test01-b = " + (Test01 - b));
     }
 
-    public static void bol(int a, int b) {
-        System.out.println("a/b = " + (a / b));
+    public static void bol(int Test01, int b) {
+        System.out.println("Test01/b = " + (Test01 / b));
     }
 
  */

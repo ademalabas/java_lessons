@@ -13,7 +13,7 @@ public class Task05_NestedFor {
 // 1 x 8 = 8
 // 1 x 9 = 9
 // 1 x 10 = 10
-// Yuarıdaki çarpım tablosunu 10 a kadar ekrana yazdırınız.
+// Yuarıdaki çarpım tablosunu 10 Test01 kadar ekrana yazdırınız.
 
         for (int i = 1; i <= 10; i++) {
 

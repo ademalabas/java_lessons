@@ -12,6 +12,7 @@ public interface dısDonanım {
         return "sisli havada dikkat";
     }
     static  void anten(){//static conc. method
+
         System.out.println("agam yine antin kuntin işlerdesin  :)");
     }
   // public static default void sorunMethode(){//CTE-> static default keyword aynı anda kullanılamazzz

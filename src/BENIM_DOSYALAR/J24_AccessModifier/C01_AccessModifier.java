@@ -12,7 +12,7 @@ package BENIM_DOSYALAR.J24_AccessModifier;
          4) public class member'lara herkes her yerden erişebilir.(farkli java projesi disinda).
 
           5) "protected" class member'lara ayni package'dan erişilebilir. Farkli package
-         için : a)Child class erişebilir.  b)Child class degil ise erişilemez.
+         için : Test01)Child class erişebilir.  b)Child class degil ise erişilemez.
 
           6) Class'lar için  sadece "public" ve "default" access modifier kullanilir.
           Class tanımlanırken "private" veya "protected" access modifier kullanilmaz.

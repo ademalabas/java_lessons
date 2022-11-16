@@ -9,7 +9,7 @@ public class Task01 {
 	     (without case sensitivity)
 	     Eg : input : I love Java
 	     Output: "Reversed sentence : avaJ evol I
-	        It is not a palindrome"
+	        It is not Test01 palindrome"
 
 		 */
 

@@ -21,7 +21,7 @@ public class Task01 {
         a-=d;
 
         System.out.println(" d = " + ++d );
-        System.out.println(" a = " + a-- );
+        System.out.println(" Test01 = " + a-- );
         
         
 

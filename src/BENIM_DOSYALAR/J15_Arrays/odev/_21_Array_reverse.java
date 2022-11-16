@@ -29,11 +29,11 @@ for(int i=b.length-1;i>=0;i--){
         System.out.println("Lütfen 1 den büyük basamaklı bir sayı giriniz :  ");
         int b = sc.nextInt();
         String num[] = Integer.toString(b).split("");
-        ArrayList<String> a = new ArrayList<String>(Arrays.asList(num));
-        Collections.reverse(a);
-        System.out.println("a = " + a);
-        for (int i = 0; i < a.size(); i++) {
-            System.out.print(a.get(i));
+        ArrayList<String> Test01 = new ArrayList<String>(Arrays.asList(num));
+        Collections.reverse(Test01);
+        System.out.println("Test01 = " + Test01);
+        for (int i = 0; i < Test01.size(); i++) {
+            System.out.print(Test01.get(i));
         }
 
  */

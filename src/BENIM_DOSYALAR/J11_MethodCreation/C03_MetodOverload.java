@@ -10,7 +10,7 @@ public class C03_MetodOverload {
     /*
 
     Java'da  methodlarin farkli olup olmadiklarini  icin
-         a)Method ismine  b)parametreler kontrol edilir..
+         Test01)Method ismine  b)parametreler kontrol edilir..
 
 
     Java da ayni isimle birden fazla method olusturulmasına overloading denir.
@@ -18,9 +18,9 @@ public class C03_MetodOverload {
           Method Signature = isim + parametre sayisi + parametre data type
 
          ahan da TRICK_01 : Access Modifier'lari degistirmek de method'lari Java  farkli methodlar olarak derlemez
-          aynı method olarak derler   Cunku access modifier'lar method signature'a dahil degildir.
+          aynı method olarak derler   Cunku access modifier'lar method signature'Test01 dahil degildir.
    ahan da TRICK_02 : Method'larin body'sini degistirmek de method'lari Java  farkli methodlar olarak derlemez
-          aynı method olarak derler. Cunku body'ler method signature'a dahil degildir.
+          aynı method olarak derler. Cunku body'ler method signature'Test01 dahil degildir.
    ahan da TRICK_03 : Overloading "Compile Time Error" verir.
 
    Overloading :

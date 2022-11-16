@@ -6,7 +6,7 @@ import java.util.List;
 
 public class C14_ListConvertArray {
     public static void main(String[] args) {
-        //list'i Array'a cevirme->toArray();
+        //list'i Array'Test01 cevirme->toArray();
         // 1. yöntem-> toArray();parametre olarak String[0] alarak yapılır.
 
         ArrayList<String> listUlke = new ArrayList<>(List.of("Alamanya","Amerigonya","ingiltere","isvec"));

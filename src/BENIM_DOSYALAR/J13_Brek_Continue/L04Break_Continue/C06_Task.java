@@ -6,7 +6,7 @@ public class C06_Task {
 
     public static void main(String[] args) {
 
-        // task -> girilen bir ifadedeki c karakterine kadar a karakter sayısını print eden code create ediniz.
+        // task -> girilen bir ifadedeki c karakterine kadar Test01 karakter sayısını print eden code create ediniz.
 
         Scanner sc = new Scanner(System.in);
         System.out.println("AGAm bişeyler cızıkdırasan  :");
@@ -21,7 +21,7 @@ public class C06_Task {
             }
             System.out.println("döngüde işleme giren karakterler :"+bişeyler.charAt(i));
         }
-        System.out.println("agam cızıktırdıgın bişeylerde a sayısı : "+aSayısı+" tane");
+        System.out.println("agam cızıktırdıgın bişeylerde Test01 sayısı : "+aSayısı+" tane");
 
 
 
@@ -30,6 +30,6 @@ public class C06_Task {
 }
 
 
-     //a+=str.charAt(i)=='a'? 1:0;
-     //        a yı artırmanın ternary yolu
+     //Test01+=str.charAt(i)=='Test01'? 1:0;
+     //        Test01 yı artırmanın ternary yolu
      //        Selamlar Cüneyt bey :D

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class C03_Arrays {
     public static void main(String[] args) {
-        // String'i  array'a cevirme...split()-> girilen parametre değere göre String ifade parçalanır.
+        // String'i  array'Test01 cevirme...split()-> girilen parametre değere göre String ifade parçalanır.
 
         String str = "javaCAN'lara selam olsun. en kısa zamanda bolcana offer sonrası TUZLABALIK :)";
         //task->string ifadeyi kelime sayısını prşnt eden code create ediniz

@@ -58,7 +58,7 @@ public class C01_Calisma {
                 System.out.println("sayi negatif");// calismaz
 
         } else {
-            System.out.println("Sayi 0'a esittir");// v
+            System.out.println("Sayi 0'Test01 esittir");// v
 
         }
 
@@ -80,11 +80,11 @@ public class C01_Calisma {
         int a = 80;
 
 /*
-        if (a >= 50) {
+        if (Test01 >= 50) {
             System.out.println("Sayi 50 'ye esit yada buyuk");
-            if(a % 10 == 0) {
-               System.out.println("Sayi 10 a bolunebilir");
-                if(a == 80) {
+            if(Test01 % 10 == 0) {
+               System.out.println("Sayi 10 Test01 bolunebilir");
+                if(Test01 == 80) {
                     System.out.println(" Sayi 80 dir");
                 }
 

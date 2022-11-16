@@ -11,7 +11,7 @@ public class C005_Exceptions {
                 myList.add("My String");
             }
         }catch (RuntimeException re){
-            System.out.println("Caught a RuntimeException");
+            System.out.println("Caught Test01 RuntimeException");
         }catch (Exception e){
             System.out.println("Caught an Exception");
         }

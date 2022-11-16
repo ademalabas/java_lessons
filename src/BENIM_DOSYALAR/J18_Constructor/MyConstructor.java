@@ -32,7 +32,7 @@ public class MyConstructor {
         System.out.println("-x"+x);//9-> x degerini print etti ciktimiz "-x4" oldu
     }
     public MyConstructor(int i ){//5-> burasi calisti
-        this();//6-> burasi calisti ve bizi parametresiz cons a gecirdi.
+        this();//6-> burasi calisti ve bizi parametresiz cons Test01 gecirdi.
         this.y = i;//10-> parametresizade islem bitince burdan parametresize atladigi icin sira buraya geldi
         //ve y degerini i ye esitledi 4. sirada i degerimiz 3 olarak tek parametreli kodumuzu calistirdigi icin y=3 oldu.
         x+=y;//11-> x degerine atama operatoru ile ynin degeri olan 3 ekledi ve x 7 oldu
@@ -46,7 +46,7 @@ public class MyConstructor {
     }
 
     public static void main(String[] args) {// 1-> static variable burda oldugu icin ilk once burdan mainden calismaya basladi
-        MyConstructor mc1= new MyConstructor(4,3);// 2-> Burasi calistiktan sonra 2 parametreli cons a gecis yaptik
+        MyConstructor mc1= new MyConstructor(4,3);// 2-> Burasi calistiktan sonra 2 parametreli cons Test01 gecis yaptik
     }
 }
 

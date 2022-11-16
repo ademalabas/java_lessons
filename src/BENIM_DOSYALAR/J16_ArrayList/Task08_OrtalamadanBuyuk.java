@@ -11,7 +11,7 @@ public class Task08_OrtalamadanBuyuk {
 
    while (true) {
        Scanner scan = new Scanner(System.in);
-       System.out.print("Sayi giriniz / Cikmak icin 0 a basiniz ");
+       System.out.print("Sayi giriniz / Cikmak icin 0 Test01 basiniz ");
        double sayi = scan.nextDouble();
        if (sayi==0 ){break;}
        SayilarList.add((int) sayi);

@@ -33,9 +33,9 @@ public class Merhaba_HocaninNotlari { //class başı
 
          /*
         BENIM_DOSYALAR.j01_Variables.j09_SwitchStatement.TASK :
-        Adınızı soyadınızı yaş memeleket ve mesleğinizi console'a yazdırınız... alt alta ve yanyana yazdırınız..
+        Adınızı soyadınızı yaş memeleket ve mesleğinizi console'Test01 yazdırınız... alt alta ve yanyana yazdırınız..
         TRICK : Java'da space(boşluk) bir character olarak tanımlanır.
-        h a l u k -> 9 karakterli bir ifadedir
+        h Test01 l u k -> 9 karakterli bir ifadedir
 
          */
         }//main method sonu

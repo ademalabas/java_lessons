@@ -8,7 +8,7 @@ public class Kayıt {
 
     ArrayList<Kullanıcı> kullanıcıKisiler = new ArrayList<>();//kullanıcı class'dan olusturlacak obj tutulacagı bos list
         //Task 2. step
-    public ArrayList<Kullanıcı> kayıtAl() {//kullanıcı Class'dan onj uretmek için cons.'a gereken name ve kayıtzamanı
+    public ArrayList<Kullanıcı> kayıtAl() {//kullanıcı Class'dan onj uretmek için cons.'Test01 gereken name ve kayıtzamanı
                                           // bilgilerini olusturrp olusan obj'i list'e ekler
         Scanner sc = new Scanner(System.in);
         System.out.print("agam adını giresen : ");

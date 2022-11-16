@@ -24,7 +24,7 @@ public class C01_Arrays {
         // [0,0,0,0,0]
 
 
-        // Array'a eleman ekleme...
+        // Array'Test01 eleman ekleme...
         sayıArr[2] = 34;
         sayıArr[0] = 35;
         sayıArr[1] = 43;

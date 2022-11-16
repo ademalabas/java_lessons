@@ -9,13 +9,13 @@ public class C01_Ogrtmn {
 	 	=> Bulunduğu  class icinden static yapılara  ulasilabilir.Farklı class'lardan ClassName.staticYapı class name ile call edilir.
 	      	farklı class'da obj name ile değl class name ile call edilir.
 	 	=> Instance variable(Object Variable)'lar call etmek icin object create edilmesi zorunludur.Object olusturmadan
-	        instance variable'a ulasilamaz.
+	        instance variable'Test01 ulasilamaz.
 	 	=> Static variable'lara object ile call edilebilir ama tavsiye edilmez.
 	 	=> Eger static variable'lara object ile call edilirse Java  sari alt cizgi ikaz eder->.BAD PRACTICE
         =>   static keyword hafıza opt. için kullanılır ve memory'de 1 kez oluşturulur
 
     bir obj static variable değeri değişirse tün obj variable değeri değişir
-    static obj den bağımsızdır class'a bağımlı Class'ın malıdır.
+    static obj den bağımsızdır class'Test01 bağımlı Class'ın malıdır.
 
     Trick-> bir variable, methoda doğrudan calss name ile obj olmadan call etmek için static olmalıdır..
 

@@ -1,7 +1,7 @@
 package BENIM_DOSYALAR.j03_ScannerClass_TypeCasting.tasks;
 
 public class Task10 {
-// Write a Java program to convert temperature from Fahrenheit to Celsius degree.
+// Write Test01 Java program to convert temperature from Fahrenheit to Celsius degree.
 
 // formula
 

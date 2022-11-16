@@ -16,7 +16,7 @@ public class C01_PassByValue {
 
         System.out.println("metod oncesi fiyat degeri = " + fiyat);//100
 
-        fiyatArtir(fiyat); //fiyat variable method'a parametre call edildi
+        fiyatArtir(fiyat); //fiyat variable method'Test01 parametre call edildi
         System.out.println("metod sonrasi fiyat degeri = " + fiyat);//100
 
 

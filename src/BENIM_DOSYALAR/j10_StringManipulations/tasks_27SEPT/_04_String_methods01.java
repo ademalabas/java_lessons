@@ -10,7 +10,7 @@ public class _04_String_methods01 {
         //Kodu aşağıya yazınız.
 
 String a = "I love Java";
-        System.out.println("Length of a=  "+a.length());
+        System.out.println("Length of Test01=  "+a.length());
 
 
     }

@@ -46,7 +46,7 @@ public class Task15_MetodUcusProject {
                 dublinRecipe();
                 break;
             default:
-                System.out.println("We do not have a flight to the place you want");
+                System.out.println("We do not have Test01 flight to the place you want");
                 break;
         }
     }

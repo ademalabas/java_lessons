@@ -3,8 +3,8 @@ package BENIM_DOSYALAR.J26Inheritance.Inheritance01;
 public class Runner {
 /*
  1)Java'da class'lar arasinda parent(Aile)-child(Cocuk)  relationship(iliski) tanımlanmıştır.
- 2)Parent Class'a "super class"   Child Class'a "sub class"  denir.
- 3)Ortak ozellikler parent class'a, specific ozellikler child class'a tanımlanır.
+ 2)Parent Class'Test01 "super class"   Child Class'Test01 "sub class"  denir.
+ 3)Ortak ozellikler parent class'Test01, specific ozellikler child class'Test01 tanımlanır.
  4)Parent Child Relationship "reusability", "maintenance",  "less code", "well organization" avantajları içim kullanılır.
  5)Child classlar parent'lardaki her methodu ve variable'i  kullanabilir ama parent class child'dakileri kullanamaz.
  6)Java "Multiple Inheritance"'i desteklemez. Yani; Java'da  bir Child Class'in 1'den fazla parent'i olamaz.

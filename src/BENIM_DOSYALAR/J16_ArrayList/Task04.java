@@ -8,7 +8,7 @@ public class Task04 {
         /* TASK :
 
          * Input olarak verilen listteki isimlerden
-         * icinde 'a' harfi bulunanlari silen bir code create ediniz.
+         * icinde 'Test01' harfi bulunanlari silen bir code create ediniz.
          *
          * INPUT : list1={"Ali","Veli","Ayse","Fatma","Omer"}
          * OUTPUT : [Veli,Omer]
@@ -18,8 +18,8 @@ public class Task04 {
         ArrayList<String> aOlmayanlistIsim = new ArrayList<>();//boş list
         for (int i = 0; i < listIsim.size(); i++) {
 
-            if (!listIsim.get(i).toLowerCase().contains("a")) {//listin her bir elelmanı a bulundurmuyorsa
-                aOlmayanlistIsim.add(listIsim.get(i));//yeni list' a olmayan eleman eklendi
+            if (!listIsim.get(i).toLowerCase().contains("Test01")) {//listin her bir elelmanı Test01 bulundurmuyorsa
+                aOlmayanlistIsim.add(listIsim.get(i));//yeni list' Test01 olmayan eleman eklendi
             }
         }
         System.out.println("aOlmayanlistIsim = " + aOlmayanlistIsim);

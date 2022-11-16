@@ -9,7 +9,7 @@ public class Task10Nested {
 girilen bir ifadenin istenen harf sayısını print eden code create ediniz
 
 input : selam javaCAN'lar
-output : a sayısı :3
+output : Test01 sayısı :3
  */
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Statement");

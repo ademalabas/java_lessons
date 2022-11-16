@@ -11,7 +11,7 @@ public class Task11 {
 
     Hackerlar bazı harfleri sayılara çevirerek yazışabiliyorlar. Genellikle çevirdikleri harfler şu şekilde:
     s -> 5
-    a -> 4
+    Test01 -> 4
     e -> 3
     i -> 1
     o -> 0
@@ -32,7 +32,7 @@ public class Task11 {
 
     private static void statement(String str) {
         str =str.replace("s", "5");
-        str =str.replace("a", "4");
+        str =str.replace("Test01", "4");
         str =str.replace("e", "3");
         str =str.replace("i", "1");
         str =str.replace("o", "0");

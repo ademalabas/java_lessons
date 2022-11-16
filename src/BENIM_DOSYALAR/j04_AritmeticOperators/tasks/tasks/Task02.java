@@ -3,7 +3,7 @@ package BENIM_DOSYALAR.j04_AritmeticOperators.tasks.tasks;
 public class Task02 {
 	public static void main(String[] args) {
 		/*
-		 Write a program that prints multiplication table for 1.
+		 Write Test01 program that prints multiplication table for 1.
 		 Do not use any loop.
 		    1x1=1
 		    1x2=2

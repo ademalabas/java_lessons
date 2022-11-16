@@ -12,7 +12,7 @@ public class Task06_Nested {
         // 1 x 8 = 8
         // 1 x 9 = 9
         // 1 x 10 = 10
-        // Yuarıdaki çarpım tablosunu 10 a kadar print eden code create ediniz.
+        // Yuarıdaki çarpım tablosunu 10 Test01 kadar print eden code create ediniz.
 
         for (int crpn1 = 1; crpn1 <=10 ; crpn1++) {
             for (int crpn2 = 1; crpn2<=10;crpn2++){

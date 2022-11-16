@@ -42,7 +42,7 @@ public class Task03_Student {
         System.out.println("Toplam kredi :"+toplamKredisi());
     }
 
-    public int toplamKredisi() {//Task'a baglı kalmak için yazıp son printte kullandım
+    public int toplamKredisi() {//Task'Test01 baglı kalmak için yazıp son printte kullandım
         return maxCredi;
     }
 

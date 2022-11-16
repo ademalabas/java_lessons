@@ -5,7 +5,7 @@ public class Q01_ForLoop {
     public static void main(String[] args) {
 
  /*
-        100'den 0'a kadar 13'e tam bölünebilen sayıları ekrana yazdırınız (büyükten küçüğe).
+        100'den 0'Test01 kadar 13'e tam bölünebilen sayıları ekrana yazdırınız (büyükten küçüğe).
         Ekran Çıktısı asagidaki sekilde olsun; ayrica sonrasinda bu sayilarin toplamini da yazdirin
         istenen sonuc :
          91

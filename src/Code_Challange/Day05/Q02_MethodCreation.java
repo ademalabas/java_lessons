@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Q02_MethodCreation {
 
 
-/* Write a method named isEven that accepts an integer argument.
+/* Write Test01 method named isEven that accepts an integer argument.
  The method should return true if the argument is even, or false otherwise.*/
 
 
@@ -21,7 +21,7 @@ public class Q02_MethodCreation {
             return true;
         }else return false;
 
-// return a%2==0?true:false;  //best practice
+// return Test01%2==0?true:false;  //best practice
 
 
 

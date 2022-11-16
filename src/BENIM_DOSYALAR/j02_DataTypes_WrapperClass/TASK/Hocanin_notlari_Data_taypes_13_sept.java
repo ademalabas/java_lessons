@@ -7,7 +7,7 @@ public class Hocanin_notlari_Data_taypes_13_sept {
 		 Java'da  2 farkli data type vardir.
 		 1)Primitive Data Type (8 tane)
 ​
-		   a)boolean: Sadece True veya False değerlerini alabilir. sadece iki farkli deger alabildigi icin memory'de az(bir bit'lik) alan kaplar
+		   Test01)boolean: Sadece True veya False değerlerini alabilir. sadece iki farkli deger alabildigi icin memory'de az(bir bit'lik) alan kaplar
 ​
 		   b)char :Tek character'li (S, ?, 3, * gibi her bir sembol) ifadeler icin char data type'i kullanilir.
 		   		her bir char memory'de 16 bit'lik yer kaplar.char deger mutlaka tek tirnak icine konulmalıdilir.
@@ -63,11 +63,11 @@ public class Hocanin_notlari_Data_taypes_13_sept {
             System.out.println(f1 * f2); // 12.45* 23.56 =293.322
 
             //Task -> iki farklı byte tanımlayıp toplam farkını print ediniz
-            //byte a=23,b=44;
-            byte a = 23;
+            //byte Test01=23,b=44;
+            byte Test01 = 23;
             byte b = 44;
-            System.out.println(a + b);//67
-            System.out.println(a - b);//-11
+            System.out.println(Test01 + b);//67
+            System.out.println(Test01 - b);//-11
 
             //Task -> iki farklı tamsayı türünde sayı  tanımlayıp toplam farkını print ediniz
             int c = 1453;

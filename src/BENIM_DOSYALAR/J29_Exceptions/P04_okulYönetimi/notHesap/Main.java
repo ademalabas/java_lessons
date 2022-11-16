@@ -11,13 +11,13 @@ public class Main {
         System.out.println("**** WELCOME TO JAVACANLAR SCHOOL ****");
         List<Double> notOrtalama = new ArrayList<>();
 
-        // Teacher objeleri olusturup, ogretmen bilgilerini Teachers daki constructor a gore giriyoruz
+        // Teacher objeleri olusturup, ogretmen bilgilerini Teachers daki constructor Test01 gore giriyoruz
         Teacher tcr1 = new Teacher("Ahmet Duman","Matematik", 101);
         Teacher tcr2 = new Teacher("Mehmet Yilmaz","Turkce", 102);
         Teacher tcr3 = new Teacher("Canan Demir","Biyoloji", 103);
         Teacher tcr4 = new Teacher("Sefa Durmaz","Fizik", 104);
 
-        // Course(kurs) objelerini olusturup, kurs bilgilerini Course daki constructor a gore giriyoruz
+        // Course(kurs) objelerini olusturup, kurs bilgilerini Course daki constructor Test01 gore giriyoruz
         // sozluNot un ortalamaya etkisini girdiriyoruz, yaziliNotu un ortalamaya etkisi de
         // (1-sozluNotunEtkisi) seklinde ilerde hesaplanabilir
         Course crs1 = new Course("Matematik","MT",101,0.3);
@@ -33,7 +33,7 @@ public class Main {
         crs3.addTeacher(tcr3);
         crs4.addTeacher(tcr4);
 
-        // burada ogrencileri Student class daki constructor a gore olusturuyoruz.
+        // burada ogrencileri Student class daki constructor Test01 gore olusturuyoruz.
         // sadece en onemli konu, ogrencinin hangi kurslari aldigini da en sagda sirasina gore
         /// eklememiz gerekiyor. Her ogrencinin her dersi aldigini varsayiyoruz
         Student std1 = new Student("Ali Can","10001","6-A",crs1,crs2,crs3,crs4);
@@ -45,7 +45,7 @@ public class Main {
 
         // Ogrencilerin her kurs icin yazili ve sozlu notlarini alip atayalim
         // bunun icin Student class inda addBulkExamNote() methodu olusturuyoruz
-        // o method a hem kurs ismini , hem de o kurs daki yazili ve sozlu notlari gonderiyoruz
+        // o method Test01 hem kurs ismini , hem de o kurs daki yazili ve sozlu notlari gonderiyoruz
         // birinci ogrenci icin
         std1.addBulkExamNote(crs1, 60, 70);
         std1.addBulkExamNote(crs2, 60, 70);

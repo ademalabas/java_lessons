@@ -16,7 +16,7 @@ public class _14_ComparisonOperators_bigger {
         Scanner scan = new Scanner(System.in);
         int a = 13;
         int b = 10;
-        System.out.println("a>b " + (a>b));
+        System.out.println("Test01>b " + (a>b));
 
 
     }

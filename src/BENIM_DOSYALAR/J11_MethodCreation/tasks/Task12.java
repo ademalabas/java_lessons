@@ -11,7 +11,7 @@ public class Task12 {
     Şartlar:
     * Bir mail adresinde @ karakteri olmalı
     * Bir mail adresinde . (nokta) karakteri olmalı
-    * Bir mail adresinde @ karakterinden önce en az bir karakter yazılmalı (a@gmail.com gibi)
+    * Bir mail adresinde @ karakterinden önce en az bir karakter yazılmalı (Test01@gmail.com gibi)
 
     Örnekler
     validateEmail("@gmail.com")

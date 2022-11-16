@@ -7,7 +7,7 @@ public class Q06_NestedForLoop {
     public static void main(String[] args) {
 
 /* Interview Question
- Write a Java program to reverse a string. Use for loop and create a method called
+ Write Test01 Java program to reverse Test01 string. Use for loop and create Test01 method called
   reverseString */
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the string: ");

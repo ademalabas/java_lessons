@@ -11,7 +11,7 @@ public class GirisPaneli {
     public  void giris(){// bu tanımlama ile method non static oldg için obj ile call edilir
         Scanner sc = new Scanner(System.in);
 
-        Kayıt yeniKayıt = new Kayıt();//Kayıt Calss'a erişim için p'siz cons. ile  yeniKayıt obj uretildi
+        Kayıt yeniKayıt = new Kayıt();//Kayıt Calss'Test01 erişim için p'siz cons. ile  yeniKayıt obj uretildi
         //Kayıt Class'dan obj olmadanmethod call etmek için method'lar static yapılırsa ClassName ile call edilebilir
         ArrayList<Kullanıcı> kisi = new ArrayList<>();//Kulllanıcı Class'dan uretilen obj tutulacagi bos list
 

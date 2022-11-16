@@ -20,7 +20,7 @@ public class Course {
         this.sozluNotEtki=sozluNotEtki;
     }
 
-    // Main uzerinden cagrilacak bu method ve ilgili Course a ogretmen atamasi yapilacak
+    // Main uzerinden cagrilacak bu method ve ilgili Course Test01 ogretmen atamasi yapilacak
     public void addTeacher(Teacher tcr) {
         this.teacher=tcr;
     }

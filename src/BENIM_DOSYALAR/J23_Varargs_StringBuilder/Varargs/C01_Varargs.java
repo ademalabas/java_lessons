@@ -106,17 +106,17 @@ public class C01_Varargs {
 // Task -> verilen üç sayı toplamını print eden METHOD create ediniz
         }//main sonu
 
-    public static void topla(int a, int b){//iki p'li overload meth
-        System.out.println("sayılar toplamı :" +(a+b));
+    public static void topla(int Test01, int b){//iki p'li overload meth
+        System.out.println("sayılar toplamı :" +(Test01+b));
 
     }
-    public static void topla(int a, int b,int c){//iki p'li overload meth
-        System.out.println("sayılar toplamı :" +(a+b+c));
+    public static void topla(int Test01, int b,int c){//iki p'li overload meth
+        System.out.println("sayılar toplamı :" +(Test01+b+c));
 
     }
-    public static  void toplaVarargs(int ... a){//varargs method
+    public static  void toplaVarargs(int ... Test01){//varargs method
         int toplam=0;
-        for (int w:a){//varargs parametre arr içinde tanımlandıgı için parametreler loop aksiyon alır
+        for (int w:Test01){//varargs parametre arr içinde tanımlandıgı için parametreler loop aksiyon alır
             toplam+=w;
         }
         System.out.println("sayıların toplamı : "+(toplam));

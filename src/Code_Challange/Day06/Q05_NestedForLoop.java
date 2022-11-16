@@ -7,7 +7,7 @@ public class Q05_NestedForLoop {
     public static void main(String[] args) {
 /*
    Get the number of rows and columns from user.
-   Create a rectangle.
+   Create Test01 rectangle.
    rows = 3 and column = 5 ==> * * * * *
                                * * * * *
                                * * * * *

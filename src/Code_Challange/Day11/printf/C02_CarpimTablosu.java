@@ -20,7 +20,7 @@ public class C02_CarpimTablosu {
         multipleTable(tableInput);
 
     }
-    // Create a method an integer as parameter
+    // Create Test01 method an integer as parameter
     private static void multipleTable(int tableInput) {
 
         for (int i = 1; i <=tableInput ; i++) {

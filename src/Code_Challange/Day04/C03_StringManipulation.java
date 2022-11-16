@@ -10,8 +10,8 @@ public class C03_StringManipulation {
 /* Regular Expression(regex) : Belli turdeki characterleri secebilmemize yarar.
          1) \\d    ==> tum rakamlar
              \\D    ==> tum rakam disi character ler
-         2) \\w   ==> A->Z        a->z         0->9    _
-             \\W  ==> A->Z        a->z         0->9    _ disindaki hersey
+         2) \\w   ==> A->Z        Test01->z         0->9    _
+             \\W  ==> A->Z        Test01->z         0->9    _ disindaki hersey
          3) \\s   ==> space
              \\S   ==> space disindaki hersey  */
 

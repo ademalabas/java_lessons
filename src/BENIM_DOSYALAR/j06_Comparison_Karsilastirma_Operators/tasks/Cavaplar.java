@@ -8,7 +8,7 @@ public class Cavaplar {
 
         // BENIM_DOSYALAR.j01_Variables.j09_SwitchStatement.TASK 14 -
         int a = 13; int b = 10;
-        System.out.println("a > b " + (a>b)); // true
+        System.out.println("Test01 > b " + (a>b)); // true
         //BENIM_DOSYALAR.j01_Variables.j09_SwitchStatement.TASK 15 -
         int c = 17; int d = 20;
         System.out.println(" c < d " + (c < d)); // true
@@ -48,7 +48,7 @@ public class Cavaplar {
 
   //  <<<----KONSOL ÇIKTILARI ----->>>
   //     -----------------BENIM_DOSYALAR.j01_Variables.j09_SwitchStatement.TASK 14 ÇIKTISI --------------------
-  //     a > b true
+  //     Test01 > b true
   //             -----------------BENIM_DOSYALAR.j01_Variables.j09_SwitchStatement.TASK 15 ÇIKTISI --------------------
   //     c < d true
   //             -----------------BENIM_DOSYALAR.j01_Variables.j09_SwitchStatement.TASK 16 ÇIKTISI --------------------

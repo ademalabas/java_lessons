@@ -7,7 +7,7 @@ public class C09_Continue {
     atlar ve loop’un bir sonraki değerinden devam eder.
      */
     // Girilen bir stringin harflerini teker teker ekrana alt alta olacak
-    // sekilde yazdiriniz, bosluk veya a harfi geldiginde bunlari yazmasin
+    // sekilde yazdiriniz, bosluk veya Test01 harfi geldiginde bunlari yazmasin
 
 
     public static void main(String[] args) {

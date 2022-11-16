@@ -2,10 +2,10 @@ package BENIM_DOSYALAR.J32_Abstract.abstract01;
 
 public class Civic extends Lastik {//Honda parent abs Class extend child concrete class
  /*
- extends Honda yazılarak Honda Class'a concrete bir Civic class tanımlandı
+ extends Honda yazılarak Honda Class'Test01 concrete bir Civic class tanımlandı
  java CTE verdi
  çözüm:
- a) Unımplemented (uyarlanmamış) method implement edilmeli
+ Test01) Unımplemented (uyarlanmamış) method implement edilmeli
  b)parent Honda class'dan abstarct keyword kaldırılmalı
  c)concrete olan child Civic class abstract tanımlanmalı
   */

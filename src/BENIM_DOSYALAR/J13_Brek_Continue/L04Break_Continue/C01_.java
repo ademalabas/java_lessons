@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C01_ {
 /*
 break oradan sonlandırmak için döngüyü kontrol edebiliriz.Bir loop'u, loop'un koşul bölümüne bağlı
-kalmaksızın sona erdirmek için break komutu kullanılır. break komutu loop'a bağlı kod bloğunun
+kalmaksızın sona erdirmek için break komutu kullanılır. break komutu loop'Test01 bağlı kod bloğunun
  herhangi bir işlem satırında yer alabilir. Program kod bloğunda break komutu'nu görür görmez,
  loop başlangıç koşulu sağlanmış olsa bile, loop'dan çıkar ve loop'dan sonra gelen ilk işlem
  satırından çalışmasına devam eder. İç içe(nested) looplarda break komutu kullanıldığında sadece

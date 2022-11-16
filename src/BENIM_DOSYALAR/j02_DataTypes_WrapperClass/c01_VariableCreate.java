@@ -21,7 +21,7 @@ public class c01_VariableCreate {
         //2. yol->
         int boy;// variable declaration -> değişken tanımlama
         //KING of TRICK :)
-        //System.out.println(boy);// değer ataması yapılmadan bir variable herhangi bir işlem(axion)a alınamaz CTE
+        //System.out.println(boy);// değer ataması yapılmadan bir variable herhangi bir işlem(axion)Test01 alınamaz CTE
         boy=190; // variable value assaignment -> değişkene değer ataması
         System.out.println(boy);//190
 

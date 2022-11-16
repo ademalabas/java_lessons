@@ -18,7 +18,7 @@ String sehir ="Istanbul";
         System.out.println(sehir.startsWith("I"));//true
         System.out.println(sehir.startsWith("Is"));//true
         System.out.println(sehir.startsWith("s"));//false
-        System.out.println(sehir.startsWith("a", 3));//true
+        System.out.println(sehir.startsWith("Test01", 3));//true
         System.out.println(sehir.endsWith("l"));//true
         System.out.println(sehir.endsWith("bul"));//true
         System.out.println(sehir.endsWith("bu"));//false
@@ -29,7 +29,7 @@ String sehir ="Istanbul";
         System.out.println(sehir.startsWith("i"));//true
         System.out.println(sehir.startsWith("is"));//true
         System.out.println(sehir.startsWith("s"));//false
-        System.out.println(sehir.startsWith("t", 2));//true 3. indexten itibaren strin a ile mi başlar
+        System.out.println(sehir.startsWith("t", 2));//true 3. indexten itibaren strin Test01 ile mi başlar
 
         System.out.println(sehir.endsWith("l"));//true
         System.out.println(sehir.endsWith("bul"));//true

@@ -41,8 +41,8 @@ public class C01_Interface {
           Trick :  normal class'larda AccMod yazilmazsa default olur.Ancak Interface'lerde AccMod yazilmazsa public olur
 
         6) Interface'ler kendi arasinda parent child (extends) iliskisi kurabilir.
-           Interface'leri bir class'a parent yapmak icin "implements" keywordu kullanilir.
-           Class'lari bir class'a parent yapmak icin "extends" keywordu kullanilir.
+           Interface'leri bir class'Test01 parent yapmak icin "implements" keywordu kullanilir.
+           Class'lari bir class'Test01 parent yapmak icin "extends" keywordu kullanilir.
 
           class --> class  : extends
           interface --> interface  : extends
@@ -67,7 +67,7 @@ public class C01_Interface {
         		System.out.println(S1.RENK);-->CTE verir
 
         10)Interface yapilarda istenirse abstract olmayan concrete method creat edilebilir.
-             a)AccMod'den sonra "default" veya "static" keyword kullanilmali.ikisi br arada kullanılamaz
+             Test01)AccMod'den sonra "default" veya "static" keyword kullanilmali.ikisi br arada kullanılamaz
              b)Interface yapilarda concrete method icin kullanilan "default" keyword'u kesinlikle asla AccMod turunu vermez .
              c)Interface yapilarda concrete method child class tarafindan override edilmek zorunda degildir.
              d)Interface yapilarda "default" olarak creat edilen concrete method child class'ı ancak obj ile call edilir.

@@ -26,7 +26,7 @@ public class C01_ScannerClass {
         // scanner classından scan isminde değerini sistem içinden alan bir objedir.
         //2. adım: Kullanıcıdan istenen veri için bildirimde bulunulur.
         System.out.print("adınızı giriniz");
-        //3.adım: kullanıcının girdiği data tipine göre bir variable a atanır.
+        //3.adım: kullanıcının girdiği data tipine göre bir variable Test01 atanır.
 */
        Scanner sc =new Scanner(System.in); // 1. adim
        // System.out.println("karenin kenarini giriniz: ");//2. adim

@@ -2,7 +2,7 @@ package Code_Challange.Day09;
 
 public class Q11_Arrays {
     /*
-    aşağıdaki örnekte olduğu gibi 1 den 10 a kadar sayılar oluşan dizide eksik olan sayıyı döndüren metodu oluşturunuz.
+    aşağıdaki örnekte olduğu gibi 1 den 10 Test01 kadar sayılar oluşan dizide eksik olan sayıyı döndüren metodu oluşturunuz.
 
      ([1, 2, 3, 5, 6, 7, 8, 10,9]) ➞ 4
     ([7, 2, 3, 10, 5, 9, 1, 4, 8]) ➞ 6

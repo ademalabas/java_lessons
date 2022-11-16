@@ -21,7 +21,7 @@ public class Task01 {
         a-=d; //10 -(- 2.5) =12.5 =integer 12 olur
 
         System.out.println(" d = " + ++d ); // d= -1.5 yazar
-        System.out.println(" a = " + a-- ); // 12 yazar fakat sonrasi icin a'ya 11 degerini atar
+        System.out.println(" Test01 = " + a-- ); // 12 yazar fakat sonrasi icin Test01'ya 11 degerini atar
         
         
 

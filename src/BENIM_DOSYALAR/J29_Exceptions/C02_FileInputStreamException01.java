@@ -17,7 +17,7 @@ public class C02_FileInputStreamException01 {
 
 
                 1) FileNotFoundException, ustunde calisilicak bir dosyaya ulasma ile ilgili problemlerde
-                kullanilir. Bir dosyaya ulasmada iki temel problem olabilir; a) Path yanlistir. b) Dosya silinmistir.
+                kullanilir. Bir dosyaya ulasmada iki temel problem olabilir; Test01) Path yanlistir. b) Dosya silinmistir.
 
                     2) IOException, input ve output ile alakali tum problemlerde kullanilir. IOException,
                 FileNotFoundException'in yaptigi tum aksiyonları yapabilir dolayısıyla IOException kullanildiginda

@@ -69,7 +69,7 @@ public class MethodClass extends Kisi{
                                     }
                                 }
                                 if (flag) {//true olmasi durumu basvuran ogretmen istenen brans da degilse
-                                    throw new ArrayStoreException("Boyle bir brans a ihtiyacimz yoktur");
+                                    throw new ArrayStoreException("Boyle bir brans Test01 ihtiyacimz yoktur");
                                 }else{
                                     System.out.println("sicil no gir (ornek : \"a12345\"  seklindeolmali ");
                                     // String sicilNo = "";

@@ -15,7 +15,7 @@ public class C02_TypeCasting {
         //String basarı=basarılı; -> dogal uyum olmayan variable'larda castşng yapılamaz CTE
         // System.out.println("basarılı = " + basarılı);-> true
         // System.out.println("basarı = " + basarı);->true
-        double d = 17;// double variable'a int 17 atandı k->b
+        double d = 17;// double variable'Test01 int 17 atandı k->b
         System.out.println("d = " + d);//d = 17.0 auto widding
         int sayi1 = 33;
         int sayi2 = 7;
@@ -62,8 +62,8 @@ long l2 = (long) d4;
          * Kullanicidan bir character girmesini isteyin ve
          * girilen karakteri ve ascii degerini yazin
          *
-         * Ornek : Input  : a
-         *         Output : Girdiginiz ‘a’ karakterinin ascii degeri : 95
+         * Ornek : Input  : Test01
+         *         Output : Girdiginiz ‘Test01’ karakterinin ascii degeri : 95
         
          */
 

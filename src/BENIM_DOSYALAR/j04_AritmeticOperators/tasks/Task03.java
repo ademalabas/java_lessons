@@ -17,7 +17,7 @@ public class Task03 {
 
         System.out.println("Sum of first and last digits is = " +(a/100)+"+"+(a%10)+"="+((a/100)+(a%10)));
 
-                //(a/100)+"+"+(a%10)+ "="+((a/100)+(a%10)));
+                //(Test01/100)+"+"+(Test01%10)+ "="+((Test01/100)+(Test01%10)));
 
 		
 	}

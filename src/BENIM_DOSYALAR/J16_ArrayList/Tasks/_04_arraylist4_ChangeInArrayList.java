@@ -16,7 +16,7 @@ public class _04_arraylist4_ChangeInArrayList {
         Arraylist  "yellow" , "red" , "blue" , "red" , "blue"
         s1 = blue
         s2 = yellow
-        Tüm blue 'ları yellow'a dönüştürün.
+        Tüm blue 'ları yellow'Test01 dönüştürün.
         cevap: "yellow" , "red" , "yellow" , "red" , "yellow"
      */
 

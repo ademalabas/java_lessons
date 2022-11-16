@@ -68,9 +68,9 @@ public class If_homework_19Sept {
         int numberx = sc.nextInt();
 
         if (numberx % 2== 0 ) {
-            System.out.println("number is a EVEN number");
+            System.out.println("number is Test01 EVEN number");
         } else  {
-            System.out.println("number is a ODD number");
+            System.out.println("number is Test01 ODD number");
         }
        //******* task 8 ********//
         int numa =33;

@@ -7,13 +7,13 @@ import java.util.Scanner;
 public class Q10_ArrayList {
      /*
 		A list has elements “H”, “G” and “E”
-		Ask user to enter a letter
+		Ask user to enter Test01 letter
 		If the letter exists in list convert it to "Got it"
 		otherwise add it to the list.
 		Example : [H, G, E]
-                  Enter a letter :  h
+                  Enter Test01 letter :  h
                   [Got It, G, E]
-                  Enter a letter :  a
+                  Enter Test01 letter :  Test01
                   [H, G, E, A]
         */
 

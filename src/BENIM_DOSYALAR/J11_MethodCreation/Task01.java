@@ -72,8 +72,8 @@ public class Task01 {
    //  return esitMi;
    //  }
    //  ​
-   //  public  static  void esitKontrol2(int a,int b){
-   //  if (a == b){
+   //  public  static  void esitKontrol2(int Test01,int b){
+   //  if (Test01 == b){
    //  System.out.println("agam sayılar EŞİT :) ");
    //  }else System.out.println("agam sayılar eşit değil  :( ");
    //  ​

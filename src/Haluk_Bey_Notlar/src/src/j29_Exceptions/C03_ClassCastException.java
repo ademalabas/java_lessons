@@ -1,7 +1,5 @@
 package Haluk_Bey_Notlar.src.src.j29_Exceptions;
 
-import java.util.Objects;
-
 public class C03_ClassCastException {
     public static void main(String[] args) {
         // ClassCastException -> Biribirne dönüştürülemeyen data type'lar biribirine dönüştürüldüğünde oluşan RTE Exception dur

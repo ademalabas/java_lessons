@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class C02_MathClassMatrix {
   /*
-    Ask user to enter a number and print on console number by number matrix.
+    Ask user to enter Test01 number and print on console number by number matrix.
 
     Example:
     Input: 10

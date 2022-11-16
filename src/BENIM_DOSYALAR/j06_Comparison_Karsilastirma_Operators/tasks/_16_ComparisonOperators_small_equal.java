@@ -16,7 +16,7 @@ public class _16_ComparisonOperators_small_equal {
         Scanner scan = new Scanner(System.in);
         int a = 15;
         int b = 15;
-        System.out.println("a <= b " +(a<=b) );
+        System.out.println("Test01 <= b " +(a<=b) );
 
     }
 }

@@ -7,7 +7,7 @@ public class C04_WrapperClass {
 
         System.out.println(name.toUpperCase());//HALUK
 
-        // non-primitive data turleri data depolamak yaninda kullanışlı birçok method'a sahiptir
+        // non-primitive data turleri data depolamak yaninda kullanışlı birçok method'Test01 sahiptir
         // ancak primitive data turlerinin boyle bir ozelligi yoktur
         // primitive data turleri sadece degerleri saklarlar (container) ve hwerhangi bir özellik(method) vs bulundurmaz.
         //Ancak primitive data turleri icin de bazi işlemler için (String'den tamsayı çekme) method'lar ihtiyaç

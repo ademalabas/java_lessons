@@ -7,8 +7,8 @@ public class C06_SubString {
 /*
 substring()
 Metin icinde, istenilen araliktaki bir parcasina ya da butunune ulasilabilir. Sonuc ise String dir.
-substring(i)->Method'a parametre olarak girilen  index'den sona kadar olan parcayi return eder
-substring(baslangicIndexi, bitisIndexi)->Method'a parametre olarak girilen  baslangicIndexi'den bitis
+substring(i)->Method'Test01 parametre olarak girilen  index'den sona kadar olan parcayi return eder
+substring(baslangicIndexi, bitisIndexi)->Method'Test01 parametre olarak girilen  baslangicIndexi'den bitis
 indexi'e kadar parçayı return eder
 baslangic indexi ==> inclusive/dahil
 bitis indexi ==> eclusive/haric
@@ -41,8 +41,8 @@ System.out.println(str.substring(0,1));//J  0 alir 1 i almaz
          /*
         substring()
         Metin icinde, istenilen araliktaki bir parcasina ya da butunune ulasilabilir. Sonuc ise String dir.
-        substring(i)->Method'a parametre olarak girilen  index'den sona kadar olan parcayi return eder
-        substring(baslangicIndexi, bitisIndexi)->Method'a parametre olarak girilen  baslangicIndexi'den bitis
+        substring(i)->Method'Test01 parametre olarak girilen  index'den sona kadar olan parcayi return eder
+        substring(baslangicIndexi, bitisIndexi)->Method'Test01 parametre olarak girilen  baslangicIndexi'den bitis
         indexi'e kadar parçayı return eder
         baslangic indexi ==> inclusive/dahil
         bitis indexi ==> eclusive/haric
@@ -71,7 +71,7 @@ System.out.println(str.substring(0,1));//J  0 alir 1 i almaz
         }else{
             System.out.print(kelime.substring(kelime.length() - 1));//e
             System.out.print(kelime.substring(2,3));//l
-            System.out.print(kelime.substring(1,2));//a
+            System.out.print(kelime.substring(1,2));//Test01
             System.out.print(kelime.substring(0,1));//k
 
 

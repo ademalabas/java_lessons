@@ -22,7 +22,7 @@ public class C07_IllegalargumentException {
         try {
             if (age < 18) {
                 throw new IllegalArgumentException();//throw keyword ile Excp obj olusturularak hata tanımlanır ve fırlatırlır
-                // böylece sartımıza uymayan  değer için de catch block'a düşürerek daha pratik code yazıldı
+                // böylece sartımıza uymayan  değer için de catch block'Test01 düşürerek daha pratik code yazıldı
                 //  System.out.println("ehliyete basvurman için daha  : " + (18 - age) + "yıl var ...");
             } else System.out.println("agam ehliyete başvurabilirsin hayırlı lsun  " + age);
             System.out.println("agam try block da bu yazıyı okuduysan excp fırlatmadı komut sorunsuz ");

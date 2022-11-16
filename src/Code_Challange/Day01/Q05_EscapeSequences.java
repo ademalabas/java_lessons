@@ -2,9 +2,9 @@ package Code_Challange.Day01;
 
 public class Q05_EscapeSequences {
      /*
-	  \n (or \r): starts from a new line : metni bir alt satirdan itibaren yazdirir.
+	  \n (or \r): starts from Test01 new line : metni bir alt satirdan itibaren yazdirir.
 	          \t:  horizontal tab : metni yatayda 1 tab miktari kaydirir.
-	          \\: prints a back slash :\ (ters slash) yazdirir
+	          \\: prints Test01 back slash :\ (ters slash) yazdirir
 	          \': prints single quote :' tek tirnak yazdirir.
 	          \": prints double quote :"" cift tirnak yazdirir.
 	 \: backslash

@@ -44,7 +44,7 @@ public class C04_DateTimeFormatter {
 		 m : minute tek rakamlari tek yazlır
 		 mm: tek rakamlari 08 gibi yazılır
 
-		 a yazarsak AM veya PM degerini yazar
+		 Test01 yazarsak AM veya PM degerini yazar
 
 
 		 */

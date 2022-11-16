@@ -10,7 +10,7 @@ public class Homework_Adem_Comp_Op {
 
         int a = 13;
         int b = 10;
-        System.out.println("a>b " + (a>b)); // true
+        System.out.println("Test01>b " + (a>b)); // true
 
 
         //    *****BENIM_DOSYALAR.j01_Variables.j09_SwitchStatement.TASK 15 -******

@@ -13,7 +13,7 @@ public class C02_ForLoop {
         // 1 x 8 = 8
         // 1 x 9 = 9
         // 1 x 10 = 10
-        // Yukarıdaki çarpım tablosunu 10 a kadar ekrana yazdırınız.
+        // Yukarıdaki çarpım tablosunu 10 Test01 kadar ekrana yazdırınız.
 
     public static void main(String[] args) {
         for (int i = 1; i <= 10; i++) { //outer loop

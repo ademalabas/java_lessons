@@ -6,7 +6,7 @@ public  abstract  class Salad  extends Food{
   public abstract void madeIn();//parant ve child abs. class'larda aynı isimli iki meth tanımlanabilir
 
 public static void abikGbık(){//conc static meth isteğe göre bile override edilemez
-    System.out.println("a");
+    System.out.println("Test01");
 }
 
 

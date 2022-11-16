@@ -8,7 +8,7 @@ public class ObebOkek {
 
     /*
 TASK => Girilen iki sayının EBOB ve EKOK larını print eden method yazınız.
-Ekok(a,b)= |a*b|/ebob(a.b)
+Ekok(Test01,b)= |Test01*b|/ebob(Test01.b)
 */
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

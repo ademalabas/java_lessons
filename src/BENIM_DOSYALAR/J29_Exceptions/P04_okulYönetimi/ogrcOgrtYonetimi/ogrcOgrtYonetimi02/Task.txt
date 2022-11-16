@@ -14,7 +14,7 @@
    * ekleme methodunun mimari yusuf bey anlatiyor kimlik no try/catch de baglandi
    * yas try/catch ile kimlik no ya baglandi yas kontrol icin belli araliklar
    * alindi yani negatif girme durumu kontrol edildi
-   * brans try/catch ile yas a baglandi
+   * brans try/catch ile yas Test01 baglandi
    *
    * sicil no harf ve rakamlardan olusmasi gerketigi icin ve        kontrol edildi
    * nested try/catch mantigi ile ekleme methodu calisildi

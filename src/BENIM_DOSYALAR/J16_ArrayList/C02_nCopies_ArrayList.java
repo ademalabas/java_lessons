@@ -20,7 +20,7 @@ public class C02_nCopies_ArrayList {
         listSehir.addAll(3,listUlke);// 3. indeksten sonra ulke  listesini ekledi
         System.out.println(listSehir);//[Munih, losAngeles, Londra, Almanya, Amerigonya, Ingiltere, Isvec, Munih, losAngeles, Londra, Stocolm, Stocolm]
 
-        // Task  1 den 10 a kadar sayilara bir liste atayip print eden code create ediniz
+        // Task  1 den 10 Test01 kadar sayilara bir liste atayip print eden code create ediniz
         ArrayList<Integer> sayiList =new ArrayList<>(10);
         for (int i=1;i<=10;i++) {
             sayiList.add(i);

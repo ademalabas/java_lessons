@@ -23,7 +23,7 @@ Array'de primitive datalar veya non-primitive datalarin referanslari store edile
         int sayıArr[]=new int[5];//java heap memorhy'de 5 default->0 olan int array  create edildi
         // [0,0,0,0,0]
 
-        // Array'a eleman ekleme...
+        // Array'Test01 eleman ekleme...
         sayıArr[2]=34;
         sayıArr[0]=35;
         sayıArr[1]=34;

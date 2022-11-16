@@ -9,7 +9,7 @@ public class C01_InstanceVariable {
 	 	2) Instance variable'lar object olusturulurken olusturulur ve her obje'ye bu variable'lar monte edilir.
 	 	3) Instance variable'lara deger atamasi yapsaniz da olur, yapmasaniz da olur.
 	 		Asagida goruldugu gibi "yas" variable'ina deger atamasi yaptim "tecrube" variable'ina yapmadim.
-	 		Note : Bir variable'a deger atamasi yapma "Initialize" olarak adlandirilir.
+	 		Note : Bir variable'Test01 deger atamasi yapma "Initialize" olarak adlandirilir.
 	 			"yas" variable'i initialize edildi, digerleri initialize edilmedi.
 	 	4) Initialize edilmeyen "instance variable" lar icin Java kendisi deger atamasi yapar.
 	 		Java'nin instance variable'lara kendisinin verdigi degerlere "default value" denir.
@@ -60,7 +60,7 @@ public class C01_InstanceVariable {
         System.out.println("obj1.name = " + obj1.name);//fatih bey
 
     }//main sonu
-    //a=23;//local dısı call edilemez
+    //Test01=23;//local dısı call edilemez
 
     public void non_staticMethod() {//static olmayan method
         System.out.println("static olmayan methoddan agama bolcana selam :)");

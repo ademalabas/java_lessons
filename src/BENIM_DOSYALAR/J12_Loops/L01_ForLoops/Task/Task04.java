@@ -22,7 +22,7 @@ Girilen iki sayi arasindaki cift sayilari yanyana print eden code create ediniz
         } else System.out.println("Hatali giris yaptiniz");
 
 
-     //   for (int i=(a<b?a:b);i<=(a>b?a:b);i++ ){
+     //   for (int i=(Test01<b?Test01:b);i<=(Test01>b?Test01:b);i++ ){
      //       System.out.print(i%2==0?i:" ");
      //   }
 

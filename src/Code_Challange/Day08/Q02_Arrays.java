@@ -3,7 +3,7 @@ package Code_Challange.Day08;
 public class Q02_Arrays {
     public static void main(String[] args) {
         /*
-         * write a java program that calculates the average value of array elements
+         * write Test01 java program that calculates the average value of array elements
          * Print elements that are greater than avarage
          * (dizi elemanlarinin ortalama degerini hesaplayan ve
          * ortalamadan buyuk olan elemanlari yazdıran bir java programi yazin)

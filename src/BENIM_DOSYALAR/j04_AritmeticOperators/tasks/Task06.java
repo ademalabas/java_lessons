@@ -28,7 +28,7 @@ public class Task06 {
         int birler = (n%10); //sayinin birler basamagi
         n /= 10; // sayi 10 abolumunden bolumu verir 853/10 ->85
         int onlar = n%10; // 85 in 10 bolumunden kalan ->5
-        int yuzler = n/10; // 85 in 10 a bolumu ->8
+        int yuzler = n/10; // 85 in 10 Test01 bolumu ->8
 
         System.out.println("birler = " + birler+"\nonlar ="+ onlar+"\nyuzler = " + yuzler);
 
@@ -39,7 +39,7 @@ public class Task06 {
       // int birler = sayi % 10;//sayının birler basamagı
       // sayi /= 10;// sayı 10 bolumunden bolumu verir 853/10->85
       // int onlar = sayi % 10;// 85in 10 bolumunden kalan->5
-      // int yüzler = sayi / 10;// 85'in 10' a bolumu ->8
+      // int yüzler = sayi / 10;// 85'in 10' Test01 bolumu ->8
 
       // System.out.println("Girdiginiz sayinin birler basamagi :"+birler+"\nGirdiginiz sayinin onlar basamagi : "+onlar
       //         +"\nGirdiginiz sayinin yuzler basamagi :"+yüzler);

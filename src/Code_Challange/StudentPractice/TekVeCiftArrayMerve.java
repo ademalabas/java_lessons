@@ -9,7 +9,7 @@ public class TekVeCiftArrayMerve {
     public static void main(String[] args) {
 
   /*
-    Write a Java program to separate odd and even numbers of a given array of integers.
+    Write Test01 Java program to separate odd and even numbers of Test01 given array of integers.
     Put all odd numbers first, and then even numbers.
      example: int sayi[] = {20, 12, 23, 17, 7, 8, 10, 2, 1, 0};
      */
@@ -41,9 +41,9 @@ int sayi[] = {20, 12, 23, 17, 7, 8, 10, 2, 1, 0};
         System.out.println("tek ve çift sayılar ayrıldıktan sonra: \n"+tekCiftAyirma(sayi, yeniList));
     }
     private static ArrayList<Integer> tekCiftAyirma(int[] sayi, ArrayList<Integer> yeniList) {
-        for (int a : sayi) {
-            if (a % 2 == 1) {
-                yeniList.add(a);
+        for (int Test01 : sayi) {
+            if (Test01 % 2 == 1) {
+                yeniList.add(Test01);
             }
         }
         System.out.println("tek sayılar: "+yeniList);

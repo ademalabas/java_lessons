@@ -9,7 +9,7 @@ public class C11_ValueOf_parse {
 
 //valueOf() hem Integer wrapper classinin icinde hem de String'in
 // icinde var. Integer wrapper classinin icinde
-//olan valueOf() methdou String'i integer'a cevirir.
+//olan valueOf() methdou String'i integer'Test01 cevirir.
 // String'in icindeki valueOf() methodu integer'i String'e cevirir.
 
     // Task-> String type verilen iki adet bagis miktarini prin eden code crete ediniz
