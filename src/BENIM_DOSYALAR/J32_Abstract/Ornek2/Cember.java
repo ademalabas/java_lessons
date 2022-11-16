@@ -1,12 +1,13 @@
-package BENIM_DOSYALAR.J32_Abstract.Ornek2;
+package j32_Abstract.Ornek2;
 
-public class Cember extends Sekil {
+public class Cember extends Sekil{
 
-    private double yariCap;
-    private final double PI = 3.14;
 
-    public Cember(double yariCap) {
-        setYariCap(yariCap);
+      private double yariCap;
+      private final double pi=3.14;
+
+    public Cember(double yariCap) {//p'li cons
+        this.yariCap = yariCap;
     }
 
     public double getYariCap() {
@@ -17,17 +18,17 @@ public class Cember extends Sekil {
         this.yariCap = yariCap;
     }
 
-    public double getPI() {
-        return PI;
+    public double getPi() {
+        return pi;
     }
 
     @Override
-    public double alan() {
-        return PI * this.yariCap * this.yariCap;
+    public double alanHesapla() {
+        return pi*this.yariCap*this.yariCap;
     }
 
     @Override
-    public double cevre() {
-        return 2*PI * yariCap;
+    public double cevreHesapla() {
+        return 2*pi*this.yariCap;
     }
 }

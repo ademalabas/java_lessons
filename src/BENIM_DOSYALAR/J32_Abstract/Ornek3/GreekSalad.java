@@ -1,8 +1,10 @@
-package BENIM_DOSYALAR.J32_Abstract.Ornek3;
+package j32_Abstract.Ornek3;
 
-public class GreekSalad extends Salad {
+public class GreekSalad extends Salad{
     @Override
     public void madeIn() {
-        System.out.println("made in Greece");
+        System.out.println("Agam Komşi rum salatası bi nevi gavur salatası ");
     }
+
+
 }

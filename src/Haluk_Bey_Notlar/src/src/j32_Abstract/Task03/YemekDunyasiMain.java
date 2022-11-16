@@ -1,4 +1,4 @@
-package Haluk_Bey_Notlar.src.src.j32_Abstract.Ornek3;
+package Haluk_Bey_Notlar.src.src.j32_Abstract.Task03;
 
 public class YemekDunyasiMain {
     public static void main(String[] args) {

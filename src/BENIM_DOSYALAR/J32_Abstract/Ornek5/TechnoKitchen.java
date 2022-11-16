@@ -1,4 +1,4 @@
-package BENIM_DOSYALAR.J32_Abstract.Ornek5;
+package j32_Abstract.Ornek5;
 
 public class TechnoKitchen extends TechnoCafe {
     public static void Pisir(IFood yemek) {

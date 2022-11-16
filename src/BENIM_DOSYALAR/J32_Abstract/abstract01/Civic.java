@@ -1,4 +1,4 @@
-package BENIM_DOSYALAR.J32_Abstract.abstract01;
+package j32_Abstract.abstract01;
 
 public class Civic extends Lastik {//Honda parent abs Class extend child concrete class
  /*
@@ -6,7 +6,7 @@ public class Civic extends Lastik {//Honda parent abs Class extend child concret
  java CTE verdi
  çözüm:
  a) Unımplemented (uyarlanmamış) method implement edilmeli
- b)parent Hond class'dan abstarct keyword kaldırılmalı
+ b)parent Honda class'dan abstarct keyword kaldırılmalı
  c)concrete olan child Civic class abstract tanımlanmalı
   */
 
@@ -15,10 +15,11 @@ public class Civic extends Lastik {//Honda parent abs Class extend child concret
     // TRİCK -> child concrete class parent abs class'ın abs methodlarını mutlaka implement override etmeli
 
 
-    @Override//impelement edilen abs method
-    public void motor() {
-        System.out.println("Agam 1.6 eco motor az yakar çok kaçar ");
-    }
+  @Override//impelement edilen abs method
+  public void motor() {
+      System.out.println("Agam 1.6 eco motor az yakar çok kaçar ");
+  }
+
 
     @Override//impelement edilen abs method
     void koltuk() {
@@ -39,5 +40,5 @@ public class Civic extends Lastik {//Honda parent abs Class extend child concret
 
     }
   // Honda obj = new Civic();//honda oğlu civic
- // Civic obj1 = new Civic();//civic oğlu civic
+  // Civic obj1 = new Civic();//civic oğlu civic
 }

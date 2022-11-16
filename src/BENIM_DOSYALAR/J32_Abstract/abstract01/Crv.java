@@ -1,4 +1,4 @@
-package BENIM_DOSYALAR.J32_Abstract.abstract01;
+package j32_Abstract.abstract01;
 
 public class Crv extends Honda{
 
@@ -6,7 +6,6 @@ public class Crv extends Honda{
     public void motor() {
         System.out.println("Agam 2.4 super turbo motor arazi seni bekler 4x4 :)");
     }
-
 
     @Override
     void koltuk() {
@@ -17,6 +16,4 @@ public class Crv extends Honda{
     void kapı() {
         System.out.println("Agam kapılar vakumlu çarpılayasan :( ");
     }
-
-
 }

@@ -1,4 +1,4 @@
-package BENIM_DOSYALAR.J32_Abstract.Ornek5;
+package j32_Abstract.Ornek5;
 
 import java.util.ArrayList;
 import java.util.Scanner;

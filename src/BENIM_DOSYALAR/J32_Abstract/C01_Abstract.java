@@ -1,8 +1,7 @@
-package BENIM_DOSYALAR.J32_Abstract;
+package j32_Abstract;
 
 public class C01_Abstract {
-
-  /*
+    /*
     1- Bazı durumlarda child class'lar parent class'daki method'ların genellikle body2lerine değiştirerek override ederler.
     Bu gibi durumlarda parent class2daki method'a body tanımlamak ram ve memoey acısından gereksizdir.
     Çözüm olarak java Parent Class'a body'siz -> abstract(soyut)  methodlar tanımlamıştır
@@ -30,10 +29,16 @@ public class C01_Abstract {
     11- Abs Class'da static ve abs method tanımlanamaz CTE-> static method override edilemyecegi için abs olamaz
 
         **** ABSTRACT CLASS ASLA KESİNLİKLE OBJE URETEMEZ !!!!
-        TRİCK-> Abstract Class'lar referansı child Class'ın obj tutabilir(Polimorphism)
+        TRİCK-> Abstract Class'lar referansı alıp  child Class'ın obj tutabilir(Polimorphism)
+
+
+
+
+
+
+
+
 
      */
-
-
 
 }

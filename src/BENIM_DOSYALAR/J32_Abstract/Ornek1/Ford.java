@@ -1,4 +1,4 @@
-package BENIM_DOSYALAR.J32_Abstract.Ornek1;
+package j32_Abstract.Ornek1;
 
 public class Ford extends BinekOto {
 

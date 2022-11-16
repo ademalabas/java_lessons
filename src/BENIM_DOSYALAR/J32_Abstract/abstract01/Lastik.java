@@ -1,4 +1,4 @@
-package BENIM_DOSYALAR.J32_Abstract.abstract01;
+package j32_Abstract.abstract01;
 
 public abstract class  Lastik extends Honda{
 

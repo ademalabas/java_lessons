@@ -1,4 +1,4 @@
-package BENIM_DOSYALAR.J32_Abstract.abstract01;
+package j32_Abstract.abstract01;
 
 public abstract class Honda {//parent abstract class
 
@@ -17,7 +17,7 @@ public abstract class Honda {//parent abstract class
      abstract void kapı();
 
     // final void finalMethod();//concerete method body'siz olamaz
-    // final abstract void finalMethod();//abs method final olamaz
+   // final abstract void finalMethod();//abs method final olamaz
 
    //private void privateMethod();//concerete method body'siz olamaz
    //private  abstract void privateMethod();//abs method private olamaz

@@ -1,13 +1,13 @@
-package BENIM_DOSYALAR.J32_Abstract.Ornek2;
+package j32_Abstract.Ornek2;
 
 public abstract class Sekil {
     private String name;
 
-    public Sekil(String name) {
-        setName(name);
+    public Sekil() {//p'siz parent cons
     }
 
-    public Sekil() {
+    public Sekil(String name) {//p'li parent cons
+        setName(name);
     }
 
     public String getName() {
@@ -18,18 +18,24 @@ public abstract class Sekil {
         this.name = name;
     }
 
-    public abstract double alan();
+    public abstract double alanHesapla();
 
-    public abstract double cevre();
+    public abstract double cevreHesapla();
 
-    @Override
-    public String toString() {
-        return "ismi =" + this.name +
-                "\n Alan = " + this.alan() +
-                "\n Cevre = " + this.cevre();
+    // public void ciz(){
+    //     System.out.println(this.name+ " cizildi ");
+    // }
+    public String ciz() {
+        return this.name + " cizildi ";
     }
 
-    public void ciz() {
-        System.out.println(this.name + "çizildi...");
+    @Override
+    public String toString() {//obj value'leri print eder
+        return
+                "sekil isim ='" + this.name + '\'' +
+                        "\n sekil alanı : " + this.alanHesapla() +//meth call
+                        "\n sekil cevre : " + this.cevreHesapla() +
+                        "\n sekil " + this.ciz();//ciz meth call edildi
+
     }
 }

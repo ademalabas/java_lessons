@@ -1,4 +1,4 @@
-package BENIM_DOSYALAR.J32_Abstract.sirket;
+package j32_Abstract.sirket;
 
 public abstract class insan {
     private String isim;

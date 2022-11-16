@@ -1,4 +1,4 @@
-package BENIM_DOSYALAR.J32_Abstract.Ornek6;
+package j32_Abstract.Ornek6;
 
 public abstract class Bank {
     private String name;

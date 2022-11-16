@@ -1,4 +1,4 @@
-package Haluk_Bey_Notlar.src.src.j32_Abstract.Ornek2;
+package j32_Abstract.Task02;
 
 public class GeometriMain {
     public static void main(String[] args) {

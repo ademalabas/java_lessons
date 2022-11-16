@@ -1,16 +1,8 @@
-package BENIM_DOSYALAR.J32_Abstract.Ornek3;
+package j32_Abstract.Ornek3;
 
-public abstract class Food {
-    private String name;
+public  abstract class Food {
 
     public abstract void madeIn();
+    public  abstract void taste();
 
-    public abstract void taste();
-
-    @Override
-    public String toString() {
-        return "Food{" +
-                "name='" + name + '\'' +
-                '}';
-    }
 }
