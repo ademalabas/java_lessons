@@ -1,9 +1,6 @@
 package BENIM_DOSYALAR.J34_Iterators;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class C01_Iterators {
 
@@ -48,6 +45,59 @@ public class C01_Iterators {
                 System.out.print(it1.next()+" ");//Nur :-)  Gamze :-)  Erol :-)  Bekir :-)
 
             }
+            System.out.println();
+            System.out.println("   *** Iterators ***   ");
+            List<String> l2 = new ArrayList<>(Arrays.asList("Adem", "Baran", "Akif", "Ismail"));
+
+
+            // l2 elemanlarini iterator ile silip print ediniz  ==> l2=[]
+            System.out.println(" Iterator oncesi l2 =" + l2);
+            Iterator<String> it2 = l2.iterator();//"Adem", "Baran", "Akif", "Ismail"
+
+            while (it2.hasNext()){//tekrardaki pointer onundeki eleman varligini kontrol eder
+                it2.next();// tekrardaki pointer onundeki elemani verir
+                it2.remove();// next() ile gelen elemani siler
+
+            }
+            System.out.println(" Iterator sonrasi  l2 =" + l2);// []
+
+
+
+            List<String> l3 = new ArrayList<>(Arrays.asList("Adem", "Baran", "Akif", "Ismail"));
+            // l3 elemanlarini iterator ile  :-) set edip  print ediniz  ==> l3="Adem""Baran", "Akif", "Ismail"
+
+            System.out.println(" Iterator oncesii  l3 =" + l3);// "Adem""Baran", "Akif", "Ismail"
+            ListIterator<String> it3 = l3.listIterator();// tekrar iterator yapisi tanimlandi
+            while (it3.hasNext()){
+               it3.set(it3.next()+ "  :-)  "); // tekrardaki next() ile elemani :-) concat ederek update edildi
+               // it3.set(it3.next().toUpperCase().charAt(0)+"***"); // tekrardaki next() ile elemani :-) concat ederek update edildi
+            }
+
+
+            System.out.println(" Iterator sonrasi  l3 =" + l3);// Adem",:-) "Baran",:-)  "Akif",:-)  "Ismail":-)
+
+
+
+            List<String> l4 = new ArrayList<>(Arrays.asList("Aliye", "Sumeyra ", "Busra", "Ismail"));
+            // l3 elemanlarini ilk harfi buyuk  kalan 3 hari ** karakteri ve l4 listesi ekleyip print ediniz ==> l3="Adem""Baran", "Akif", "Ismail"
+
+            System.out.println(" Iterator oncesii  l3 =" + l3);// "Adem""Baran", "Akif", "Ismail"
+            ListIterator<String> it4 = l3.listIterator();// tekrar iterator yapisi tanimlandi
+            while (it4.hasNext()){
+
+                 it4.set(it4.next().toUpperCase().charAt(0)+"***"); // tekrardaki next() ile gelen l4 elemani ilk harfi buyuk harf kalan 3 harf ** ile update edildi
+            it4.add((l4.toString()));// tekrardaki update edilen  l3 e l4 add edildi
+
+            }
+
+
+            System.out.println(" Iterator sonrasi  l3 =" + l3);// A *** "B***   "A***   "I***
+
+
+
+
+
+
         }
 
 
