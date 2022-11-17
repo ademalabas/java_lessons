@@ -123,6 +123,7 @@ price;
 
         while (accoutBalance>=price){
 
+
             accoutBalance = accoutBalance - urun.getPrice();//handle
             System.out.println("Kalan Bakiye: " + accoutBalance);
 
