@@ -26,7 +26,7 @@ public class C01_Iterators {
             }
             System.out.println("l1 :-) update sonrası :"+l1);//[Nur :-) , Gamze :-) , Erol :-) , Bekir :-) ]
             System.out.println();
-            System.out.println("   ***   ");
+            System.out.println("   *** *****  ");
             // l1 herbir elamanı :-(  for-each loop ile update edip  print ediniz...
             for (String w:l1){
                 w+=" :-( ";
@@ -42,7 +42,7 @@ public class C01_Iterators {
             while(it1.hasNext()){
                 //hasNext()->it1 elamanları için pointer old yerde elekman varsa true yoksa false verir ve pointer bir sonrakı elelman önüne koyulur
                 // next()-> list'in pointer önündeki  elemnını return eder
-                System.out.print(it1.next()+" ");//Nur :-)  Gamze :-)  Erol :-)  Bekir :-)
+                System.out.print(it1.next()+"   ");//Nur :-)  Gamze :-)  Erol :-)  Bekir :-)
 
             }
             System.out.println();
@@ -63,13 +63,13 @@ public class C01_Iterators {
 
 
 
-            List<String> l3 = new ArrayList<>(Arrays.asList("Adem", "Baran", "Akif", "Ismail"));
+            List<String> l3 = new ArrayList<>(Arrays.asList("adem", "baran", "Akif", "Ismail"));
             // l3 elemanlarini iterator ile  :-) set edip  print ediniz  ==> l3="Adem""Baran", "Akif", "Ismail"
 
             System.out.println(" Iterator oncesii  l3 =" + l3);// "Adem""Baran", "Akif", "Ismail"
             ListIterator<String> it3 = l3.listIterator();// tekrar iterator yapisi tanimlandi
             while (it3.hasNext()){
-               it3.set(it3.next()+ "  :-)  "); // tekrardaki next() ile elemani :-) concat ederek update edildi
+              it3.set(it3.next()+ "  :-)  "); // tekrardaki next() ile elemani :-) concat ederek update edildi
                // it3.set(it3.next().toUpperCase().charAt(0)+"***"); // tekrardaki next() ile elemani :-) concat ederek update edildi
             }
 
@@ -79,7 +79,7 @@ public class C01_Iterators {
 
 
             List<String> l4 = new ArrayList<>(Arrays.asList("Aliye", "Sumeyra ", "Busra", "Ismail"));
-            // l3 elemanlarini ilk harfi buyuk  kalan 3 hari ** karakteri ve l4 listesi ekleyip print ediniz ==> l3="Adem""Baran", "Akif", "Ismail"
+            // l3 elemanlarini ilk harfi buyuk  kalan 3 hari *** karakteri ve l4 listesi ekleyip print ediniz ==> l3="Adem""Baran", "Akif", "Ismail"
 
             System.out.println(" Iterator oncesii  l3 =" + l3);// "Adem""Baran", "Akif", "Ismail"
             ListIterator<String> it4 = l3.listIterator();// tekrar iterator yapisi tanimlandi

@@ -23,5 +23,6 @@ public class Runner {
         System.out.println("icDonanım.MUSIC = " + icDonanım.MUSIC);
         dısDonanım.anten();//static conc meth Interface name .call
 
+
     }
 }

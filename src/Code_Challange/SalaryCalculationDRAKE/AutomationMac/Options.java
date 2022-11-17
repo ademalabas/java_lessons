@@ -21,6 +21,8 @@ public class Options {
      */
 
     public double select(Urun urun){
+        System.out.println("urun.getPrice() = " + urun.getPrice());// handle
+        System.out.println("urun.getProductNum() = " + urun.getProductNum());// hanle
 
         System.out.println(urun.toString());//Kullanıcıya urunleri gösterdim...
         Scanner scanner = new Scanner(System.in);
@@ -50,6 +52,7 @@ price;
 
             case 0:
                 System.out.println("Yine Bekleriz...");
+                System.exit(0);
                 break;
             case 1:
                 urun.setPrice(urun.getKraker());
@@ -78,9 +81,23 @@ price;
     }
 
     public double balance(double price, double accountBalance, Urun urun){
-        double fonlama;
 
-        while (accountBalance<price){
+        double fonlama;
+/*
+        try{
+            System.out.println("Hellooooo....."); //RTE --> run time error ....
+        }
+
+///handle
+
+        catch (Exception e){
+            System.out.println("Catchhhh.....");
+        }
+
+ */
+
+
+        while (accountBalance< urun.getPrice()){// handle edildi
             Scanner scanner = new Scanner(System.in);
             System.out.println("Yeterli bakiyeniz bulunmamaktadır... Ekleme Yapmak istiyor musunuz (Y/N)");
             char confirm = scanner.next().toLowerCase().charAt(0);
@@ -98,7 +115,30 @@ price;
             }
 
         }
-        return accountBalance; //Hata vermemesi için şu anlık yazılmıuş bir veridir....
+        return accountBalance;
+    }
+
+
+    public void purchase(double price, double accoutBalance, Urun urun){
+
+        while (accoutBalance>=price){
+
+            accoutBalance = accoutBalance - urun.getPrice();//handle
+            System.out.println("Kalan Bakiye: " + accoutBalance);
+
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Başka bir ürün almak istiyor musunuz? (Y/N)");
+            char confirm = scanner.next().toLowerCase().charAt(0);
+
+            if (confirm == 'n'){
+                System.out.println("Yine Bekleriz....");
+                break;
+            }else {
+                urun.setPrice(select(urun));
+                accoutBalance = balance(urun.getPrice(),accoutBalance,urun);
+            }
+        }
     }
 
 }
+
