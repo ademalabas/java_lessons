@@ -36,6 +36,7 @@ Bunun icin pointerri  sona goturen hasnext() calismali
             String s = it2.next();
            if (!it2.hasNext()) {//son elaman-> sonrasında eleman yok
                 it2.set(s + " : -) ");
+
            }
         }
         System.out.println(l2);//[cagla, uğur, muharrem, cebrail : -) ]
