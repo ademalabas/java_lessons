@@ -58,7 +58,7 @@ public class C01_HashSet {
         System.out.println("hs1 = " + hs1);//[Ercan, Adem, Kevser, Nur, Yakup, Rukiye]
 
         hs1.add("Adem");//tekrarlı eleman ekleme
-        System.out.println("hs1 = " + hs1);//[Ercan, Adem, Kevser, Nur, Yakup, Rukiye]
+        System.out.println("hs1 = " + hs1);//[Ercan, Adem, Kevser, uNr, Yakup, Rukiye]
 
         hs1.add(null);
         hs1.add(null);
