@@ -8,3 +8,4 @@ public class Runner {
         girisPaneli();//static method import edildi
     }
 }
+

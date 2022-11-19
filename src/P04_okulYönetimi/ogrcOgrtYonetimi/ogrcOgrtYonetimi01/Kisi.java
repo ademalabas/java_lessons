@@ -50,10 +50,9 @@ public class Kisi {
                 "adSoyad='" + adSoyad + '\'' +
                 ", kimlikNo='" + kimlikNo + '\'' +
                 ", yas=" + yas +
-                '}';
+                ',';
     }
 }
-
 
 
 
