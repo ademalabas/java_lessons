@@ -54,7 +54,7 @@ public class Islemler {
 
     public static void islemMenusu() {
         System.out.println(B +"Sectiginiz kisi turu: " + kisiTuru + ", Lutfen asagidaki islemlerden tercih yapiniz.\n"
-                + R + "*********** " + kisiTuru + " ISLEMLER ************\n" + B + " 1-EKLEME\n 2-ARAMA\n 3-LISTELEME\n 4-SILME\n 0-ANA MENU");
+                + R + "*********** " + kisiTuru + " ISLEMLER ************\n" + B + " 1-EKLEME\n 2-ARAMA\n 3-LISTELEME\n 4-SILME\n 5-ANA MENU");
         // System.out.print(B+"Islem Tercihiniz : ");
 
         System.out.print("islem tercihinizi giriniz : ");
@@ -82,8 +82,8 @@ public class Islemler {
                 sil();
                 islemMenusu();
                 break;
-            // case 0:
-            case"0":
+            // case 5:
+            case"5":
                 girisPaneli();
                 break;
             default:
@@ -228,6 +228,7 @@ public class Islemler {
             String sınıf = scan.next();
             Ogrenci sefilOgrenci = new Ogrenci(adSoyad, kimlikNo, yas, ogrcNo, sınıf);//p'li cons ogrc obj create edildi
             ogrncListesi.add(sefilOgrenci);
+
         } else {//kisiTuru öğrenci ise if çalısir değilse kisiTuru öğretmen demektir ki else body çalışır
             System.out.print("bolum giriniz : ");
             String bolum = scan.next();// ****nextLine() next a cevrildi
