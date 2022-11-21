@@ -1,6 +1,6 @@
 package Proje.P11_depoYonetimi.depoYonetimi03;
 
-import advancedJavaPractice.JavaProjects.P11_depoYonetimi.depoYonetimi01.Urunler;
+
 
 import java.util.HashMap;
 import java.util.Scanner;
