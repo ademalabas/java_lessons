@@ -49,6 +49,11 @@ public class C01_Queue {
 
         //offer()-> queue coll. eleman eklemek için kullnılır.
         System.out.println("q2.offer(\"küşleme\") = " + q2.offer("küşleme"));//true
+/*
+    ahan da Trick kösesinde bugun : offer ve add farkı ->  eger queue coll. eleman kısıtlaması yapılmış ise
+     add meth Exception fırlatır.offer ise true-false return eder.
+
+    */
 
 
     }
