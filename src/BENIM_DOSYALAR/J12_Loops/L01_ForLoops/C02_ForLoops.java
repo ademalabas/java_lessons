@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C02_ForLoops {
     public static void main(String[] args) {
 
-        // task -> girilen sayıdan 100 e kadar +un katı tamsayıları print eden code create ediniz
+        // task -> girilen sayıdan 100 e kadar 4un katı tamsayıları print eden code create ediniz
 
         Scanner sc= new Scanner(System.in);
         System.out.println("bir pozitif tam sayı giriniz : ");
