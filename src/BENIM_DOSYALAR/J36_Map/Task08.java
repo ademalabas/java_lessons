@@ -35,6 +35,7 @@ public class Task08 {
         hm.put(5,"Istanbul");
 
 
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Agam sayi giresen");
         int sayi = sc.nextInt();
