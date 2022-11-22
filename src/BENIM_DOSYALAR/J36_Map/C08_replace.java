@@ -2,14 +2,12 @@ package BENIM_DOSYALAR.J36_Map;
 
 import java.util.HashMap;
 
-public class C07_containsKey_containsValue {
-
+public class C08_replace {
     public static void main(String[] args) {
 
         HashMap<String, String> hm = new HashMap<>();
-        //map.containsKey();->Girilen Key değerinin  map'de varlığını  kontrol eder boolean  return eder.
+//map.containsKey();->Girilen Key değerinin  map'de varlığını  kontrol eder boolean  return eder.
         //map.containsValue();->Girilen  value değerinin  map'de varlığını  kontrol eder boolean  return eder.
-
 
         hm.put("Amazon", "296 Euro");
         hm.put("Ebay", "234 Euro");
@@ -25,9 +23,6 @@ public class C07_containsKey_containsValue {
         System.out.println("hm.containsValue(\"296 Euro\") = " + hm.containsValue("296 Euro"));// true
         System.out.println("hm.containsValue(\"ebıkGabık Euro\") = " + hm.containsValue("ebıkGabık Euro"));// false
 
-
-
     }
-
 
 }
