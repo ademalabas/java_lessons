@@ -1,5 +1,7 @@
 package BENIM_DOSYALAR.J36_Map.j36_Map;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -25,6 +27,25 @@ public class Task04 {
 
 
     public static void main(String[] args) {
+
+        String str = "Ali ata bak. Veli ata bak. Veli ata Ali ile bak.";
+        HashMap<String, Integer> kelimeMap = new HashMap<>();
+        ArrayList<String> CumleList = new ArrayList<>(Arrays.asList(str.split("\\.")));
+        System.out.println(CumleList);
+        for(int i = 0; i<CumleList.size();i++) {
+            ArrayList<String> KelimeList = new ArrayList<>(Arrays.asList((CumleList.get(i).trim()).split(" ")));
+            for(int j = 0; j<KelimeList.size();j++) {
+                if(kelimeMap.containsKey(KelimeList.get(j))) kelimeMap.replace(KelimeList.get(j), kelimeMap.get(KelimeList.get(j))+1);
+                else kelimeMap.put(KelimeList.get(j), 1);
+            }
+        }
+        System.out.println(kelimeMap);
+
+
+
+
+
+
 
     }
 
