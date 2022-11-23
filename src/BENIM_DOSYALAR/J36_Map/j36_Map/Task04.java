@@ -34,13 +34,12 @@ public class Task04 {
         System.out.println(CumleList);
         for(int i = 0; i<CumleList.size();i++) {
             ArrayList<String> KelimeList = new ArrayList<>(Arrays.asList((CumleList.get(i).trim()).split(" ")));
-            for(int j = 0; j<KelimeList.size();j++) {
+           for(int j = 0; j<KelimeList.size();j++) {
                 if(kelimeMap.containsKey(KelimeList.get(j))) kelimeMap.replace(KelimeList.get(j), kelimeMap.get(KelimeList.get(j))+1);
                 else kelimeMap.put(KelimeList.get(j), 1);
             }
         }
         System.out.println(kelimeMap);
-
 
 
 
