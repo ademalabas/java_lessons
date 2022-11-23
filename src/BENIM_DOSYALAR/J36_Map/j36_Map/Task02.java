@@ -8,40 +8,40 @@ public class Task02 {
         /*
         Task ->
          Key:isim ,email,adres,telefon
-         Key2lere ait valueeleri depolayan bir kartvizit  map ve isim Key'e kartvizit map'i value tanımlayan farklı bir map tanımlayıp
-         print eden code create ediniz
+         Key'lere ait value'leri depolayan bir kartvizit  map ve isim Key'e kartvizit map'i value tanımlayan farklı bir map tanımlayıp
+         print eden code create ediniz.
          */
+        Map<String, String> nazımKrtvzt = new HashMap<>();
+        nazımKrtvzt.put("isim", "Nazım");
+        nazımKrtvzt.put("email", "ebik@gabık.com");
+        nazımKrtvzt.put("adres", "buyuk dut agacını altı");
+        nazımKrtvzt.put("telefon", "1453571622");
 
-       Map<String, String>Adem = new HashMap<>();
-       Adem.put("Isim","Adem");
-       Adem.put("email","Ademalabas@ebikgabik.com");
-       Adem.put("adres","Erzincan");
-       Adem.put("telefon","0543212121");
+        Map<String, String> mehmetKrtvzt = new HashMap<>();
+        mehmetKrtvzt.put("isim", "mehmet");
+        mehmetKrtvzt.put("email", "ebik1@gabık1.com");
+        mehmetKrtvzt.put("adres", "buyuk elma agacını altı");
+        mehmetKrtvzt.put("telefon", "12345678");
 
-        System.out.println("Adem = " + Adem);
-        System.out.println("Adem.get(\"Isim\") = " + Adem.get("Isim"));
+        Map<String,Map<String, String>> kartvizit=new HashMap<>();
+        kartvizit.put("QA Nazım",nazımKrtvzt);
+        kartvizit.put("Dev Mehmet",mehmetKrtvzt);
+        System.out.println("kartvizit = " + kartvizit);
 
+        System.out.println("kartvizit.get(\"Dev Mehmet\").get(\"telefon\") = " + kartvizit.get("Dev Mehmet").get("telefone"));//12345678
 
-        Map<String, String>Sumeyra = new HashMap<>();
-
-        Sumeyra.put("Isim","Sumeyra Yolcu");
-        Sumeyra.put("email","Sumeyrayolcu@gmail.com");
-        Sumeyra.put("adres","Erzincan");
-        Sumeyra.put("telefon","05432222222");
-        System.out.println("Sumeyra = " + Sumeyra);
-        System.out.println("Sumeyra.get(\"Isim\") = " + Sumeyra.get("Isim"));
-
-        Map<String,Map<String,String>>kartvizit= new HashMap<>();
-        kartvizit.put("Adem",  Adem);
-        kartvizit.put("Sumeyra",Sumeyra);
-        System.out.println(kartvizit);
+        Map<Integer,Task02_Kartvizit> krt=new HashMap<>();
+        Task02_Kartvizit k1=new Task02_Kartvizit("Enise","enise@tester.com","google company","1905");
+        krt.put(k1.id, k1);
+        System.out.println("krt = " + krt);
+        System.out.println("krt.get(k1.id) = " + krt.get(k1.id));//k1.id key values:isim='Enise', email='enise@tester.com', adres='google company', telefon='1905'
+        System.out.println("krt.get(k1.id) = " + krt.get(101));//101 key values:isim='Enise', email='enise@tester.com', adres='google company', telefon='1905'
 
 
     }
 }
 
-
-//semihMap.get(isim) = Semih Nerde
+        //semihMap.get(isim) = Semih Nerde
 //        semihMap.get(telefon) = 0 532 230000
 //        ismailKartvizit.get(isim) = İsmail Demir
 //        ismailKartvizit.get(telefon) = 0 546 450000
