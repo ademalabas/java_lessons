@@ -19,6 +19,29 @@ reduce işleminde bir önceki hesaplanmış değer ile sıradaki değer bir işl
     public static void main(String[] args) {
 // Lambda-> Stream API
         List<Integer> sayi = new ArrayList<>(Arrays.asList(24, 38, 49, 33, 7, 3, 42, 66, 75, 45, 46, 55, 35, 25, 67, 16));
+        //  List<Integer> sayi = new ArrayList<>(Arrays.asList(1, 3, 5));//filter olarak cift  sartı null verecegi için optional class ataması yapar
+        //Lambda ->Stream API
+        System.out.println("\n   ***   ");
+        ciftKareMaxPrint(sayi);//Optional[4356]
+    }//main sonu
+
+    // Task : List'in cift elemanlarin karelerinin en buyugunu print ediniz.
+    public static void ciftKareMaxPrint(List<Integer> sayi) {
+        //Optional<Integer> maxEleman= sayi.//filter işleimi null değer return etme riskine karsı Optional Class type data casting yapıldı
+        //           stream().//list elemanları akısa laındı
+        //           filter(C01_LambdaExpression::ciftMi).//akısdaki list elelmnalrı cift fitrelendi
+        //           map(t->t*t).//fitrelenen cift akıs elemanları karesi ile update edildi
+        //           reduce(Math::max);//cift fitrelelen ve karesi alınan akıs elemanları max elemana göre reduce-> azaltıldı.
+        //   System.out.println(maxEleman);
+        System.out.println(sayi.
+                stream().//list elemanları akısa laındı
+                        filter(C01_LambdaExpression::ciftMi).//akısdaki list elelmnalrı cift fitrelendi
+                        map(t -> t * t).//fitrelenen cift akıs elemanları karesi ile update edildi
+                //reduce(Math::max));
+                        reduce(Integer::max));//specific class daha hızlı çalışır
+
+    }
+
 
 
 
@@ -28,4 +51,4 @@ reduce işleminde bir önceki hesaplanmış değer ile sıradaki değer bir işl
 
 
 
-}
+
