@@ -24,8 +24,8 @@ public class C12_HashTable {
         System.out.println("ht = " + ht);//{köfte=tekirdağ, söğüş=, çorba=beyran, döner=sivas, kebab=adana}
         ht.put("döner","dönerse senindir :) ");//döner key update edilir key'de dublicate değil üzerine value atamsı yapılır
         System.out.println("ht = " + ht);//{köfte=tekirdağ, söğüş=, çorba=beyran, döner=dönerse senindir :) , kebab=adana}
-        // ht.put(null,"trileçe");//RTE->NullPointerException
-        // ht.put("kahve",null);//RTE->NullPointerException
+       //ht.put(null,"trileçe");//RTE->NullPointerException
+       //ht.put("kahve",null);//RTE->NullPointerException
         System.out.println("agam selametle dewamkeee...");
 
         Hashtable<String ,String > ht1 = new Hashtable<>();

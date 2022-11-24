@@ -26,13 +26,17 @@ public class Task02 {
         Map<String,Map<String, String>> kartvizit=new HashMap<>();
         kartvizit.put("QA Nazım",nazımKrtvzt);
         kartvizit.put("Dev Mehmet",mehmetKrtvzt);
-        System.out.println("kartvizit = " + kartvizit);
+        System.out.println("kartvizit = " + kartvizit);//{QA Nazım={telefon=1453571622, adres=buyuk dut agacını altı, email=ebik@gabık.com, isim=Nazım},
+                                                        // Dev Mehmet={telefon=12345678, adres=buyuk elma agacını altı, email=ebik1@gabık1.com, isim=mehmet}}
 
         System.out.println("kartvizit.get(\"Dev Mehmet\").get(\"telefon\") = " + kartvizit.get("Dev Mehmet").get("telefone"));//12345678
 
         Map<Integer,Task02_Kartvizit> krt=new HashMap<>();
         Task02_Kartvizit k1=new Task02_Kartvizit("Enise","enise@tester.com","google company","1905");
+        Task02_Kartvizit k2=new Task02_Kartvizit("Murat","enise@tester.com","amazon company","1905");
         krt.put(k1.id, k1);
+        krt.put(k2.id, k2);
+
         System.out.println("krt = " + krt);
         System.out.println("krt.get(k1.id) = " + krt.get(k1.id));//k1.id key values:isim='Enise', email='enise@tester.com', adres='google company', telefon='1905'
         System.out.println("krt.get(k1.id) = " + krt.get(101));//101 key values:isim='Enise', email='enise@tester.com', adres='google company', telefon='1905'

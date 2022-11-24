@@ -38,7 +38,7 @@ public class C13_TreeMap {
         hm.put("Apple store", "333 Euro");
         hm.put("MediaMarkt", "183 Euro");
 
-        System.out.println("hm = " + hm);
+        System.out.println("hm = " + hm);//{Saturn=300 Euro, Ebay=234 Euro, Apple store=333 Euro, MediaMarkt=183 Euro, Amazon=296 Euro, Vatan=111 Euro}
         TreeMap<String, String> tm1 = new TreeMap<>(hm);//hm TreeMap e atanarak convert edildi
         //TreeMap<String, String> tm2 = hm;//CTE->dataType miss-Match
         System.out.println("tm1 = " + tm1);//{Amazon=296 Euro, Apple store=333 Euro, Ebay=234 Euro, MediaMarkt=183 Euro, Saturn=300 Euro, Vatan=111 Euro}

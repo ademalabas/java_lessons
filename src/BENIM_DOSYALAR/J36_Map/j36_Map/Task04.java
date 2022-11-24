@@ -49,3 +49,39 @@ public class Task04 {
     }
 
 }
+/*
+public static void main(String[] args) {
+​
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Bir cümle giriniz");
+        String cumle=sc.nextLine();
+        String[]kelimeler=cumle.split(" ");
+​
+        HashMap<String,Integer>kelimelist=new HashMap<>();
+        for (int i = 0; i <kelimeler.length ; i++) {
+​
+            if(kelimelist.get(kelimeler[i])==null){
+            kelimelist.put(kelimeler[i],1);
+            }else {
+                int num=kelimelist.get(kelimeler[i]);
+                kelimelist.put(kelimeler[i],num+1);
+            }
+        }
+        System.out.println(kelimelist);
+        for (String c : kelimelist.keySet()) {//key
+            System.out.println(c + " : " + kelimelist.get(c) + " ");
+        }}
+Collapse
+
+
+
+white_check_mark
+eyes
+raised_hands
+
+
+
+
+
+
+ */
