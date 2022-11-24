@@ -54,15 +54,12 @@ public class C01_LambdaExpression {
 
         printElFunctional1(sayi);//243849337342667545465535256716
         System.out.println("\n   ***   ");
-        printElFunctional2(sayi);//24 38 49 33 7 3 42 66 75 45 46 55 35 25 67 16
-
-        printElStructured3(sayi);
+        printElFunctional2( sayi);//24 38 49 33 7 3 42 66 75 45 46 55 35 25 67 16
 
 
     }//main sonu
 
-    //Task : "Structured Programming":Amele code kullanarak list elemanlarını aynı satirda aralarında bosluk olacak sekilde print ediniz.
-
+        //Task : "Structured Programming":Amele code kullanarak list elemanlarını aynı satirda aralarında bosluk olacak sekilde print ediniz.
 
     public static void printElStructured(List<Integer> sayi) {
         for (Integer w : sayi) {
@@ -86,11 +83,11 @@ public class C01_LambdaExpression {
              Parameter list: Fonksiyonun parametreleri tanımlanır. Hiç parametre geçirmeden boşta olabilir.
              -> Arrow-token: Argüman listesi(parameter list) ile expression gövdesini(action body) birbirine bağlamak için kullanılır.
              Body: Expressionları ve statementları içerir.
-​
+
             Bir kod bloğundan oluşan bir body...
             Bu tip lambda body, block body olarak bilinir. Blok gövdesi, lambda gövdesinin birden çok ifade içermesine izin verir.
             Bu ifadeler parantez içine alınır ve parantezlerden sonra noktalı virgül eklemeniz gerekir.
-​
+
                 () -> {
                  double pi = 3.1415;
                     return pi;
@@ -109,11 +106,9 @@ public class C01_LambdaExpression {
 
     }
 
-
     public static void yazdir(int a) {//normal allahın mmethodu tek aksiyonlu->seed method(tohum)->refere edilecek method
         System.out.print(a + " ");
     }
-
 
     public static void printElFunctional2(List<Integer> sayi) {//functional pr
         sayi.//aksiyona girecek list coll.
@@ -122,16 +117,9 @@ public class C01_LambdaExpression {
         //MethodKaynagı::Method ->meth reference
     }
 
-    //Task : "Structured Programming":Amele code kullanarak list elemanlarının çiftlerini  aynı satirda aralarında bosluk olacak sekilde print ediniz.
-    public static void printElStructured3(List<Integer> sayi) {
-        for (Integer w : sayi) {
-            if (w % 2 == 0) {
-                System.out.print(w + " ");
-            }
-        }
+    public static boolean ciftMi(int X) {//Refere edilecek  seed method
+        return X%2 == 0;
     }
-
-
 
 
 
