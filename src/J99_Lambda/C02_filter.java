@@ -17,6 +17,11 @@ public class C02_filter {
             System.out.println("\n   ***   ");
             printCiftElFunctional2(sayi);//24 16
             System.out.println("\n   ***   ");
+            printCiftElFunctional3( sayi);
+
+
+
+
         }//main sonu
         //Task : "Structured Programming":Amele code kullanarak list elemanlarının çiftlerini  aynı satirda aralarında bosluk olacak sekilde print ediniz.
 
@@ -58,6 +63,12 @@ public class C02_filter {
 
     // Task : Functional Programming ile listin cift elemanlarinin  karelerini ayni satirda aralarina bosluk bırakarak print ediniz
 
+    public static void printCiftElFunctional3(List<Integer> sayi) {//amele method
+        sayi.
+                stream().//list eemanları akısa alındı
+                filter(t ->t%2==0 || t > 34).//akısdakı list elemanları çift olma sartına göre filtrelendi:akısdan çıkarıldı->meth ref. best practice
+                forEach(C01_LambdaExpression::yazdir);//C01 Class'daki yazdır method refere(call) edildi
 
+    }
 
 }
