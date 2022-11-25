@@ -3,6 +3,7 @@ package J99_Lambda;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class C04_reduce {
@@ -20,13 +21,17 @@ reduce işleminde bir önceki hesaplanmış değer ile sıradaki değer bir işl
     public static void main(String[] args) {
 // Lambda-> Stream API
         List<Integer> sayi = new ArrayList<>(Arrays.asList(24, 38, 49, 33, 7, 3, 42, 66, 75, 45, 46, 55, 35, 25, 67, 16));
-        //  List<Integer> sayi = new ArrayList<>(Arrays.asList(1, 3, 5));//filter olarak cift  sartı null verecegi için optional class ataması yapar
+        //  List<Integer> sayi = new ArrayList<>(Arrays.asList(1, 3, 5,4,6,12,8));//filter olarak cift  sartı null verecegi için optional class ataması yapar
         //Lambda ->Stream API
         System.out.println("\n   ***   ");
         ciftKareMaxPrint(sayi);//Optional[4356]
-        elTopla ( sayi);//Optional[626]
-
-
+        System.out.println("\n   ***   ");
+        elTopla(sayi);
+        System.out.println("\n   ***   ");
+        ciftElCarpPrint(sayi);//2304
+        System.out.println("\n   ***   ");
+        minBul(sayi);
+        yirmiDorttenBuyuk( sayi);
 
     }//main sonu
 
@@ -44,19 +49,54 @@ reduce işleminde bir önceki hesaplanmış değer ile sıradaki değer bir işl
                         map(t -> t * t).//fitrelenen cift akıs elemanları karesi ile update edildi
                 //reduce(Math::max));
                         reduce(Integer::max));//specific class daha hızlı çalışır
+    }
+    // Task : List'teki tum elemanlarin toplamini print ediniz.
+    public  static void elTopla(List<Integer> sayi){
+        System.out.println(sayi.
+                stream().reduce(Integer::sum));//Optional[626]
+        Optional<Integer> toplam=sayi.
+                stream().reduce(Integer::sum);
+        System.out.println(toplam);//Optional[626]
+
+        System.out.println("lambda exp. : "+sayi.stream().reduce(0, (a, b) -> a + b));//Lambda expression
+        /*
+        a : ilk değerini her zaman atanan identity değerden alır
+        b : değerini her zaman stream() akısdan alır.
+        a ilk değerden sonraki değerlerini action(işlem body)'den alır
+         */
 
     }
-// Task : List'teki tum elemanlarin toplamini yazdiriniz.
 
-public static void elTopla (List<Integer> sayi) {
+    // Task : List'teki cift elemanlarin carpimini  yazdiriniz.
+    public static void ciftElCarpPrint(List<Integer> sayi){
+        System.out.println(sayi.
+                stream().
+                filter(C01_LambdaExpression::ciftMi).
+                reduce(Math::multiplyExact));//math Class'dam meth refere..
+        System.out.println(sayi.
+                stream().
+                filter(C01_LambdaExpression::ciftMi).
+                reduce(1, (t, u) -> t * u));//Lamb. exp..
+    }
+// Task : List'teki elemanlardan en kucugunu 4 farklı yontem ile print ediniz.
 
-    System.out.println(sayi.stream().reduce(Integer::sum));
+    public static void minBul(List<Integer> sayi){
+        System.out.println(sayi.stream().reduce(Math::min));//1. yol-> meth refe.
+        System.out.println(sayi.stream().reduce(Integer::min));//2. yol-> meth refe.
+        System.out.println(sayi.stream().reduce(C04_reduce::byHalukMinBul));//3. yol-> meth refe.
+        System.out.println("Lambda Expression = " + sayi.stream().reduce(Integer.MAX_VALUE, (t, u) -> t < u ? t : u));//4. yol-> Lambda Expression
+    }
+    public  static  int byHalukMinBul(int a,int b){//meth refe için seed(tohum) meth
+        return a<b?a:b;
+    }
 
-    System.out.println("Lambda expression = " + sayi.stream().reduce(0, (a, b) -> a + b)); // Lambda expression
+    // Task : List'teki 24'ten buyuk en kucuk tek sayiyi print ediniz.
+
+
+    private static void yirmiDorttenBuyuk(List<Integer> sayi) {
+        System.out.println(sayi.stream().filter(t -> t > 24 && t % 2 == 1).reduce(Math::min));
+    }
+
+
+
 }
-
-    }
-
-
-
-
