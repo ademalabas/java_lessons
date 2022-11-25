@@ -3,7 +3,7 @@ package Proje.ogrcOgrtYonetimiMap02;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Method implements GirisCikisInterface{
+public class Method implements GirisCikisInterface {
     public static final String W = "\u001B[37m";
     public static final String R = "\u001B[31m";
     public static final String G = "\u001B[32m";
@@ -13,18 +13,18 @@ public class Method implements GirisCikisInterface{
 
     @Override
     public void girisPaneli() {
-        OgrenciIslemleri ogr=new OgrenciIslemleri();
-        OgretmenIslemleri ogrt=new OgretmenIslemleri();
-        System.out.println(Y+"====================================\n" +
+        OgrenciIslemleri ogr = new OgrenciIslemleri();
+        OgretmenIslemleri ogrt = new OgretmenIslemleri();
+        System.out.println(Y + "====================================\n" +
                 "\t ÖĞRENCİ VE ÖĞRETMEN YÖNETİM PANELİ\n" +
                 "\t====================================\n" +
                 "\t 1- ÖĞRENCİ İŞLEMLERİ\n" +
                 "\t 2- ÖĞRETMEN İŞLEMLERİ\n" +
                 "\t 0- ÇIKIŞ");
         System.out.print("Yapmak istediniz islemi secin= ");
-        int secim=scan.nextInt();
+        int secim = scan.nextInt();
         try {
-            switch (secim){
+            switch (secim) {
                 case 1:
                     ogr.girisPaneli();
                     girisPaneli();
@@ -38,7 +38,7 @@ public class Method implements GirisCikisInterface{
                     break;
             }
 
-        }catch (
+        } catch (
                 InputMismatchException e) {
             System.out.println("Sayi disinda karakter girilemez");
             scan.nextLine();
