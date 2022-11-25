@@ -7,11 +7,12 @@ import java.util.List;
 
 public class C06_distinct {
 
+
     public static void main(String[] args) {
         List<String > menu = new ArrayList<String>(Arrays.asList("küşleme","soğanlı","trileçe","bicibici","büryan","melemen","cacix","kokerç","yağlama","güveç","arabAşı","tantuni"));
 
         // List<String> menu = new ArrayList<String>(Arrays.asList("küşleme", "küşleme", "küşleme", "soğanlı", "soğanlı", "soğanlı", "trileçe", "bicibici", "büryan", "melemen", "cacix", "kokerç", "yağlama", "güveç", "arabAşı", "tantuni"));
-      List<String> menu1 = new ArrayList<String>(Arrays.asList(  "bicibici", "melemen", "cacix", "kokerec"));
+     // List<String> menu1 = new ArrayList<String>(Arrays.asList(  "bicibici", "melemen", "cacix", "kokerec"));
 
         alfBkTkszPrint(menu);//ARABAŞI BÜRYAN BİCİBİCİ CACİX GÜVEÇ KOKERÇ KÜŞLEME MELEMEN SOĞANLI TANTUNİ TRİLEÇE YAĞLAMA
         System.out.println("\n   ***   ");
