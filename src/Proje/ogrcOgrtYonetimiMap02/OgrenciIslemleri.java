@@ -67,7 +67,6 @@ public class OgrenciIslemleri extends Method implements Islem, GirisCikisInterfa
     }
 
 
-
     @Override
     public void ekleme() {
         scan.nextLine();

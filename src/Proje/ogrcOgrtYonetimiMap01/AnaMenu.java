@@ -14,7 +14,7 @@ public class AnaMenu implements AnaMenuInterface {
 
         String scm = scan.next().toUpperCase();
 
-        switch(scm){
+        switch (scm) {
             case "1":
                 object.ogrenciIslemleri();
                 break;
@@ -24,7 +24,7 @@ public class AnaMenu implements AnaMenuInterface {
             case "Q":
                 object.cikis();
                 break;
-            default :
+            default:
                 System.out.println("lütfen geçerli bir seçim yapınız");
                 giris();
         }
