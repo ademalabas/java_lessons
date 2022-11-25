@@ -3,6 +3,7 @@ package J99_Lambda;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class C04_reduce {
 
@@ -23,6 +24,10 @@ reduce işleminde bir önceki hesaplanmış değer ile sıradaki değer bir işl
         //Lambda ->Stream API
         System.out.println("\n   ***   ");
         ciftKareMaxPrint(sayi);//Optional[4356]
+        elTopla ( sayi);//Optional[626]
+
+
+
     }//main sonu
 
     // Task : List'in cift elemanlarin karelerinin en buyugunu print ediniz.
@@ -41,11 +46,14 @@ reduce işleminde bir önceki hesaplanmış değer ile sıradaki değer bir işl
                         reduce(Integer::max));//specific class daha hızlı çalışır
 
     }
+// Task : List'teki tum elemanlarin toplamini yazdiriniz.
 
+public static void elTopla (List<Integer> sayi) {
 
+    System.out.println(sayi.stream().reduce(Integer::sum));
 
-
-
+    System.out.println("Lambda expression = " + sayi.stream().reduce(0, (a, b) -> a + b)); // Lambda expression
+}
 
     }
 
