@@ -95,6 +95,8 @@ reduce işleminde bir önceki hesaplanmış değer ile sıradaki değer bir işl
 
     private static void yirmiDorttenBuyuk(List<Integer> sayi) {
         System.out.println(sayi.stream().filter(t -> t > 24 && t % 2 == 1).reduce(Math::min));
+
+        //sayi.stream().filter(t -> t > 24 && t % 2 == 1).forEach(C01_LambdaExpression::yazdir);
     }
 
 

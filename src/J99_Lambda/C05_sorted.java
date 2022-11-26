@@ -27,7 +27,7 @@ public class C05_sorted {
                 stream().//list elemanları akısa alındi
                 filter(C01_LambdaExpression::ciftMi).//akısdaki elelmalar cift sartıne göre filtrelendi
                 map(t->t*t).//filtrelenen cift elemanlar karesine update edildi
-                sorted().//akısdaki karesine update edilen eleman sıralandı(NO)
+                sorted(). //akısdaki karesine update edilen eleman sıralandı(NO)
                 forEach(C01_LambdaExpression::yazdir);//print
         //sorted() => Doğal düzene göre sıralanmış, bu akışın elemanlarında oluşan bir akış döndürür.
         //sorted() methodu tekrarlı kullanılırsa en son kullanılan aktif olur.
