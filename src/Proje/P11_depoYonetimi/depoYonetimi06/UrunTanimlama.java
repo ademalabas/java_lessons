@@ -8,8 +8,10 @@ public class UrunTanimlama {
     private String birim;
     private String raf;
 
+
     public UrunTanimlama() {
     }
+
 
     public UrunTanimlama(int id, String urunIsmi, String uretici, String birim) {
         this.id = id;
@@ -17,6 +19,7 @@ public class UrunTanimlama {
         this.uretici = uretici;
         this.birim = birim;
     }
+
 
 
     public int getId() {
@@ -53,6 +56,7 @@ public class UrunTanimlama {
         } else
             this.miktar = miktar;
     }
+
 
     public String getBirim() {
         return birim;
