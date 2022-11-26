@@ -33,6 +33,8 @@ public static void createFile(){
             System.out.println("Dosya boyutu (byte) = "+file.length());
 
 
+
+
         }else{
 
         }
