@@ -40,9 +40,9 @@ fields --> Universite (String)
         System.out.println("\n   ***   ");
         System.out.println("task6( unv) = " + task6(unv));//universite='Itu', bolum='Ucak Muh', ogrcSayisi=333, notOrt=63]
         System.out.println("\n   ***   ");
-        System.out.println("task5( unv) = " + task6(unv));
+        System.out.println("Task07 : "+notOrt63BykOgrcSysToplam(unv));//1193
         System.out.println("\n   ***   ");
-        System.out.println("task5( unv) = " + task6(unv));
+        System.out.println("Task08 : "+ogrcSys333BykNotOrtOrt(unv));//OptionalDouble[67.33333333333333]
 
     }//main sonu
 //task 01--> notOrt'larinin 74' den buyuk oldg kontrol eden pr create ediniz.
@@ -88,7 +88,22 @@ public static List<Universite> task5(List<Universite> unv) {
 
 
 //task 07--> notOrt 63 'den buyuk olan universite'lerin ogrc sayilarini toplamini print ediniz.
+public static  int notOrt63BykOgrcSysToplam(List<Universite>unv){
+    return unv.
+            stream().
+            filter(t -> t.getNotOrt() > 63).
+            mapToInt(t -> t.getOgrcSayisi()).//akısdaki elemanların data type'nı parametredeki değere göre update eder
+                    sum();//akısdaki elemnalr toplanır
+
+}
+    //task 08--> Ogrenci sayisi 333'dan buyuk olan universite'lerin notOrt'larinin ortalamasini bulunuz.
+    public static double ogrcSys333BykNotOrtOrt(List<Universite>unv) {
+        return unv.
+                stream().
+                filter(t -> t.getOgrcSayisi() > 333).
+                mapToDouble(t -> t.getNotOrt()).//akısdaki elemanların data type'nı parametredeki değere göre update eder
+                        average().getAsDouble();//akısdaki elemnalr toplanır
 
 
-
+    }
 }
