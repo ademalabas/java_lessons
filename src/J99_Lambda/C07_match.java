@@ -8,7 +8,7 @@ public class C07_match {
 
 
     public static void main(String[] args) {
-        List<String> menu = new ArrayList<String>(Arrays.asList("küşleme", "distin", "küşleme", "soğanlı", "soğanlı", "soğanlı", "trileçe", "bicibici", "büryan", "melemen", "cacix", "kokerç", "yağlama", "güveç", "arabAşı", "tantuni"));
+        List<String> menu = new ArrayList<String>(Arrays.asList("küşleme", "distin", "küşleme", "soğanlı", "soğanlı", "soğanlı", "trileçe", "bicibici", "büryan", "welemen", "cacix", "kokerç", "yağlama", "güveç", "arabAşı", "tantuni"));
         hrfSys7denAzKontrol(menu);
         System.out.println("\n   ***   ");
         WileBalamaKontrol(menu);
