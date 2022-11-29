@@ -1,5 +1,6 @@
 package J99_Lambda;
 
+import java.util.OptionalInt;
 import java.util.stream.IntStream;
 
 public class C11_stream_iterator {
@@ -96,7 +97,14 @@ public class C11_stream_iterator {
         //TASK 07 --> Istenilen bir sayinin faktoriyelini hesaplayan programi  create ediniz.
 
     //TASK 08 --> Istenilen bir sayinin  x. kuvvetini ekrana yazdiran programi  create ediniz.
+    public static OptionalInt istenenSayiXKuvvet(int istenenSayi, int x){
+        return  IntStream.
+                iterate(istenenSayi,t->t*istenenSayi).//istenenSayi'den başlayıp istenenSayi ile çarpılarak tekrar işlemi tanımlandı
+                        limit(x).//akısdaki ilk x eleman akısa alındı.
+                        skip(x-1).//akısdaki x den önceki elelmanlar atlandı klanlar akısa alındı
+                        findFirst();//akısdaki ilk eleman :x. elelman alındı
 
+    }
 
 
 }
