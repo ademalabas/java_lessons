@@ -20,11 +20,11 @@ public class C08_limit {
 
     public static void charSayisiEnBykElPrint(List<String> menu) {
 
-        Stream<String> enBykKarktr1 = menu.
+       Stream<String> enBykKarktr1 = menu.
                 stream().
-                sorted(Comparator.comparing(String::length).reversed()).
+                sorted(Comparator.comparing(String::length)/*(t->t.toString().length())*/.reversed()).
                 limit(1);//akısdaki ilk 1 eleman alındı
-        // System.out.println(enBykKarktr);//java.util.stream.SliceOps$1@6e8dacdf->limit meth. bir stream yani akıs(birden çok eleman) return eder
+         System.out.println(enBykKarktr1);//java.util.stream.SliceOps$1@6e8dacdf->limit meth. bir stream yani akıs(birden çok eleman) return eder
         //dolaysıyle limit cıktısı dogrudan sout ile print edilemez.limit çıktısı list veya array gibi bir coll. atanmalı
         // System.out.println(Arrays.toString(enBykKarktr.toArray()));//java.util.stream.SliceOps$1@6e8dacdf
 

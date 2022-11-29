@@ -63,7 +63,7 @@ public static  boolean notOrt74Byk(  List<Universite>unv){
 
 //task 03-->universite'lerde herhangi birinde "matematik" olup olmadigini  kontrol eden pr create ediniz.
 public static boolean task3(List<Universite> list) {
-    return list.stream().anyMatch(t-> t.getBolum().toLowerCase().contains("matematik"));}
+    return list.stream().anyMatch(t->t.getBolum().toLowerCase().contains("mat"));}
 
 
 
