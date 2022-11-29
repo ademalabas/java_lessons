@@ -21,7 +21,10 @@ public class C11_stream_iterator {
         ikininİlkXKuvvetiPrint(7);//2 4 8 16 32 64 128
         System.out.println("   ***   ");
         System.out.println("   ***   ");
-
+        System.out.println("task08 -- > : "+istenenSayiXKuvvet(7, 5));
+        System.out.println("task08 -- > : "+istenenSayiXKuvvet(3, 5));//243
+        System.out.println("task08 -- > : "+istenenSayiXKuvvet(2, 3));//8
+        System.out.println("task08 -- > : "+istenenSayiXKuvvet(10, 2));//100
 
 
 
@@ -93,12 +96,15 @@ public class C11_stream_iterator {
         //TASK 07 --> Istenilen bir sayinin faktoriyelini hesaplayan programi  create ediniz.
 
     //TASK 08 --> Istenilen bir sayinin  x. kuvvetini ekrana yazdiran programi  create ediniz.
-}
-
-
-
-
 
 
 
 }
+
+
+
+
+
+
+
+
