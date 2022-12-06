@@ -8,7 +8,7 @@ public class Q04_NumberOfDaysInMonths {
     Bir aydaki gün sayısını hesaplayan bir Java programı yazınız.
 
     INPUT:
-    Ay Numarasi:
+    Aylar Numarasi:
     2
     Yil :
     2016

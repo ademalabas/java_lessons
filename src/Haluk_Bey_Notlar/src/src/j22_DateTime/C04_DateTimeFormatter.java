@@ -23,11 +23,11 @@ public class C04_DateTimeFormatter {
 		 E, EE, EEE : gun isminin ilk 3 harfi
 		 EEEE : gun isminin tamamini
 
-		 AY (Ay icin M, dakika icin m kullanilir)
+		 AY (Aylar icin M, dakika icin m kullanilir)
 		 M : basta 0 varsa 0 yazmadan ay numarasi yazılır
 		 MM: tek haneli aylari 01 gibi basina sifir yazarak ay numarasi yazılır
-		 MMM : Ay isminin ilk 3 harfi yazılır
-		 MMMM : Ay isminin tamami yazılır
+		 MMM : Aylar isminin ilk 3 harfi yazılır
+		 MMMM : Aylar isminin tamami yazılır
 
 		 YY : yilin son iki rakamini
 		 YYYY : Yilin tamamini yazılır

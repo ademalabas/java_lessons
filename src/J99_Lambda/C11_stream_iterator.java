@@ -21,7 +21,11 @@ public class C11_stream_iterator {
         System.out.println("TASK05-->");
         ikininİlkXKuvvetiPrint(7);//2 4 8 16 32 64 128
         System.out.println("   ***   ");
+        System.out.println("TASK06-->");
+        sayiXKuvvet (5, 7);
         System.out.println("   ***   ");
+        System.out.println("TASK07-->");
+        System.out.println(faktoriyel(6));
         System.out.println("task08 -- > : "+istenenSayiXKuvvet(7, 5));
         System.out.println("task08 -- > : "+istenenSayiXKuvvet(3, 5));//243
         System.out.println("task08 -- > : "+istenenSayiXKuvvet(2, 3));//8
@@ -93,8 +97,19 @@ public class C11_stream_iterator {
     }
 
         //TASK 06 --> Istenilen bir sayinin ilk x kuvvetini ekrana yazdiran programi  create ediniz.
+    public static void sayiXKuvvet (int sayi, int x){
+        IntStream.iterate(sayi,t->t*sayi).limit(x).forEach(t-> System.out.print(t+" "));
+
+    }
+
+
 
         //TASK 07 --> Istenilen bir sayinin faktoriyelini hesaplayan programi  create ediniz.
+public static int faktoriyel (int sayi){
+       return IntStream.iterate(sayi,t->t-1).limit(sayi).reduce(1,(t,u)->t*u);
+}
+
+
 
     //TASK 08 --> Istenilen bir sayinin  x. kuvvetini ekrana yazdiran programi  create ediniz.
     public static OptionalInt istenenSayiXKuvvet(int istenenSayi, int x){
