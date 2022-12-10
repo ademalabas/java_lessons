@@ -26,6 +26,7 @@ public class AracTalebi {
         this.teslimSaati = teslimSaati;
     }
 
+
     public AracTalebi(String marka, String model, String yakitTipi, String vites, double gunlukUcret) {
         this.marka = marka;
         this.model = model;
