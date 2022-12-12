@@ -11,6 +11,7 @@ public class C02_DebuggerLambda {
 
     }// main sonu
 
+
     private static void ebikGabik() {
         List<Integer> sayi= Stream.of(1,2,3,4,5,6,7,8,9,10).
                 filter(t->t%2==0).map(t->t*2).
